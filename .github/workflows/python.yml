@@ -3,7 +3,7 @@ name: Python Generate
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 23 * * *'
+    - cron: '45 23 * * *'
 
 jobs:
   generate:
@@ -18,6 +18,7 @@ jobs:
       - name: Prepare
         run: |
           sudo apt-get update
+          sudo apt-get install jq
           mkdir -p dist
 
       - name: Setup Python
@@ -34,16 +35,18 @@ jobs:
 
       - name: Generate
         run: |
-          curl -LR -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-no-sex.json" | sed "s/[[:space:]]\+/ /g" | sed 's/^ \| $\|\r//g' | grep -vE "^$" > gen/1.json
-          find -name '1.json' | xargs perl -pi -e 's|"https://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
-          curl -LR -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-only-sex.json" | sed "s/[[:space:]]\+/ /g" | sed 's/^ \| $\|\r//g' | grep -vE "^$" > gen/2.json
-          find -name '2.json' | xargs perl -pi -e 's|"https://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          curl -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-no-sex.json" | sed "s/[[:space:]]\+/ /g" | jq . | grep -vE "^$" > fan/1.json
+          curl -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-only-sex.json" | sed "s/[[:space:]]\+/ /g" | jq . | grep -vE "^$" > fan/2.json
+          find fan -name '*.json' | xargs perl -pi -e 's|"https?:/(.*)/raw\.githubusercontent\.com/|"https://raw.kkgithub.com/|g'
+          find fan -name '*.json' | xargs perl -pi -e 's|"https?://(.+)\.jsdelivr\.net/gh/(.+)@|"https://raw.kkgithub.com/$2/|g'
+          find fan -name '*.json' | xargs perl -pi -e 's|"https?://raw\.gitmirror\.com/|"https://raw.kkgithub.com/|g'
+          find fan -name '*.json' | xargs perl -pi -e 's|"https?://raw\.kkgithub\.com/|"https://raw.kkgithub.com/|g'
+          find fan -name '*.json' | xargs perl -pi -e 's|"\./|"https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/|g'
           sh scripts/gfwlist.sh -l -o dist/gfw1.txt
-          curl -LR -o- "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt" | sed 's/^\.//' | grep -vE '^#|^$' >> dist/gfw1.txt
+          curl -o- "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt" | sed 's/^\.//' | grep -vE '^#|^$' >> dist/gfw1.txt
           cat dist/gfw1.txt temp/gfw_wiki.txt temp/gfw_custom.txt | grep -vE '\.cn$|\.xn--fiqs8s$|\.iqiyi\.|\.youku\.|\.baidu\.|\.weibo\.|\.sina\.|\.hao123' > dist/gfw2.txt
           grep -vE 'blogspot|facebook|google|instagram|porn|telegram|twitter|whatsapp|wikileaks|wikipedia|youtube|netflix|twitch|yahoo|discord|flickr|pinterest' dist/gfw2.txt > dist/gfw3.txt
           grep -vE '\.apple\.|\.itunes\.|\.icloud\.|\.windows\.|\.microsoft\.' dist/gfw3.txt | sed 's/ \|\r//g' | sort -uf | grep -v "^$" > dist/gfw.txt
-          python3 ./scripts/build-adbyby.py
           python3 ./scripts/build-adguard.py
           python3 ./scripts/build-apple.py
           python3 ./scripts/build-cnip.py
@@ -53,22 +56,23 @@ jobs:
           python3 ./scripts/build-telegram.py
           python3 ./scripts/build-tiktok.py
           python3 ./scripts/build-tracker.py
-          sed "s/[[:space:]]\+/ /g" dist/adbyby1.txt | sed 's/^ \| $\|\r//g' | sort -u | grep -v "^$" > gen/adbyby.txt
-          sed "s/[[:space:]]\+/ /g" dist/adguard1.txt | sed 's/^ \| $\|\r//g' | sort -u | grep -v "^$" > gen/adguard.txt
+          sed "s/[[:space:]]\+/ /g" dist/adguard1.txt | sed 's/^ \| $\|\r//g' | sort -u | grep -v "^$" > fan/adguard.txt
           sort -uf dist/apple1.txt | grep -v "^$" > gen/apple.txt
-          sed "s/'\./'+\./" dist/apple2.txt | sort -uf | grep -v "^$" | sed -e '1s/^/payload:\n/' > clash/apple.yaml
+          sed "s/'\./'+\./" dist/apple2.txt | sort -uf | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/apple.yaml
           sort -uf dist/cnip1.txt | grep -v "^$" > gen/cnip.txt
-          sort -uf dist/cnip2.txt | grep -v "^$" | sed -e '1s/^/payload:\n/' > clash/cnip.yaml
-          grep -vE 'blogspot|facebook|google|instagram|porn|telegram|twitter|whatsapp|wikileaks|wikipedia|youtube|netflix|twitch|yahoo|discord|flickr|pinterest' dist/direct1.txt > dist/direct3.txt
-          sort -uf dist/direct3.txt | grep -v "^$" > gen/direct.txt
-          grep -vE 'blogspot|facebook|google|instagram|porn|telegram|twitter|whatsapp|wikileaks|wikipedia|youtube|netflix|twitch|yahoo|discord|flickr|pinterest' dist/direct2.txt > dist/direct4.txt
-          sed "s/'\./'+\./" dist/direct4.txt | sort -uf | grep -v "^$" | sed -e '1s/^/payload:\n/' > clash/direct.yaml
+          sort -uf dist/cnip2.txt | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/cnip.yaml
+          grep -vE 'blogspot|facebook|google|instagram|porn|telegram|twitter|whatsapp|wikileaks|wikipedia|youtube|netflix|twitch|yahoo|discord|flickr|pinterest' dist/direct1.txt > dist/direct11.txt
+          sort -uf dist/direct11.txt | grep -v "^$" > gen/direct.txt
+          grep -vE 'blogspot|facebook|google|instagram|porn|telegram|twitter|whatsapp|wikileaks|wikipedia|youtube|netflix|twitch|yahoo|discord|flickr|pinterest' dist/direct2.txt > dist/direct22.txt
+          sed "s/'\./'+\./" dist/direct22.txt | sort -uf | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/direct.yaml
+          cat dist/direct3.txt dist/direct4.txt | sed 's/server=\/\./server=\//g' | sort -uf | grep -v "^$" > fan/dnsmasqCN.txt
           sort -uf dist/proxy1.txt | grep -v "^$" > gen/proxy.txt
-          sort -uf dist/proxy2.txt | grep -v "^$" | sed -e '1s/^/payload:\n/' > clash/proxy.yaml
-          grep -vE 'adservice|advertise|advertisement|advertising' dist/reject1.txt | sort -u | grep -v "^$" > gen/reject.txt
-          grep -vE 'adservice|advertise|advertisement|advertising' dist/reject2.txt | sed "s/'\./'+\./" | sort -u | grep -v "^$" | sed -e '1s/^/payload:\n/' > clash/reject.yaml
+          sort -uf dist/proxy2.txt | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/proxy.yaml
+          grep -vE 'adservice|advertisement|advertising|guanggao' dist/reject1.txt | sort -u | grep -v "^$" > gen/reject.txt
+          grep -vE 'adservice|advertisement|advertising|guanggao' dist/reject2.txt | sort -u | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/reject.yaml
+          sort -uf dist/reject3.txt | grep -v "^$" > fan/dnsmasqAd.txt
           sort -uf dist/telegram1.txt | grep -v "^$" > temp/telegram.txt
-          sort -uf dist/telegram2.txt | grep -v "^$" | sed -e '1s/^/payload:\n/' > clash/telegram.yaml
+          sort -uf dist/telegram2.txt | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/telegram.yaml
           python3 ./scripts/gen-final.py
 
       - name: Commit Files
@@ -85,3 +89,9 @@ jobs:
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Delete Workflow
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          keep_minimum_runs: 1
+          retain_days: 0
