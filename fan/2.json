@@ -1,7 +1,4 @@
 {
-  "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xyq.jar",
-  "logo": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/美.gif",
-  "wallpaper": "https://picsum.photos/1080/",
   "sites": [
     {
       "key": "麻豆",
@@ -10,7 +7,7 @@
       "changeable": 1,
       "filterable": 1,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xyqxbpq.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xyqxbpq.jar",
       "style": {
         "ratio": 1.7
       },
@@ -28,18 +25,27 @@
       "api": "csp_Config",
       "searchable": 0,
       "changeable": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/tokenm.json",
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/tokenm.json",
       "style": {
         "type": "rect",
         "ratio": 1.5
       }
     },
     {
+      "key": "色色影視",
+      "name": "🔞色色影視",
+      "type": 4,
+      "api": "http://api.paoyun.eu.org/228.php",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/fm.jar;md5;41c87635d7592069884a5dafa12acabe",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
       "key": "91電影網",
       "name": "🍖｜九一電影網｜獨創",
       "type": 3,
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/PG.jar",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xyqxbpq.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/PG.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xyqxbpq.jar",
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
@@ -62,7 +68,7 @@
       "name": "🔞xvideos4中文",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "直接播放": "1",
         "数组": "<li>&&</li>",
@@ -193,8 +199,8 @@
       "name": "🔞麻豆-T4",
       "type": 4,
       "api": "https://json.doube.eu.org/app/index.php?site=dbmadou",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 0,
       "changeable": 0,
       "style": {
@@ -221,8 +227,8 @@
       "name": "🔞爱豆传媒",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "主页url": "https://rourou.co/",
         "直接播放": "1",
@@ -370,14 +376,14 @@
         "分类标题": ">&&</a>",
         "分类ID": "/t/&&/"
       },
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/hl.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/hl.jar"
     },
     {
       "key": "*91麻豆x",
       "name": "🔞91麻豆┃備1",
       "type": 1,
       "api": "https://91md.me/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -386,7 +392,7 @@
       "name": "🔞91麻豆┃備2",
       "type": 1,
       "api": "http://www.9191md.me/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -395,7 +401,7 @@
       "name": "🔞91麻豆┃備3",
       "type": 1,
       "api": "http://www.md91.cc/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -404,7 +410,7 @@
       "name": "🔞91麻豆┃備4",
       "type": 1,
       "api": "http://www.36717.pw/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -413,7 +419,7 @@
       "name": "🔞91麻豆┃備5",
       "type": 1,
       "api": "http://www.bt4.cc/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -422,7 +428,7 @@
       "name": "🔞91麻豆┃備6",
       "type": 1,
       "api": "https://md91.cc/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xc0126.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xc0126.jar",
       "filterable": 1
     },
     {
@@ -430,9 +436,9 @@
       "name": "🔞91黑料",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/91黑料.json"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/91黑料.json"
     },
     {
       "key": "J91",
@@ -440,15 +446,15 @@
       "type": 3,
       "api": "csp_J91",
       "filterable": 1,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/182.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/182.jar"
     },
     {
       "key": "csp_JavBus",
       "name": "🔞JavBus",
       "type": 3,
       "api": "csp_JavBus",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/lib/tokenm.json$$$https://www.cdnbus.shop",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/lib/tokenm.json$$$https://www.cdnbus.shop",
       "filterable": 1,
       "changeable": 0,
       "style": {
@@ -462,8 +468,8 @@
       "name": "🔞JavDb",
       "type": 3,
       "api": "csp_JavDb",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/lib/tokenm.json$$$1",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/lib/tokenm.json$$$1",
       "filterable": 1,
       "changeable": 0,
       "style": {
@@ -477,7 +483,7 @@
       "name": "🔞Netflav",
       "type": 3,
       "api": "csp_Netflav",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "changeable": 1,
       "filterable": 0,
       "timeout": 60
@@ -487,8 +493,8 @@
       "name": "🔞njav",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "数组": "class=\"col-6 col-sm-4 col-lg-3\">&&</div>",
@@ -509,7 +515,7 @@
       "name": "🔞Jable",
       "type": 3,
       "api": "csp_Jable",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xc0126.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xc0126.jar",
       "filterable": 1
     },
     {
@@ -517,7 +523,7 @@
       "name": "🔞Jable(海外)",
       "type": 3,
       "api": "csp_Jable",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg-0923.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg-0923.jar",
       "changeable": 1,
       "ext": "127.0.0.1:10072$$$null$$$1",
       "style": {
@@ -525,7 +531,7 @@
         "ratio": 1.77
       },
       "timeout": 60,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg-0923.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg-0923.jar"
     },
     {
       "key": "jable",
@@ -533,7 +539,7 @@
       "type": 3,
       "changeable": 1,
       "filterable": 1,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/hl.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/hl.jar",
       "api": "csp_XBPQ",
       "ext": {
         "直接播放": "1",
@@ -561,8 +567,8 @@
       "name": "🔞JAVDAY",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "主页url": "https://javday.tv/",
         "直接播放": "1",
@@ -581,8 +587,8 @@
       "name": "🔞SOAV",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "style": {
         "type": "rect",
         "ratio": 1.5
@@ -605,7 +611,7 @@
       "type": 3,
       "api": "csp_Supjav",
       "filterable": 1,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xc0126.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xc0126.jar",
       "ext": "https://supjav.com/zh/$$$noproxy$$$",
       "style": {
         "type": "rect",
@@ -713,7 +719,7 @@
       "name": "🔞春水堂",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "分类url": "https://cst1.buzz/frim/index{cateId}-{catePg}.html",
@@ -729,8 +735,8 @@
       "type": 3,
       "api": "csp_XBPQ",
       "filterable": 1,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/色花堂.json",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/色花堂.json",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar"
     },
     {
       "key": "蜜桃社(采集)🔞",
@@ -753,8 +759,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/香蕉超清.json",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/Yoursmile2.jar"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/香蕉超清.json",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/Yoursmile2.jar"
     },
     {
       "key": "csp_xBPQ_热",
@@ -764,8 +770,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/香蕉久久热.json",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/Yoursmile2.jar"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/香蕉久久热.json",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/Yoursmile2.jar"
     },
     {
       "key": "csp_xBPQ_产",
@@ -775,8 +781,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/香蕉国产.json",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/Yoursmile2.jar"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/香蕉国产.json",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/Yoursmile2.jar"
     },
     {
       "key": "csp_xBPQ_搜索",
@@ -786,8 +792,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/香蕉搜索.json",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/Yoursmile2.jar"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/香蕉搜索.json",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/Yoursmile2.jar"
     },
     {
       "key": "csp_xBPQ源",
@@ -797,8 +803,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/香蕉资源.json",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/Yoursmile2.jar"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/香蕉资源.json",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/Yoursmile2.jar"
     },
     {
       "key": "csp_XBPQ_桃子",
@@ -813,7 +819,7 @@
         "播放数组": "class=\"play-btn&&</div>",
         "分类": "偷拍自拍$20#国产大制作$21#乱伦毁三观$22#嫖妓全过程$23#淫乱妹$24#黑料不打烊$25#监控摄像头$26#主播网红$27"
       },
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar"
     },
     {
       "key": "csp_XBPQ_蜜",
@@ -827,16 +833,16 @@
         "图片": "data-original=\"&&\"",
         "分类": "國產$1#日韓$2#歐美$3#動漫$4#中字$5"
       },
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar"
     },
     {
       "key": "hipy_js_地瓜视频[密]",
       "name": "🔞地瓜",
       "type": 3,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
       "filterable": 1,
       "order_num": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_js/地瓜视频[密].js"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_js/地瓜视频[密].js"
     },
     {
       "key": "csp_XYQHiker_苹果av",
@@ -857,7 +863,7 @@
       "name": "🔞辣椒",
       "type": 1,
       "api": "http://api.11bat.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -866,7 +872,7 @@
       "name": "🔞黄瓜",
       "type": 1,
       "api": "https://www.avre06.com/api.php/provide/vod/?ac=list",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -875,7 +881,7 @@
       "name": "🔞葡萄",
       "type": 1,
       "api": "https://caiji.putaozyw.net/inc/apijson_vod_dx.php",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -884,7 +890,7 @@
       "name": "🔞紅椒",
       "type": 1,
       "api": "http://apilj.com/api.php/provide/vod/at/json/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "recordable": 0,
       "style": {
@@ -941,7 +947,7 @@
       "name": "🔞草溜资源",
       "type": 1,
       "api": "https://www.caoliuzyw.net/api.php/provide/vod/at/json/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -950,7 +956,7 @@
       "name": "🔞探探资源",
       "type": 1,
       "api": "https://apittzy.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -959,7 +965,7 @@
       "name": "🔞大地采集",
       "type": 0,
       "api": "https://dadiapi.com/api.php",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "filterable": 1,
       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "recordable": 0,
@@ -973,7 +979,7 @@
       "name": "🔞大地资源",
       "type": 0,
       "api": "http://ddkbo.com/api.php",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -982,7 +988,7 @@
       "name": "🔞森林资源",
       "type": 1,
       "api": "https://slapibf.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -991,7 +997,7 @@
       "name": "🔞香奶儿资源",
       "type": 0,
       "api": "https://www.gdlsp.com/api/xml.php",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -1000,7 +1006,7 @@
       "name": "🔞奶香资源",
       "type": 1,
       "api": "https://Naixxzy.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "recordable": 0,
       "style": {
@@ -1013,7 +1019,7 @@
       "name": "🔞美少女",
       "type": 0,
       "api": "https://www.msnii.com/api/xml.php",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -1022,7 +1028,7 @@
       "name": "🔞色猫资源",
       "type": 1,
       "api": "https://api.maozyapi.com/inc/apijson_vod.php",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -1031,7 +1037,7 @@
       "name": "🔞白嫖资源",
       "type": 0,
       "api": "https://www.kxgav.com/api/xml.php",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "changeable": 0,
       "filterable": 1
     },
@@ -1040,7 +1046,7 @@
       "name": "️🔞乐播采集",
       "type": 1,
       "api": "https://lbapi9.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "playUrl": "",
       "filterable": 1,
       "categories": [
@@ -1067,7 +1073,7 @@
       "name": "🔞淫水机资源",
       "type": 0,
       "api": "https://www.xrbsp.com/api/xml.php",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -1076,7 +1082,7 @@
       "name": "🔞丝袜资源",
       "type": 1,
       "api": "https://siwazyw.tv/api.php/provide/vod/at/json/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -1085,7 +1091,7 @@
       "name": "🔞番号资源",
       "type": 1,
       "api": "http://fhapi9.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -1093,8 +1099,8 @@
       "key": "vv002",
       "name": "️🔞番號",
       "type": 4,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/00title05152.json",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xc0126.jar",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/00title05152.json",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xc0126.jar",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -1104,7 +1110,7 @@
       "name": "🔞13AV",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "style": {
         "type": "rect",
         "ratio": 1.5
@@ -1127,8 +1133,8 @@
       "name": "🔞18j.tv",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "主页url": "https://18j.tv/",
         "直接播放": "1",
@@ -1159,7 +1165,7 @@
       "name": "🔞155采集",
       "type": 1,
       "api": "https://155api.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "playUrl": "",
       "filterable": 1,
       "categories": [
@@ -1217,10 +1223,10 @@
       "key": "hipy_js_29片库[密]",
       "name": "🔞29片库",
       "type": 3,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
       "filterable": 1,
       "order_num": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_js/29片库[密].js"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_js/29片库[密].js"
     },
     {
       "key": "ROU223",
@@ -1228,16 +1234,16 @@
       "type": 3,
       "api": "csp_ROU223",
       "filterable": 1,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/182.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/182.jar"
     },
     {
       "key": "csp_XYQHiker_300分类",
       "name": "🔞300分类",
       "type": 3,
       "api": "csp_XYQHiker",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/Aoki.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/Aoki.jar",
       "filterable": 1,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/300分类.json"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/300分类.json"
     },
     {
       "key": "360资源",
@@ -1268,7 +1274,7 @@
       "type": 3,
       "api": "csp_Cg51",
       "filterable": 1,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/182.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/182.jar"
     },
     {
       "key": "998资源(采集)🔞",
@@ -1288,7 +1294,7 @@
       "name": "🔞玉兔资源",
       "type": 1,
       "api": "https://apiyutu.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "recordable": 0,
       "style": {
@@ -1371,7 +1377,7 @@
       "name": "🔞AIvin",
       "type": 1,
       "api": "http://lbapiby.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1,
       "style": {
@@ -1387,7 +1393,7 @@
       "filterable": 1,
       "playerType": 2,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "style": {
         "type": "rect",
         "ratio": 1.485
@@ -1417,8 +1423,8 @@
       "name": "🔞AV影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "style": {
         "type": "rect",
         "ratio": 1.5
@@ -1477,7 +1483,7 @@
       "name": "🔞Bi8TV",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "style": {
         "type": "rect",
         "ratio": 1.485
@@ -1497,7 +1503,7 @@
       "name": "🔞CK资源",
       "type": 1,
       "api": "https://ckzy.me/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "changeable": 0,
       "filterable": 1
     },
@@ -1588,7 +1594,7 @@
       "name": "🔞KK资源",
       "type": 1,
       "api": "https://kkzy.me/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -1611,7 +1617,7 @@
       "name": "🔞lovedan艾旦",
       "type": 1,
       "api": "https://lovedan.net/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xc0126.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xc0126.jar",
       "filterable": 1
     },
     {
@@ -1633,8 +1639,8 @@
       "name": "🔞NiceAv",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "style": {
         "type": "rect",
         "ratio": 1.5
@@ -1665,7 +1671,7 @@
       "name": "🔞ppp",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "style": {
         "type": "rect",
         "ratio": 1.6
@@ -1697,7 +1703,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "recordable": 0,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "直接播放": "1",
         "嗅探词": ".m3u8#.mp4",
@@ -1836,7 +1842,7 @@
       "name": "🔞SNBY",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "分类url": "https://xn--ld3a.snbli14.buzz/index.php?m=vod-type-id-{cateId}-pg-{catePg}.htm",
@@ -1852,7 +1858,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "recordable": 0,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "简介": "name=\"description\"content=\"&&\"/>",
         "分类url": "https://www.anticasf.com/cn/tag/{cateId}?page={catePg}"
@@ -1889,8 +1895,8 @@
       "name": "🔞TaiAv",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "style": {
         "type": "rect",
         "ratio": 1.5
@@ -1939,14 +1945,14 @@
       "key": "Theporn",
       "name": "🔞Theporn",
       "type": 3,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/lib/drpy2.min.js",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/lib/drpy2.min.js",
       "changeable": 1,
       "timeout": 60,
       "style": {
         "type": "rect",
         "ratio": 1.5
       },
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_js/theporn.js"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_js/theporn.js"
     },
     {
       "key": "csp_XYQHiker_ujizzcn",
@@ -1966,10 +1972,10 @@
       "key": "hipy_js_UAA[密]",
       "name": "🔞UAA",
       "type": 3,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
       "filterable": 1,
       "order_num": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_js/UAA[密].js"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_js/UAA[密].js"
     },
     {
       "key": "vodimg资源",
@@ -2054,8 +2060,8 @@
       "key": "vv001",
       "name": "️🔞女優",
       "type": 4,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/00title05151.json",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xc0126.jar",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/00title05151.json",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xc0126.jar",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -2065,7 +2071,7 @@
       "name": "🔞奥斯卡",
       "type": 1,
       "api": "https://aosikazy.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "recordable": 0,
       "style": {
@@ -2078,7 +2084,7 @@
       "name": "🔞奥斯卡资源",
       "type": 1,
       "api": "https://aosikazy.com/api.php/provide/vod/?ac=list",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -2087,7 +2093,7 @@
       "name": "🔞精东资源",
       "type": 1,
       "api": "http://chujia.cc/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "recordable": 0,
       "style": {
@@ -2124,15 +2130,15 @@
         "图片": "data-original=\"&&\"",
         "分类": ""
       },
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar"
     },
     {
       "key": "csp_XBPQ_yyxl",
       "name": "🔞夜夜新郎",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 0,
       "ext": "https://raw.kkgithub.com/guot55/yg/main/lib/夜夜新郎.json"
     },
@@ -2141,7 +2147,7 @@
       "name": "🔞大愛",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "分类url": "https://hzd.daai1.buzz/index.php/vod/type/id/{cateId}/page/{catePg}.html",
@@ -2156,16 +2162,16 @@
       "name": "🔞奶很大",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/奶很大.json"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/奶很大.json"
     },
     {
       "key": "csp_XBPQ_伊人",
       "name": "🔞伊人",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "分类url": "https://yiren96.cc/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z",
@@ -2179,7 +2185,7 @@
       "name": "🔞流水",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "分类url": "https://1fls.lll3001.lol/高山流水/index.php/vod/type/id/{cateId}/page/{catePg}.html",
@@ -2193,7 +2199,7 @@
       "name": "🔞骏马",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "分类url": "https://junmatv.com/vodtype/{cateId}-{catePg}.html",
@@ -2208,16 +2214,16 @@
       "name": "🔞疯猫av",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/疯猫av.json"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/疯猫av.json"
     },
     {
       "key": "csp_XBPQ_癢癢",
       "name": "🔞癢癢",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "分类url": "https://guochan.yangyangtv13.top/index.php/vod/show/id/{cateId}/page/{catePg}.html",
@@ -2246,10 +2252,10 @@
       "name": "🔞比卡比卡",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/比卡比卡.json"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/比卡比卡.json"
     },
     {
       "key": "csp_顶级网曝",
@@ -2283,7 +2289,7 @@
       "name": "🔞滴滴",
       "type": 1,
       "api": "https://api.ddapi.cc/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "recordable": 0,
       "style": {
@@ -2305,8 +2311,8 @@
       "key": "drpy_js_色色",
       "name": "🔞涩涩直播",
       "type": 3,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/lib/drpy.min.js",
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/lib/ss直播.js",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/lib/drpy.min.js",
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/lib/ss直播.js",
       "playerType": 1
     },
     {
@@ -2327,59 +2333,59 @@
       "type": 3,
       "api": "csp_HiPianZhiBo",
       "filterable": 1,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/182.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/182.jar"
     },
     {
       "key": "hipy_js_一点视频[密]",
       "name": "🔞一点视频",
       "type": 3,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
       "filterable": 1,
       "order_num": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_js/一点视频[密].js"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_js/一点视频[密].js"
     },
     {
       "key": "hipy_js_小女18[密]",
       "name": "🔞小女18",
       "type": 3,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
       "filterable": 1,
       "order_num": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_js/小女18[密].js"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_js/小女18[密].js"
     },
     {
       "key": "hipy_js_爱爱影院[密]",
       "name": "🔞爱爱影院",
       "type": 3,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
       "filterable": 1,
       "order_num": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_js/爱爱影院[密].js"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_js/爱爱影院[密].js"
     },
     {
       "key": "hipy_js_绿色仓库[密]",
       "name": "🔞绿色仓库",
       "type": 3,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
       "filterable": 1,
       "order_num": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_js/绿色仓库[密].js"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_js/绿色仓库[密].js"
     },
     {
       "key": "hipy_js_黑料不打烊-z",
       "name": "🔞黑料不打烊-z",
       "type": 3,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
       "filterable": 1,
       "order_num": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_js/黑料不打烊-z.js"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/drpy_js/黑料不打烊-z.js"
     },
     {
       "key": "HuaDu",
       "name": "🔞好多",
       "type": 3,
       "api": "csp_HuaDu",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "changeable": 1
     },
     {
@@ -2387,7 +2393,7 @@
       "name": "🔞精品",
       "type": 1,
       "api": "https://www.jingpinx.com/api.php/provide/vod/?ac=list",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "recordable": 0,
       "style": {
@@ -2401,7 +2407,7 @@
       "type": 3,
       "api": "csp_JJAiPian",
       "filterable": 1,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/182.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/182.jar"
     },
     {
       "key": "kanav",
@@ -2409,7 +2415,7 @@
       "type": 3,
       "filterable": 1,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "分类url": "https://kanav.info/index.php/vod/type/id/{cateId}.html",
         "分类": "中文字幕$1#日韩有码$2#日韩无码$3#国产AV$4#流出自拍$22#动漫番剧$20"
@@ -2420,7 +2426,7 @@
       "name": "🔞老色逼",
       "type": 1,
       "api": "https://apilsbzy1.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "recordable": 0,
       "style": {
@@ -2434,7 +2440,7 @@
       "type": 3,
       "api": "csp_MiMei",
       "filterable": 1,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/182.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/182.jar"
     },
     {
       "key": "py_BadNews",
@@ -2452,14 +2458,14 @@
       "type": 1,
       "filterable": 1,
       "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar"
     },
     {
       "key": "vv003",
       "name": "️🔞薇薇珊",
       "type": 4,
-      "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/00title05153.json",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xc0126.jar",
+      "api": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/00title05153.json",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xc0126.jar",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -2469,8 +2475,8 @@
       "name": "🔞高清小黄片",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "主页url": "http://gqxhp.top/",
         "分类": "高清一区$1#高清二区$2#高清三区$3#高清福利$33",
@@ -2483,19 +2489,19 @@
       "type": 3,
       "api": "csp_XMVideo",
       "filterable": 1,
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/182.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/182.jar"
     },
     {
       "key": "女优色库",
       "name": "🔞女优色库",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "style": {
         "ratio": 1.7
       },
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/女优.json"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/女优.json"
     },
     {
       "key": "小幺女|床吧",
@@ -2503,7 +2509,7 @@
       "type": 3,
       "playerType": 2,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xyqxbpq.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xyqxbpq.jar",
       "filterable": 1,
       "ext": {
         "站名": "小幺女",
@@ -2535,8 +2541,8 @@
       "name": "🔞天美",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "搜索链接": "http://www.xbyc.cc/index.php/vod/search/page/{pg}/wd/{wd}.html",
         "数组": "\"box-item\"&&</em>",
@@ -2552,8 +2558,8 @@
       "name": "🔞天堂岛",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "主页url": "https://www.ttdao666.buzz",
@@ -2577,8 +2583,8 @@
       "name": "🔞手鸡助手",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "请求头": "手机",
         "直接播放": "1",
@@ -2593,7 +2599,7 @@
       "name": "🔞四虎影院",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/hl.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/hl.jar",
       "playerType": 2,
       "filterable": 1,
       "ext": {
@@ -2639,7 +2645,7 @@
         "分类ID": "/gaotype/&&.html",
         "分类url": "https://www.34gaobk.com/gaotype/{cateId}_{catePg}.html[https://www.34gaobk.com/gaotype/{cateId}.html]"
       },
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/hl.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/hl.jar"
     },
     {
       "key": "华为吧资源",
@@ -2655,8 +2661,8 @@
       "name": "🔞成人重口",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "发布地址": "1:https://www.crzk11.buzz/,2:www.crzk3.top",
@@ -2681,8 +2687,8 @@
       "name": "🔞纤纤倫理",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "playerType": 1,
       "filterable": 1,
       "ext": {
@@ -2726,8 +2732,8 @@
       "name": "🔞亚瑟影库",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "主页url": "https://www.yasetube.com/",
         "直接播放": "1",
@@ -2741,21 +2747,21 @@
       "name": "🔞优异资源",
       "type": 1,
       "api": "https://a.uezy.pw/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar"
     },
     {
       "key": "易看资源",
       "name": "🔞易看资源",
       "type": 1,
       "api": "https://api.yikanapi.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar"
     },
     {
       "key": "鲨鱼资源",
       "name": "🔞鲨鱼资源",
       "type": 1,
       "api": "https://shayuapi.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "changeable": 0,
       "filterable": 1
     },
@@ -2788,7 +2794,7 @@
       "name": "🔞玉兔资源",
       "type": 1,
       "api": "https://yutuzy10.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -2797,14 +2803,14 @@
       "name": "🔞老鸨资源",
       "type": 1,
       "api": "http://laobaozy.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar"
     },
     {
       "key": "老色逼资源",
       "name": "🔞老色逼资源(采集)",
       "type": 1,
       "api": "https://apilsbzy1.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -2813,7 +2819,7 @@
       "name": "🔞博天堂",
       "type": 0,
       "api": "http://bttcjz.com/inc/sapi.php",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -2822,7 +2828,7 @@
       "name": "🔞肉視頻",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "分类url": "https://rouvx2.xyz/t/{cateId}?order=createdAt&page={catePg}",
         "直接播放": "1",
@@ -2834,8 +2840,8 @@
       "name": "🔞色最色",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "主页url": "https://xn--zovv42dba.com/",
         "直接播放": "1",
@@ -2858,7 +2864,7 @@
       "name": "🔞努可影院",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/hl.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/hl.jar",
       "filterable": 1,
       "ext": {
         "数组": "stui-vodlist__thumb lazyload&&</a",
@@ -2890,16 +2896,16 @@
       "type": 3,
       "api": "csp_XBPQ",
       "filterable": 1,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/我爱AV.json",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/我爱AV.json",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar"
     },
     {
       "key": "我爱AV",
       "name": "🔞我爱AV社区",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "playerType": 2,
       "filterable": 1,
       "ext": {
@@ -2921,7 +2927,7 @@
       "name": "🔞沙咖影院",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/hl.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/hl.jar",
       "filterable": 1,
       "ext": {
         "数组": "stui-vodlist__thumb lazyload&&</a",
@@ -2956,8 +2962,8 @@
       "name": "🔞玩偶妹妹",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "主页url": "https://urcccg.dbtav9.today/cn/home/web/",
@@ -2971,8 +2977,8 @@
       "name": "🔞花影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "ext": {
         "数组": "col-6 col-sm-4 col-lg-3\">&&</div></div>",
         "图片": "data-original=\"&&\"",
@@ -2988,8 +2994,8 @@
       "name": "🔞高清黑料3",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "filterable": 1,
       "ext": {
         "发布地址": "https://xxxxxxav3.com",
@@ -3016,7 +3022,7 @@
       "changeable": 1,
       "filterable": 1,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/xyqxbpq.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xyqxbpq.jar",
       "style": {
         "ratio": 1.7
       },
@@ -3048,19 +3054,19 @@
       "name": "🔞湿乐园",
       "type": 1,
       "api": "https://xxavs.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar"
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar"
     },
     {
       "key": "暗网色库",
       "name": "🔞暗网",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
       "style": {
         "ratio": 1.7
       },
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/暗网.json"
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/暗网.json"
     },
     {
       "key": "暴风资源",
@@ -3079,7 +3085,7 @@
       "style": {
         "ratio": 1.7
       },
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/hl.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/hl.jar",
       "ext": {
         "数组": "<section&&</section",
         "副标题": "添加时间:&&</span>",
@@ -3093,7 +3099,345 @@
       "name": "🔞鲨鱼",
       "type": 1,
       "api": "http://shayuzy1.com/api.php/provide/vod/",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "黄色仓库(采集)🔞",
+      "name": "🔞黄色仓库",
+      "type": 1,
+      "api": "http://234444.xyz/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [],
+      "style": {
+        "type": "rect",
+        "ratio": 1.6
+      }
+    },
+    {
+      "key": "www.pgxdy.com",
+      "name": "🔞黄AV资源",
+      "type": 0,
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "*玉兔资源🔞",
+      "name": "🔞玉兔资源",
+      "type": 1,
+      "api": "https://yutuzy10.com/api.php/provide/vod/",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "老鸨资源",
+      "name": "🔞老鸨资源",
+      "type": 1,
+      "api": "http://laobaozy.com/api.php/provide/vod/",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar"
+    },
+    {
+      "key": "老色逼资源",
+      "name": "🔞老色逼资源(采集)",
+      "type": 1,
+      "api": "https://apilsbzy1.com/api.php/provide/vod/",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "*博天堂",
+      "name": "🔞博天堂",
+      "type": 0,
+      "api": "http://bttcjz.com/inc/sapi.php",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "肉视频",
+      "name": "🔞肉視頻",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "ext": {
+        "分类url": "https://rouvx2.xyz/t/{cateId}?order=createdAt&page={catePg}",
+        "直接播放": "1",
+        "分类": "國產AV$國產AV#探花$探花#自拍流出$自拍流出#日本$日本"
+      }
+    },
+    {
+      "key": "色最色",
+      "name": "🔞色最色",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "ext": {
+        "主页url": "https://xn--zovv42dba.com/",
+        "直接播放": "1",
+        "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+        "分类url": "https://xn--zovv42dba.com/list-read-id-{cateId}-p-{catePg}",
+        "分类": "国产精品$19#偷拍自拍$20#欧美成人$26#中文无码$23#中文字幕$22#亚洲情色$21#卡通动漫$24#成人伦理$25"
+      }
+    },
+    {
+      "key": "艾蛋影视",
+      "name": "🔞艾蛋影视",
+      "type": 1,
+      "api": "https://www.lovedan.net/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": []
+    },
+    {
+      "key": "努可影院",
+      "name": "🔞努可影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/hl.jar",
+      "filterable": 1,
+      "ext": {
+        "数组": "stui-vodlist__thumb lazyload&&</a",
+        "图片": "data-original=\"&&\"",
+        "图片代理": "1",
+        "副标题": "pic-texttext-right\">&&</span>",
+        "简介": "description\"content=\"&&\"",
+        "链接": "href=\"/voddetail/&&.html\"",
+        "链接前缀": "https://2n2.abcoob.one/vodplay/",
+        "链接后缀": "-1-1.html",
+        "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
+        "搜索url": "https://2n2.abcoob.one/vodsearch/{wd}-----/page/{pg}.html",
+        "分类url": "https://2n2.abcoob.one/vodtype/{cateId}-{catePg}.html;;z",
+        "分类": "新品日韩$20#中文字幕$21#短片本土$22#大胸美女$23#剧情暴力$24#制服扮演$25#人妻御姐$26#无码专区$27#动漫卡通$28#明星幻想$29"
+      }
+    },
+    {
+      "key": "快车资源",
+      "name": "🔞快车",
+      "type": 1,
+      "api": "https://caiji.kczyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": []
+    },
+    {
+      "key": "我爱AV",
+      "name": "🔞我爱AV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "filterable": 1,
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/我爱AV.json",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar"
+    },
+    {
+      "key": "我爱AV",
+      "name": "🔞我爱AV社区",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": {
+        "数组": "class=\"stui-vodlist__thumb lazyload\"&&</a",
+        "副标题": "span class=\"pic-texttext-right\">&&</p",
+        "线路数组": "<li&&</li>",
+        "线路标题": "✨PYLB专享✨+<h3>私密专线</h3>",
+        "播放标题": ">&&</a",
+        "搜索模式": "1",
+        "搜索url": "/vodsearch/{wd}----------{pg}---.html",
+        "分类数组": "<li&&</li>",
+        "分类标题": ">&&</a",
+        "分类ID": "/vodtype/&&.html",
+        "分类链接": "https://vip.woaav.online:13097/vodshow/{cateId}--------{catePg}---.html"
+      }
+    },
+    {
+      "key": "沙咖影院",
+      "name": "🔞沙咖影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/hl.jar",
+      "filterable": 1,
+      "ext": {
+        "数组": "stui-vodlist__thumb lazyload&&</a",
+        "图片": "data-original=\"&&\"",
+        "图片代理": "1",
+        "副标题": "pic-texttext-right\">&&</span>",
+        "简介": "description\"content=\"&&\"",
+        "链接": "href=\"/voddetail/&&.html\"",
+        "链接前缀": "https://sar.sarga.cc/vodplay/",
+        "链接后缀": "-1-1.html",
+        "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
+        "搜索url": "https://sar.sarga.cc/vodsearch/{wd}----------{pg}---.html",
+        "分类url": "https://sar.sarga.cc/vodtype/{cateId}-{catePg}.html;;z",
+        "分类": "中文新作$20#国语视频$21#有码精品$24#动漫专场$23#经典伦理$25#欧美性爱$22"
+      }
+    },
+    {
+      "key": "秀人",
+      "name": "🔞秀人",
+      "type": 1,
+      "api": "https://xiuren.site/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [],
+      "style": {
+        "type": "rect",
+        "ratio": 1.6
+      }
+    },
+    {
+      "key": "玩偶妹妹",
+      "name": "🔞玩偶妹妹",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "filterable": 1,
+      "ext": {
+        "主页url": "https://urcccg.dbtav9.today/cn/home/web/",
+        "直接播放": "1",
+        "分类url": "https://urcccg.dbtav9.today/vodtype/{cateId}/{catePg}/;;a",
+        "分类": "国产精品$20#主播大秀$21#唯美视频$22#口交视频$23#日本有碼$24#日本無碼$25#动漫视频$26#欧美视频$27#日韩视频$28#欧美视频$29#动漫视频$30#伦理影片$31"
+      }
+    },
+    {
+      "key": "花影视",
+      "name": "🔞花影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "ext": {
+        "数组": "col-6 col-sm-4 col-lg-3\">&&</div></div>",
+        "图片": "data-original=\"&&\"",
+        "标题": "<h6 class=\"title\"><a href=*>&&</a>",
+        "播放数组": "class=\"item line\">&&</div>",
+        "线路数组": "class=\"item line\">&&</div>",
+        "分类url": "https://11gaokk.com/typegaokk/{cateId}_{catePg}.html[https://11gaokk.com/typegaokk/{cateId}.html]",
+        "分类": "日韩$2#巨乳$7#中文$4#口交$8#制服$9#无码$11#女优$18#人妻$19#独家$22#潮吹$24#三级$12"
+      }
+    },
+    {
+      "key": "高清xxxx黑料",
+      "name": "🔞高清黑料3",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "filterable": 1,
+      "ext": {
+        "发布地址": "https://xxxxxxav3.com",
+        "主页url": "https://xxxxxxav3.com/xxxx",
+        "数组": "class=\"item-box\">&&</a",
+        "图片": "src=\"&&\"",
+        "标题": "title=\"&&\"",
+        "副标题": "<small>&&</small>",
+        "简介": "description\"content=\"&&|全站",
+        "链接": "href=\"&&\"[替换:voddetail>>v]",
+        "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
+        "搜索模式": "1",
+        "搜索url": "https://xxxxxxav3.com/s/page/{pg}/wd/{wd}/",
+        "分类数组": "<a&&/a>",
+        "分类标题": ">&&<",
+        "分类ID": "/t/&&/",
+        "分类url": "https://xxxxxxav3.com/t/{cateId}-{catePg}/;;z"
+      }
+    },
+    {
+      "key": "麻",
+      "name": "🔞麻玉",
+      "type": 3,
+      "changeable": 1,
+      "filterable": 1,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/xyqxbpq.jar",
+      "style": {
+        "ratio": 1.7
+      },
+      "ext": {
+        "搜索url": "http://gcmd.cc/index.php/vod/search/page/{pg}/wd/{wd}.html",
+        "分类": "日本视频$1#麻豆视频$2",
+        "分类url": "http://gcmd.cc/index.php/vod/show/class/{class}/id/{cateId}/page/{catePg}.html",
+        "直接播放": "1"
+      }
+    },
+    {
+      "key": "富二代",
+      "name": "🔞富二代",
+      "type": 0,
+      "api": "http://f2dcj6.com/sapi?ac=list&pg=1",
+      "filterable": 0
+    },
+    {
+      "key": "最大资源",
+      "name": "🔞最大",
+      "type": 1,
+      "api": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": []
+    },
+    {
+      "key": "湿乐园",
+      "name": "🔞湿乐园",
+      "type": 1,
+      "api": "https://xxavs.com/api.php/provide/vod/",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar"
+    },
+    {
+      "key": "暗网色库",
+      "name": "🔞暗网",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "spider": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "style": {
+        "ratio": 1.7
+      },
+      "ext": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/json/暗网.json"
+    },
+    {
+      "key": "暴风资源",
+      "name": "暴风",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": []
+    },
+    {
+      "key": "糖心",
+      "name": "🔞糖心次元",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "style": {
+        "ratio": 1.7
+      },
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/hl.jar",
+      "ext": {
+        "数组": "<section&&</section",
+        "副标题": "添加时间:&&</span>",
+        "嗅探词": "cdn2020.com#m3u8",
+        "分类url": "http://www.txcyeat.buzz/index.php/vodtype/{cateId}-{catePg}.html;;z",
+        "分类": "国产片商$32#节目企划$3#代理节目$2#麻豆原创$1#导演系列$5#MDS系列$6#MDX系列$7#MD系列$4#MDXS系列$8#兔子先生$10#大鸟十八$17#疯拍系列$18#KISS糖果屋$19#小鹏奇啪行$20#30天解密麻豆$22#突袭女优计划$23#女神羞羞研究所$24#小哥哥艾理$27#情趣K歌房$31#淫欲游戏王$40#麻豆不回家$41#叮叮映画$71#涩会$72#豚豚创媒$75#MDL系列$46#MMZ系列$50#MAD系列$53#MDWP系列$58#MSD系列$64#MDM恋爱咖啡$74#MDUS系列$78#MXJ系列$79#MKY系列$87#MAN系列$89#MCY系列$96#MDAG系列$100#MDHT系列$101#BLX系列$115#MPG系列$116#果冻传媒$11#皇家华人$12#吴梦梦无套系列$13#PsychoPorn色控$14#蜜桃影像传媒$15#天美传媒$45#乌鸦传媒$33#精东影业$34#SWAG$36#91制片厂$52#MSM性梦者$65#爱妃传媒$76#辣椒原创$80#O-STAR$81#肉肉传媒$91#渡边传媒$95#葵心娱乐$97#红斯灯影像$103#麻麻传媒$104#蝌蚪传媒$105#PussyHunter$106#桃花源$108#女优淫娃培训营$42#狼人插$54#女优擂台摔角狂热$55#恋爱巴士$61#男女优生死斗$66#情人劫密室逃脱$67#换妻$68#你好同学$69#禁欲小屋$77#鲍鱼的胜利$84#性爱自修室$88#春游记$92#心动的性号$93#情趣大富翁$94#寻宝吧女神$99#男优练习生$102#女神体育祭$110#麻豆高校$111#野外露初$112#星空无限传媒$47#乐播传媒$48#大象传媒$59#MINI传媒$62#糖心$73#葫芦影业$82#天马传媒$83#CCAV成人头条$90#性视界传媒$109#SA国际传媒$113#起点传媒$114#91茄子$117#草莓猛料$118"
+      }
+    },
+    {
+      "key": "*鲨鱼资源",
+      "name": "🔞鲨鱼",
+      "type": 1,
+      "api": "http://shayuzy1.com/api.php/provide/vod/",
+      "jar": "https://raw.kkgithub.com/chenhao963/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
