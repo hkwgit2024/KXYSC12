@@ -8,40 +8,34 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: false
-
-      - name: Prepare
-        run: |
-          sudo apt-get update
-          sudo apt-get install jq
-          mkdir -p dist
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.13'
           check-latest: true
 
       - name: Install Requests
         run: |
-          pip3 install https://github.com/barseghyanartur/tld/archive/master.zip
+          pip3 install tld
           pip3 install requests
           update-tld-names
 
       - name: Generate
         run: |
-          curl -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-no-sex.json" | sed "s/[[:space:]]\+/ /g" | jq . | grep -vE "^$" > fan/1.json
-          curl -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-only-sex.json" | sed "s/[[:space:]]\+/ /g" | jq . | grep -vE "^$" > fan/2.json
+          mkdir -p dist
+          curl -o- "https://raw.githubusercontent.com/chenhao963/TVBOX/main/0914-no-sex.json" | sed "s/[[:space:]]\+/ /g" | grep -vE "^(\s)?//" | jq '.' > fan/1.json
+          curl -o- "https://raw.githubusercontent.com/chenhao963/TVBOX/main/0914-only-sex.json" | sed "s/[[:space:]]\+/ /g" | grep -vE "^(\s)?//" | jq '.' > fan/2.json
+          find fan -name '*.json' | xargs perl -pi -e 's|newrecha|chenhao963|g'
           find fan -name '*.json' | xargs perl -pi -e 's|"https?:/(.*)/raw\.githubusercontent\.com/|"https://raw.kkgithub.com/|g'
           find fan -name '*.json' | xargs perl -pi -e 's|"https?://(.+)\.jsdelivr\.net/gh/(.+)@|"https://raw.kkgithub.com/$2/|g'
           find fan -name '*.json' | xargs perl -pi -e 's|"https?://raw\.gitmirror\.com/|"https://raw.kkgithub.com/|g'
           find fan -name '*.json' | xargs perl -pi -e 's|"https?://raw\.kkgithub\.com/|"https://raw.kkgithub.com/|g'
-          find fan -name '*.json' | xargs perl -pi -e 's|"\./|"https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/|g'
+          find fan -name '*.json' | xargs perl -pi -e 's|"\./|"https://raw.kkgithub.com/chenhao963/TVBOX/main/|g'
           sh scripts/gfwlist.sh -l -o dist/gfw1.txt
           curl -o- "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt" | sed 's/^\.//' | grep -vE '^#|^$' >> dist/gfw1.txt
           cat dist/gfw1.txt temp/gfw_wiki.txt temp/gfw_custom.txt | grep -vE '\.cn$|\.xn--fiqs8s$|\.iqiyi\.|\.youku\.|\.baidu\.|\.weibo\.|\.sina\.|\.hao123' > dist/gfw2.txt
@@ -61,16 +55,18 @@ jobs:
           sed "s/'\./'+\./" dist/apple2.txt | sort -uf | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/apple.yaml
           sort -uf dist/cnip1.txt | grep -v "^$" > gen/cnip.txt
           sort -uf dist/cnip2.txt | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/cnip.yaml
-          grep -vE 'blogspot|facebook|google|instagram|porn|telegram|twitter|whatsapp|wikileaks|wikipedia|youtube|netflix|twitch|yahoo|discord|flickr|pinterest' dist/direct1.txt > dist/direct11.txt
-          sort -uf dist/direct11.txt | grep -v "^$" > gen/direct.txt
+          grep -vE '[a-z0-9]\.cn$|blogspot|facebook|google|instagram|porn|telegram|twitter|whatsapp|wikileaks|wikipedia|youtube|netflix|twitch|yahoo|discord|flickr|pinterest' dist/direct1.txt > dist/direct11.txt
+          sort -uf dist/direct11.txt | grep -vE '[a-z0-9]\.cn$' | grep -v "^$" > gen/direct.txt
           grep -vE 'blogspot|facebook|google|instagram|porn|telegram|twitter|whatsapp|wikileaks|wikipedia|youtube|netflix|twitch|yahoo|discord|flickr|pinterest' dist/direct2.txt > dist/direct22.txt
-          sed "s/'\./'+\./" dist/direct22.txt | sort -uf | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/direct.yaml
-          cat dist/direct3.txt dist/direct4.txt | sed 's/server=\/\./server=\//g' | sort -uf | grep -v "^$" > fan/dnsmasqCN.txt
+          sed "s/'\./'+\./" dist/direct22.txt | grep -vE "[a-z0-9]\.cn'$"| sort -uf | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/direct.yaml
+          cat dist/direct3.txt dist/direct4.txt | grep -vE '[a-z0-9]\.cn\/119\.29\.29\.29$|[a-z0-9]\.cn\/223\.5\.5\.5$|google' | sed 's/server=\/\./server=\//g' | sort -uf | grep -v "^$" > fan/dnsmasqCN.txt
+          sort -uf dist/direct1.txt | grep -vE '[a-z0-9]\.cn$|google' | sed 's/^\.//' | grep -v "^$" > fan/smartdnsCN.txt
           sort -uf dist/proxy1.txt | grep -v "^$" > gen/proxy.txt
           sort -uf dist/proxy2.txt | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/proxy.yaml
-          grep -vE 'adservice|advertisement|advertising|guanggao' dist/reject1.txt | sort -u | grep -v "^$" > gen/reject.txt
-          grep -vE 'adservice|advertisement|advertising|guanggao' dist/reject2.txt | sort -u | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/reject.yaml
+          grep -vE 'adservice|advertising|guanggao' dist/reject1.txt | sort -u | grep -v "^$" > gen/reject.txt
+          grep -vE 'adservice|advertising|guanggao' dist/reject2.txt | sort -u | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/reject.yaml
           sort -uf dist/reject3.txt | grep -v "^$" > fan/dnsmasqAd.txt
+          sort -uf dist/reject4.txt | grep -v "^$" > fan/smartdnsAd.txt
           sort -uf dist/telegram1.txt | grep -v "^$" > temp/telegram.txt
           sort -uf dist/telegram2.txt | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/telegram.yaml
           python3 ./scripts/gen-final.py
@@ -90,8 +86,12 @@ jobs:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Delete Workflow
-        uses: Mattraks/delete-workflow-runs@v2
+      - name: Delete old Releases and Workflows
+        uses: ophub/delete-releases-workflows@main
         with:
-          keep_minimum_runs: 1
-          retain_days: 0
+          delete_releases: true
+          releases_keep_latest: 0
+          delete_tags: true
+          delete_workflows: true
+          workflows_keep_day: 1
+          gh_token: ${{secrets.GITHUB_TOKEN}}
