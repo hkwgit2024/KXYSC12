@@ -9,8 +9,8 @@ def get_apple(url):
 
 apple_urls = []
 apple_urls.append("https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf")
-apple_urls.append("https://raw.githubusercontent.com/v2fly/domain-list-community/refs/heads/release/apple.txt")
-apple_urls.append("https://raw.githubusercontent.com/v2fly/domain-list-community/refs/heads/release/icloud.txt")
+apple_urls.append("https://raw.githubusercontent.com/v2fly/domain-list-community/release/apple.txt")
+apple_urls.append("https://raw.githubusercontent.com/v2fly/domain-list-community/release/icloud.txt")
 
 if __name__ == "__main__":
     apple = set()

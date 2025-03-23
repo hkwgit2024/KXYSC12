@@ -8,7 +8,7 @@ def get_cnip(url):
     return res.text.split("\n")
 
 cnip_urls = []
-cnip_urls.append("https://ispip.clang.cn/all_cn.txt")
+cnip_urls.append("https://ispip.clang.cn/all_cn_cidr.txt")
 cnip_urls.append("https://ispip.clang.cn/all_cn_ipv6.txt")
 
 if __name__ == "__main__":

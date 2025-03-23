@@ -12,6 +12,7 @@ adguard_urls.append("https://raw.githubusercontent.com/AdguardTeam/FiltersRegist
 adguard_urls.append("https://raw.githubusercontent.com/curbengh/malware-filter/gh-pages/phishing-filter-agh.txt")
 adguard_urls.append("https://raw.githubusercontent.com/curbengh/malware-filter/gh-pages/urlhaus-filter-agh-online.txt")
 adguard_urls.append("https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt")
+adguard_urls.append("https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt")
 
 if __name__ == "__main__":
     adguard = set()
