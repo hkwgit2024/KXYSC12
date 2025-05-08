@@ -3,7 +3,7 @@ name: Python Generate
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 23 * * *'
+    - cron: '40 23 * * *'
 
 jobs:
   generate:
@@ -12,6 +12,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Free Disk Space
+        uses: FirelightFlagboy/gh-runner-free-disk-space@main
+
+      - name: Initialization environment
+        run: |
+          sudo -E apt-get -yqq update
+          sudo -E apt-get -yqq upgrade
+          sudo -E apt-get -yqq autoremove
+          sudo -E apt-get -yqq autoclean
+          sudo -E apt-get -yqq clean
+          sudo -E systemctl daemon-reload
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -28,19 +40,13 @@ jobs:
       - name: Generate
         run: |
           mkdir -p dist
-          curl -o- "https://raw.githubusercontent.com/chenhao963/TVBOX/main/0914-no-sex.json" | sed "s/[[:space:]]\+/ /g" | grep -vE "^(\s)?//" | jq '.' > fan/1.json
-          curl -o- "https://raw.githubusercontent.com/chenhao963/TVBOX/main/0914-only-sex.json" | sed "s/[[:space:]]\+/ /g" | grep -vE "^(\s)?//" | jq '.' > fan/2.json
-          find fan -name '*.json' | xargs perl -pi -e 's|newrecha|chenhao963|g'
-          find fan -name '*.json' | xargs perl -pi -e 's|"https?:/(.*)/raw\.githubusercontent\.com/|"https://raw.kkgithub.com/|g'
-          find fan -name '*.json' | xargs perl -pi -e 's|"https?://(.+)\.jsdelivr\.net/gh/(.+)@|"https://raw.kkgithub.com/$2/|g'
-          find fan -name '*.json' | xargs perl -pi -e 's|"https?://raw\.gitmirror\.com/|"https://raw.kkgithub.com/|g'
-          find fan -name '*.json' | xargs perl -pi -e 's|"https?://raw\.kkgithub\.com/|"https://raw.kkgithub.com/|g'
-          find fan -name '*.json' | xargs perl -pi -e 's|"\./|"https://raw.kkgithub.com/chenhao963/TVBOX/main/|g'
+          chmod +x scripts/*.sh
+          sh scripts/tv.sh
           sh scripts/gfwlist.sh -l -o dist/gfw1.txt
-          curl -o- "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt" | sed 's/^\.//' | grep -vE '^#|^$' >> dist/gfw1.txt
-          cat dist/gfw1.txt temp/gfw_wiki.txt temp/gfw_custom.txt | grep -vE '\.cn$|\.xn--fiqs8s$|\.iqiyi\.|\.youku\.|\.baidu\.|\.weibo\.|\.sina\.|\.hao123' > dist/gfw2.txt
-          grep -vE 'blogspot|facebook|google|instagram|porn|telegram|twitter|whatsapp|wikileaks|wikipedia|youtube|netflix|twitch|yahoo|discord|flickr|pinterest' dist/gfw2.txt > dist/gfw3.txt
-          grep -vE '\.apple\.|\.itunes\.|\.icloud\.|\.windows\.|\.microsoft\.' dist/gfw3.txt | sed 's/ \|\r//g' | sort -uf | grep -v "^$" > dist/gfw.txt
+          curl -o- "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt" | sed 's/^\.//' | grep -vE "^#|^$" >> dist/gfw1.txt
+          cat dist/gfw1.txt temp/gfw_wiki.txt temp/gfw_custom.txt | grep -vE '\.cn$|\.xn--fiqs8s$|\.baidu\.|\.hao123|\.iqiyi\.|\.sina\.|\.weibo\.|\.youku\.' > dist/gfw2.txt
+          grep -vE 'blogspot|discord|facebook|flickr|google|instagram|netflix|pinterest|porn|telegram|twitch|twitter|whatsapp|wikileaks|wikipedia|yahoo|youtube' dist/gfw2.txt > dist/gfw3.txt
+          grep -vE '\.apple\.|\.icloud\.|\.itunes\.|\.microsoft\.|\.windows\.' dist/gfw3.txt | sed 's/ //g' | sort -uf | grep -v "^$" > dist/gfw.txt
           python3 ./scripts/build-adguard.py
           python3 ./scripts/build-apple.py
           python3 ./scripts/build-cnip.py
@@ -50,17 +56,18 @@ jobs:
           python3 ./scripts/build-telegram.py
           python3 ./scripts/build-tiktok.py
           python3 ./scripts/build-tracker.py
-          sed "s/[[:space:]]\+/ /g" dist/adguard1.txt | sed 's/^ \| $\|\r//g' | sort -u | grep -v "^$" > fan/adguard.txt
+          sed "s/[[:space:]]\+/ /g" dist/adguard1.txt | sed "s/^ \| $//g" | sort -u | grep -v "^$" > fan/adguard.txt
           sort -uf dist/apple1.txt | grep -v "^$" > gen/apple.txt
           sed "s/'\./'+\./" dist/apple2.txt | sort -uf | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/apple.yaml
           sort -uf dist/cnip1.txt | grep -v "^$" > gen/cnip.txt
           sort -uf dist/cnip2.txt | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/cnip.yaml
-          grep -vE '[a-z0-9]\.cn$|blogspot|facebook|google|instagram|porn|telegram|twitter|whatsapp|wikileaks|wikipedia|youtube|netflix|twitch|yahoo|discord|flickr|pinterest' dist/direct1.txt > dist/direct11.txt
+          grep -vE 'blogspot|discord|facebook|flickr|google|instagram|netflix|pinterest|porn|telegram|twitch|twitter|whatsapp|wikileaks|wikipedia|yahoo|youtube' dist/direct1.txt > dist/direct11.txt
           sort -uf dist/direct11.txt | grep -vE '[a-z0-9]\.cn$' | grep -v "^$" > gen/direct.txt
-          grep -vE 'blogspot|facebook|google|instagram|porn|telegram|twitter|whatsapp|wikileaks|wikipedia|youtube|netflix|twitch|yahoo|discord|flickr|pinterest' dist/direct2.txt > dist/direct22.txt
+          grep -vE 'blogspot|discord|facebook|flickr|google|instagram|netflix|pinterest|porn|telegram|twitch|twitter|whatsapp|wikileaks|wikipedia|yahoo|youtube' dist/direct2.txt > dist/direct22.txt
           sed "s/'\./'+\./" dist/direct22.txt | grep -vE "[a-z0-9]\.cn'$"| sort -uf | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/direct.yaml
-          cat dist/direct3.txt dist/direct4.txt | grep -vE '[a-z0-9]\.cn\/119\.29\.29\.29$|[a-z0-9]\.cn\/223\.5\.5\.5$|google' | sed 's/server=\/\./server=\//g' | sort -uf | grep -v "^$" > fan/dnsmasqCN.txt
-          sort -uf dist/direct1.txt | grep -vE '[a-z0-9]\.cn$|google' | sed 's/^\.//' | grep -v "^$" > fan/smartdnsCN.txt
+          cat dist/direct3.txt | grep -vE 'blogspot|discord|facebook|flickr|google|instagram|netflix|pinterest|porn|telegram|twitch|twitter|whatsapp|wikileaks|wikipedia|yahoo|youtube' > dist/direct34.txt
+          sed 's/server=\/\./server=\//g' dist/direct34.txt | grep -vE "[a-z0-9]\.cn\/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$" | sort -uf | grep -v "^$" > fan/dnsmasqCN.txt
+          sed 's/^\.//' dist/direct11.txt | grep -vE '[a-z0-9]\.cn$|jsdelivr|ghproxy|gh-proxy|moeyy\.xyz|1888866\.xyz' | sort -uf | grep -v "^$" > fan/smartdnsCN.txt
           sort -uf dist/proxy1.txt | grep -v "^$" > gen/proxy.txt
           sort -uf dist/proxy2.txt | grep -v "^$" | sed -e '1s/^/payload:\n/' > coo/proxy.yaml
           grep -vE 'adservice|advertising|guanggao' dist/reject1.txt | sort -u | grep -v "^$" > gen/reject.txt
