@@ -14,7 +14,6 @@ DOMAIN-SUFFIX,localhost.sec.qq.com,DIRECT
 DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
 DOMAIN-SUFFIX,msftncsi.com,DIRECT
 DOMAIN-SUFFIX,my.router,DIRECT
-DOMAIN-SUFFIX,phicomm.me,DIRECT
 DOMAIN-SUFFIX,router.ctc,DIRECT
 DOMAIN-SUFFIX,test,DIRECT
 IP-CIDR,0.0.0.0/8,DIRECT,no-resolve

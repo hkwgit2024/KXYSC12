@@ -29,31 +29,31 @@ _yellow() {
 
 usage() {
 	cat <<-EOF
-Usage: sh gfwlist2dnsmasq.sh [options] -o FILE
-Valid options are:
--d, --dns <dns_ip>
-	DNS IP address for the GfwList Domains (Default: 127.0.0.1)
--p, --port <dns_port>
-	DNS Port for the GfwList Domains (Default: 5353)
--s, --ipset <ipset_name>
-	Ipset name for the GfwList domains
-	(If not given, ipset rules will not be generated.)
--o, --output <FILE>
-	/path/to/output_filename
--i, --insecure
-	Force bypass certificate validation (insecure)
--l, --domain-list
-	Convert Gfwlist into domain list instead of dnsmasq rules
-	(If this option is set, DNS IP/Port & ipset are not needed)
---exclude-domain-file <FILE>
-	Delete specific domains in the result from a domain list text file
-	Please put one domain per line
---extra-domain-file <FILE>
-	Include extra domains to the result from a domain list text file
-	This file will be processed after the exclude-domain-file
-	Please put one domain per line
--h, --help
-EOF
+		Usage: sh gfwlist2dnsmasq.sh [options] -o FILE
+		Valid options are:
+		-d, --dns <dns_ip>
+			DNS IP address for the GfwList Domains (Default: 127.0.0.1)
+		-p, --port <dns_port>
+			DNS Port for the GfwList Domains (Default: 5353)
+		-s, --ipset <ipset_name>
+			Ipset name for the GfwList domains
+			(If not given, ipset rules will not be generated.)
+		-o, --output <FILE>
+			/path/to/output_filename
+		-i, --insecure
+			Force bypass certificate validation (insecure)
+		-l, --domain-list
+			Convert Gfwlist into domain list instead of dnsmasq rules
+			(If this option is set, DNS IP/Port & ipset are not needed)
+		--exclude-domain-file <FILE>
+			Delete specific domains in the result from a domain list text file
+			Please put one domain per line
+		--extra-domain-file <FILE>
+			Include extra domains to the result from a domain list text file
+			This file will be processed after the exclude-domain-file
+			Please put one domain per line
+		-h, --help
+	EOF
 	exit "$1"
 }
 
