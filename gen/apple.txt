@@ -1287,6 +1287,7 @@
 .mairbeats.com
 .makeeu.com
 .mallheadphone.com
+.mask-api.icloud.com
 .mask-h2.icloud.com
 .mask.icloud.com
 .mbeats-tech.com
@@ -1506,6 +1507,7 @@
 .truedepth3d.com
 .tryrating.com
 .tteshop.com
+.tv.apple.com
 .tvappstore.net
 .ubnw.net
 .ukipad.com
@@ -1578,6 +1580,7 @@ api-p-ap-e.smoot.apple.com
 app-site-association.cdn-apple.com
 appldnld.apple.com
 appldnld.g.aaplimg.com
+apple-tv-plus-press.apple.com
 apple.com.akadns.net
 appleid.cdn-apple.com
 appleworldwidedeveloper.hb-api.omtrdc.net
@@ -1665,6 +1668,8 @@ gspe85-cn-ssl.ls.apple.com
 guzzoni-apple-com.v.aaplimg.com
 guzzoni.apple.com
 guzzoni.smoot.apple.com
+hls-amt.itunes.apple.com
+hls.itunes.apple.com
 iadsdk.apple.com
 icloud-cdn.icloud.com.akadns.net
 icloud.cdn-apple.com
@@ -1674,6 +1679,7 @@ images.apple.com.edgekey.net.globalredir.akadns.net
 inappcheck-cn.itunes-apple.com.akadns.net
 inappcheck-lb.itunes-apple.com.akadns.net
 inappcheck.itunes.apple.com
+ingest.apple-studies.com
 init-kt.apple.com
 init-p01md-lb.push-apple.com.akadns.net
 init-p01md.apple.com
@@ -1731,6 +1737,7 @@ pancake.cdn-apple.com.akadns.net
 pba0.apple.com
 pd-nk.itunes.apple.com
 pd.itunes.apple.com
+play-edge.itunes.apple.com
 play.itunes.apple.com
 play.music.apple.com
 probe.siri.apple.com
@@ -1782,10 +1789,12 @@ sylvan.apple.com
 sync.itunes.apple.com
 tf-feedback.itunes.apple.com
 tj-pod1-smp-device.apple.com
+tv.applemusic.com
 updates-http.cdn-apple.com
 updates-http.cdn-apple.com.akadns.net
 updates.cdn-apple.com
 upp.itunes.apple.com
+uts-api.itunes.apple.com
 valid.apple.com
 valid.origin-apple.com.akadns.net
 weather-data.apple.com
