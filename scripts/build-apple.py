@@ -22,8 +22,8 @@ if __name__ == "__main__":
     apple_file1 = open(os.getcwd() + "/dist/apple1.txt", mode="w", encoding="utf-8")
     apple_file2 = open(os.getcwd() + "/dist/apple2.txt", mode="w", encoding="utf-8")
     for line in apple:
-        if (not line.startswith(("#", "!", "！", "[", "regexp")) and not line.endswith(("@ads")) and len(line) > 0 ):
-            line = (line.replace(" ", "").replace("\t", "").replace("\r", "").replace("server=/", "").replace("/114.114.114.114", "").replace("domain:", ".").replace("full:", "").replace(":@cn", ""))
+        if (not line.startswith(("#", "!")) and not line.endswith(("@ads")) and len(line) > 0 ):
+            line = (line.replace("\r", "\n").replace("\t", " ").replace(" ", "").replace("server=/", "").replace("/114.114.114.114", "").replace("domain:", ".").replace("full:", "").replace(":@cn", ""))
             apple_file1.write("%s\n" % line)
             apple_file2.write("  - '%s'\n" % line)
     apple_file1.close()

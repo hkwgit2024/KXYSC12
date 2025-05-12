@@ -24,7 +24,7 @@ if __name__ == "__main__":
     reject_file4 = open(os.getcwd() + "/dist/reject4.txt", mode="w", encoding="utf-8")
     for line in reject:
         if line.startswith(("||", "DOMAIN-SUFFIX")) and len(line) > 0:
-            line = (line.replace(" ", "").replace("\t", "").replace("\r", "").replace("DOMAIN-SUFFIX,", "").replace("||", "").replace("^", ""))
+            line = (line.replace("\r", "\n").replace("\t", " ").replace(" ", "").replace("DOMAIN-SUFFIX,", "").replace("||", "").replace("^", ""))
             reject_file1.write(".%s\n" % line)
             reject_file2.write("  - '+.%s'\n" % line)
             reject_file3.write("address=/%s/\n" % line)

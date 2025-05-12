@@ -28,6 +28,7 @@
 .fanboy.co.nz
 .fastgit.org
 .g-msedge.net
+.geekertao.top
 .getmicrosoftkey.com
 .gfx.ms
 .gh-proxy.com

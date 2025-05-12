@@ -21,8 +21,8 @@ if __name__ == "__main__":
     cnip_file1 = open(os.getcwd() + "/dist/cnip1.txt", mode="w", encoding="utf-8")
     cnip_file2 = open(os.getcwd() + "/dist/cnip2.txt", mode="w", encoding="utf-8")
     for line in cnip:
-        if not line.startswith(("#", "!", "！", "[")) and len(line) > 0:
-            line = line.replace(" ", "").replace("\t", "").replace("\r", "")
+        if not line.startswith(("#", "!")) and len(line) > 0:
+            line = line.replace("\r", "\n").replace("\t", " ").replace(" ", "")
             cnip_file1.write("IP-CIDR,%s,no-resolve\n" % line)
             cnip_file2.write("  - '%s'\n" % line)
     cnip_file1.close()

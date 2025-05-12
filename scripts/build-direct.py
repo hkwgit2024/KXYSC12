@@ -24,8 +24,8 @@ if __name__ == "__main__":
     direct_file3 = open(os.getcwd() + "/dist/direct3.txt", mode="w", encoding="utf-8")
     direct_file4 = open(os.getcwd() + "/dist/direct4.txt", mode="w", encoding="utf-8")
     for line in direct:
-        if not line.startswith(("#", "!", "！", "[")) and len(line) > 0:
-            line = (line.replace(" ", "").replace("\t", "").replace("\r", "").replace("server=/", "").replace("/114.114.114.114", ""))
+        if not line.startswith(("#", "!")) and len(line) > 0:
+            line = (line.replace("\r", "\n").replace("\t", " ").replace(" ", "").replace("server=/", "").replace("/114.114.114.114", ""))
             direct_file1.write("%s\n" % line)
             direct_file2.write("  - '%s'\n" % line)
             direct_file3.write("server=/%s/223.5.5.5\n" % line)

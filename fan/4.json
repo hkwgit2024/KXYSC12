@@ -1,10 +1,11 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/jar/fan.txt;md5;fe5929df64eb2358effeb032359732e5",
+  "spider": "./jar/fan.txt;md5;fe5929df64eb2358effeb032359732e5",
+  "logo": "https://avatars.githubusercontent.com/u/58679624?v=4",
   "lives": [
     {
       "name": "初秋语•ipv4",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/list.txt",
+      "url": "./list.txt",
       "playerType": 2,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
@@ -42,7 +43,7 @@
     {
       "name": "YueChan•综合",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -58,7 +59,7 @@
     {
       "name": "MemoryC•综合",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MemoryCollection/IPTV/main/itvlist.m3u",
+      "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -75,7 +76,7 @@
     {
       "name": "Ray•综合",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -91,30 +92,30 @@
     {
       "name": "初秋语•电台",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/radio.txt",
+      "url": "./radio.txt",
       "playerType": 1
     },
     {
       "name": "范明明•电台1",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
       "playerType": 1
     },
     {
       "name": "范明明•电台2",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u",
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u",
       "playerType": 1
     },
     {
       "name": "16万•MV",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt"
     },
     {
       "name": "YuanHsing•油管",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u"
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u"
     }
   ],
   "wallpaper": "https://深色壁纸.xxooo.cf/",
@@ -131,7 +132,7 @@
     },
     {
       "key": "玩偶",
-      "name": "👽玩偶哥哥┃4K弹幕",
+      "name": "👽玩偶哥哥4K弹幕",
       "type": 3,
       "api": "csp_WoGGGuard",
       "searchable": 1,
@@ -146,7 +147,7 @@
     },
     {
       "key": "YGP",
-      "name": "🚀叨观荐影┃预告片",
+      "name": "🚀叨观荐影预告片",
       "type": 3,
       "api": "csp_YGPGuard",
       "searchable": 0,
@@ -155,7 +156,7 @@
     },
     {
       "key": "alllive",
-      "name": "📽️一直播┃直播",
+      "name": "📽️一直播直播",
       "type": 3,
       "api": "csp_AllliveGuard",
       "playerType": 2,
@@ -165,7 +166,7 @@
     },
     {
       "key": "抠搜",
-      "name": "🍄抠抠┃搜搜",
+      "name": "🍄抠抠搜搜",
       "type": 3,
       "api": "csp_KkSsGuard",
       "searchable": 1,
@@ -178,7 +179,7 @@
     },
     {
       "key": "UC",
-      "name": "🌈优汐┃搜搜",
+      "name": "🌈优汐搜搜",
       "type": 3,
       "api": "csp_UuSsGuard",
       "searchable": 1,
@@ -191,7 +192,7 @@
     },
     {
       "key": "原创",
-      "name": "☀原创┃不卡",
+      "name": "☀原创不卡",
       "type": 3,
       "api": "csp_YCyzGuard",
       "timeout": 10,
@@ -202,7 +203,7 @@
     },
     {
       "key": "苹果",
-      "name": "🍎苹果┃不卡",
+      "name": "🍎苹果不卡",
       "type": 3,
       "api": "csp_LiteAppleGuard",
       "timeout": 10,
@@ -212,7 +213,7 @@
     },
     {
       "key": "糯米",
-      "name": "🍓糯米┃秒播",
+      "name": "🍓糯米秒播",
       "type": 3,
       "api": "csp_NmyswvGuard",
       "timeout": 10,
@@ -222,7 +223,7 @@
     },
     {
       "key": "白白",
-      "name": "🐟白白┃秒播",
+      "name": "🐟白白秒播",
       "type": 3,
       "api": "csp_SbaibaiGuard",
       "timeout": 10,
@@ -233,7 +234,7 @@
     },
     {
       "key": "文采",
-      "name": "💮文采┃秒播",
+      "name": "💮文采秒播",
       "type": 3,
       "api": "csp_JpysGuard",
       "timeout": 10,
@@ -244,7 +245,7 @@
     },
     {
       "key": "神车",
-      "name": "🐻小熊┃秒播",
+      "name": "🐻小熊秒播",
       "type": 3,
       "api": "csp_AppSKGuard",
       "timeout": 10,
@@ -255,7 +256,7 @@
     },
     {
       "key": "Lib",
-      "name": "🌟立播┃秒播",
+      "name": "🌟立播秒播",
       "type": 3,
       "api": "csp_LibvioGuard",
       "timeout": 10,
@@ -269,7 +270,7 @@
     },
     {
       "key": "zxzj",
-      "name": "🍊在线┃秒播",
+      "name": "🍊在线秒播",
       "type": 3,
       "api": "csp_ZxzjGuard",
       "timeout": 10,
@@ -280,7 +281,7 @@
     },
     {
       "key": "厂长",
-      "name": "📔厂长┃不卡",
+      "name": "📔厂长不卡",
       "type": 3,
       "api": "csp_NewCzGuard",
       "timeout": 10,
@@ -291,7 +292,7 @@
     },
     {
       "key": "溢彩",
-      "name": "💡流光┃秒播",
+      "name": "💡流光秒播",
       "type": 3,
       "api": "csp_AppSxGuard",
       "timeout": 10,
@@ -302,7 +303,7 @@
     },
     {
       "key": "比特",
-      "name": "🍄比特┃手机",
+      "name": "🍄比特手机",
       "type": 3,
       "api": "csp_BttwooGuard",
       "timeout": 10,
@@ -312,7 +313,7 @@
     },
     {
       "key": "低端",
-      "name": "⏮️低端┃外剧",
+      "name": "⏮️低端外剧",
       "type": 3,
       "api": "csp_DdrkGuard",
       "timeout": 10,
@@ -323,7 +324,7 @@
     },
     {
       "key": "萌米",
-      "name": "👀萌米┃多线",
+      "name": "👀萌米多线",
       "type": 3,
       "api": "csp_AppTTGuard",
       "timeout": 10,
@@ -335,7 +336,7 @@
     },
     {
       "key": "兄弟",
-      "name": "🍊水星┃多线",
+      "name": "🍊水星多线",
       "type": 3,
       "api": "csp_AppSxGuard",
       "timeout": 10,
@@ -346,7 +347,7 @@
     },
     {
       "key": "热播",
-      "name": "📺热播┃多线",
+      "name": "📺热播多线",
       "type": 3,
       "api": "csp_AppTTGuard",
       "timeout": 10,
@@ -358,7 +359,7 @@
     },
     {
       "key": "欢视",
-      "name": "👓欢视┃多线",
+      "name": "👓欢视多线",
       "type": 3,
       "api": "csp_AppTTGuard",
       "timeout": 10,
@@ -370,7 +371,7 @@
     },
     {
       "key": "奥特",
-      "name": "🏝奥特┃多线",
+      "name": "🏝奥特多线",
       "type": 3,
       "api": "csp_AueteGuard",
       "timeout": 10,
@@ -381,7 +382,7 @@
     },
     {
       "key": "贱贱",
-      "name": "🐭荐片┃P2P",
+      "name": "🐭荐片P2P",
       "type": 3,
       "api": "csp_JPJGuard",
       "timeout": 10,
@@ -392,7 +393,7 @@
     },
     {
       "key": "新6V",
-      "name": "🧲新6V┃磁力",
+      "name": "🧲新6V磁力",
       "type": 3,
       "api": "csp_SixVGuard",
       "timeout": 10,
@@ -403,7 +404,7 @@
     },
     {
       "key": "Dm84",
-      "name": "🚌巴士┃动漫",
+      "name": "🚌巴士动漫",
       "type": 3,
       "api": "csp_Dm84Guard",
       "timeout": 10,
@@ -413,7 +414,7 @@
     },
     {
       "key": "Ysj",
-      "name": "🎀异界┃动漫",
+      "name": "🎀异界动漫",
       "type": 3,
       "api": "csp_YsjGuard",
       "timeout": 10,
@@ -423,7 +424,7 @@
     },
     {
       "key": "Anime1",
-      "name": "🐾日本┃动漫",
+      "name": "🐾日本动漫",
       "type": 3,
       "api": "csp_Anime1Guard",
       "timeout": 10,
@@ -433,7 +434,7 @@
     },
     {
       "key": "926",
-      "name": "⚽926┃看球",
+      "name": "⚽926看球",
       "type": 3,
       "api": "csp_kanqiu926Guard",
       "timeout": 10,
@@ -445,7 +446,7 @@
     },
     {
       "key": "88",
-      "name": "⚽88┃看球",
+      "name": "⚽88看球",
       "type": 3,
       "api": "csp_Sir88Guard",
       "timeout": 10,
@@ -457,7 +458,7 @@
     },
     {
       "key": "看球",
-      "name": "⚽看球┃直播",
+      "name": "⚽看球直播",
       "type": 3,
       "api": "csp_KanqiuGuard",
       "timeout": 10,
@@ -469,10 +470,10 @@
     },
     {
       "key": "Jrsjs",
-      "name": "⚽Jrs┃球迷",
+      "name": "⚽Jrs球迷",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/jrk.js",
+      "api": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/jrk.js",
       "style": {
         "type": "list"
       },
@@ -483,10 +484,10 @@
     },
     {
       "key": "酷奇",
-      "name": "🎤酷奇┃MV",
+      "name": "🎤酷奇MV",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/酷奇MV.js",
+      "api": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/酷奇MV.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -498,7 +499,7 @@
     },
     {
       "key": "MTV",
-      "name": "🎧明星┃MV",
+      "name": "🎧明星MV",
       "type": 3,
       "api": "csp_BiliGuard",
       "style": {
@@ -514,10 +515,10 @@
     },
     {
       "key": "虎牙直播js",
-      "name": "🐯虎牙┃直播",
+      "name": "🐯虎牙直播",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/huya2.js",
+      "api": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
+      "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/huya2.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -530,10 +531,10 @@
     },
     {
       "key": "斗鱼js",
-      "name": "🐟斗鱼┃直播",
+      "name": "🐟斗鱼直播",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/斗鱼直播.js",
+      "api": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -546,10 +547,10 @@
     },
     {
       "key": "有声小说js",
-      "name": "🎧有声┃小说",
+      "name": "🎧有声小说",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/有声小说吧.js",
+      "api": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/有声小说吧.js",
       "style": {
         "type": "rect",
         "ratio": 1
@@ -561,7 +562,7 @@
     },
     {
       "key": "Aid",
-      "name": "🚑急救┃教学",
+      "name": "🚑急救教学",
       "type": 3,
       "api": "csp_FirstAidGuard",
       "searchable": 0,
@@ -574,7 +575,7 @@
     },
     {
       "key": "YpanSo",
-      "name": "🐟盘她┃三盘",
+      "name": "🐟盘她三盘",
       "type": 3,
       "api": "csp_YpanSoGuard",
       "searchable": 1,
@@ -587,7 +588,7 @@
     },
     {
       "key": "xzso",
-      "name": "👻盘它┃三盘",
+      "name": "👻盘它三盘",
       "type": 3,
       "api": "csp_XzsoGuard",
       "searchable": 1,
@@ -600,7 +601,7 @@
     },
     {
       "key": "米搜",
-      "name": "🦋米搜┃夸父",
+      "name": "🦋米搜夸父",
       "type": 3,
       "api": "csp_MIPanSoGuard",
       "searchable": 1,
@@ -613,7 +614,7 @@
     },
     {
       "key": "夸搜",
-      "name": "😻夸搜┃夸父",
+      "name": "😻夸搜夸父",
       "type": 3,
       "api": "csp_PanSearchGuard",
       "searchable": 1,
@@ -627,7 +628,7 @@
     },
     {
       "key": "Aliso",
-      "name": "🙀盘搜┃阿狸",
+      "name": "🙀盘搜阿狸",
       "type": 3,
       "api": "csp_PanSearchGuard",
       "searchable": 1,
@@ -640,7 +641,7 @@
     },
     {
       "key": "YiSo",
-      "name": "😹易搜┃阿狸",
+      "name": "😹易搜阿狸",
       "type": 3,
       "api": "csp_YiSoGuard",
       "searchable": 1,
@@ -653,7 +654,7 @@
     },
     {
       "key": "push_agent",
-      "name": "🛴手机┃推送",
+      "name": "🛴手机推送",
       "type": 3,
       "api": "csp_PushGuard",
       "searchable": 0,
@@ -665,18 +666,18 @@
     },
     {
       "key": "csp_AList",
-      "name": "AList┃网盘",
+      "name": "AList网盘",
       "type": "3",
       "api": "csp_AList",
       "searchable": "0",
       "quickSearch": "0",
       "filterable": "1",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/json/alist.json"
+      "ext": "./json/alist.json"
     },
     {
       "key": "新6V",
-      "name": "新6V磁力┃慎用",
+      "name": "新6V磁力慎用",
       "type": 3,
       "api": "csp_SixV",
       "searchable": 1,
@@ -687,7 +688,7 @@
     },
     {
       "key": "百度",
-      "name": "百度┃采集",
+      "name": "百度采集",
       "type": 1,
       "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
       "searchable": 1,
@@ -710,7 +711,7 @@
     },
     {
       "key": "量子",
-      "name": "量子┃采集",
+      "name": "量子采集",
       "type": 0,
       "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
@@ -754,7 +755,7 @@
     },
     {
       "key": "非凡",
-      "name": "非凡┃采集",
+      "name": "非凡采集",
       "type": 0,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
@@ -793,7 +794,7 @@
     },
     {
       "key": "haiwaikan",
-      "name": "海外看┃采集",
+      "name": "海外看采集",
       "type": 1,
       "api": "https://haiwaikan.com/api.php/provide/vod",
       "searchable": 1,
@@ -801,7 +802,7 @@
     },
     {
       "key": "暴風",
-      "name": "暴風┃采集",
+      "name": "暴風采集",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -809,7 +810,7 @@
     },
     {
       "key": "索尼",
-      "name": "索尼┃采集",
+      "name": "索尼采集",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -817,7 +818,7 @@
     },
     {
       "key": "快帆",
-      "name": "快帆┃采集",
+      "name": "快帆采集",
       "type": 1,
       "api": "https://api.kuaifan.tv/api.php/provide/vod",
       "searchable": 1,
@@ -825,185 +826,185 @@
     },
     {
       "key": "drpy_js_360影视",
-      "name": "官源┃360[js]",
+      "name": "官源360[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/360影视.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/360影视.js"
     },
     {
       "key": "drpy_js_奇珍异兽",
-      "name": "官源┃爱奇艺[js]",
+      "name": "官源爱奇艺[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/奇珍异兽.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/奇珍异兽.js"
     },
     {
       "key": "drpy_js_百忙无果",
-      "name": "官源┃芒果[js]",
+      "name": "官源芒果[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/百忙无果.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/百忙无果.js"
     },
     {
       "key": "drpy_js_腾云驾雾",
-      "name": "官源┃腾讯[js]",
+      "name": "官源腾讯[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/腾云驾雾.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/腾云驾雾.js"
     },
     {
       "key": "drpy_js_菜狗",
-      "name": "官源┃搜狗[js]",
+      "name": "官源搜狗[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/菜狗.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/菜狗.js"
     },
     {
       "key": "drpy_js_优酷",
-      "name": "官源┃优酷[js]",
+      "name": "官源优酷[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/优酷.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/优酷.js"
     },
     {
       "key": "drpy_js_我的哔哩",
-      "name": "弹幕┃我的哔哩[js]",
+      "name": "弹幕我的哔哩[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
       },
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/我的哔哩.js"
+      "ext": "./js/我的哔哩.js"
     },
     {
       "key": "drpy_js_哔哩直播",
-      "name": "弹幕┃哔哩直播[js]",
+      "name": "弹幕哔哩直播[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
       },
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/哔哩直播.js"
+      "ext": "./js/哔哩直播.js"
     },
     {
       "key": "drpy_js_JustLive",
-      "name": "直播┃JustLive[js]",
+      "name": "直播JustLive[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
       },
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/JustLive.js"
+      "ext": "./js/JustLive.js"
     },
     {
       "key": "drpy_js_斗鱼直播",
-      "name": "直播┃斗鱼[js]",
+      "name": "直播斗鱼[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
       },
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/斗鱼直播.js"
+      "ext": "./js/斗鱼直播.js"
     },
     {
       "key": "drpy_js_虎牙直播",
-      "name": "直播┃虎牙[js]",
+      "name": "直播虎牙[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
       },
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/虎牙直播.js"
+      "ext": "./js/虎牙直播.js"
     },
     {
       "key": "drpy_js_童趣",
-      "name": "少儿┃童趣[js]",
+      "name": "少儿童趣[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/童趣.js"
+      "ext": "./js/童趣.js"
     },
     {
       "key": "drpy_js_兔小贝",
-      "name": "少儿┃兔小贝[js]",
+      "name": "少儿兔小贝[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/兔小贝.js"
+      "ext": "./js/兔小贝.js"
     },
     {
       "key": "drpy_js_AnFuns",
-      "name": "动漫┃AnFuns[js]",
+      "name": "动漫AnFuns[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/AnFuns.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/AnFuns.js"
     },
     {
       "key": "drpy_js_NT动漫",
-      "name": "动漫┃NT动漫[js]",
+      "name": "动漫NT动漫[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/NT动漫.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/NT动漫.js"
     },
     {
       "key": "drpy_js_NyaFun",
-      "name": "动漫┃NyaFun[js]",
+      "name": "动漫NyaFun[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/NyaFun.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/NyaFun.js"
     },
     {
       "key": "drpy_js_i275听书",
-      "name": "听书┃i275听书[js]",
+      "name": "听书i275听书[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1
       },
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/i275听书.js"
+      "ext": "./js/i275听书.js"
     },
     {
       "key": "drpy_js_爱上你听书网",
-      "name": "听书┃爱上你听书[js]",
+      "name": "听书爱上你听书[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1
       },
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/爱上你听书网.js"
+      "ext": "./js/爱上你听书网.js"
     },
     {
       "key": "drpy_js_博看听书",
-      "name": "听书┃博看听书[js]",
+      "name": "听书博看听书[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1
       },
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/博看听书.js"
+      "ext": "./js/博看听书.js"
     },
     {
       "key": "有声小说js",
-      "name": "听书┃有声小说[js]",
+      "name": "听书有声小说[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/有声小说吧.js",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/有声小说吧.js",
       "style": {
         "type": "rect",
         "ratio": 1
@@ -1014,101 +1015,101 @@
     },
     {
       "key": "drpy_js_评书随身听",
-      "name": "评书┃评书随身听[js]",
+      "name": "评书评书随身听[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/评书随身听.js"
+      "ext": "./js/评书随身听.js"
     },
     {
       "key": "drpy_js_相声随身听",
-      "name": "相声┃相声随身听[js]",
+      "name": "相声相声随身听[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/相声随身听.js"
+      "ext": "./js/相声随身听.js"
     },
     {
       "key": "drpy_js_好趣网",
-      "name": "电视┃好趣网[js]",
+      "name": "电视好趣网[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
       "style": {
         "type": "oval",
         "ratio": 1.1
       },
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/好趣网.js"
+      "ext": "./js/好趣网.js"
     },
     {
       "key": "drpy_js_广播迷FM",
-      "name": "广播┃广播迷FM[js]",
+      "name": "广播广播迷FM[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/广播迷FM.js"
+      "ext": "./js/广播迷FM.js"
     },
     {
       "key": "drpy_js_蜻蜓FM",
-      "name": "广播┃蜻蜓FM[js]",
+      "name": "广播蜻蜓FM[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/蜻蜓FM.js"
+      "ext": "./js/蜻蜓FM.js"
     },
     {
       "key": "drpy_js_DJ音乐",
-      "name": "音频┃DJ音乐[js]",
+      "name": "音频DJ音乐[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/DJ音乐.js"
+      "ext": "./js/DJ音乐.js"
     },
     {
       "key": "drpy_js_短视频",
-      "name": "聚合┃短视频[js]",
+      "name": "聚合短视频[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/短视频.js"
+      "ext": "./js/短视频.js"
     },
     {
       "key": "drpy_js_酷6网",
-      "name": "聚合┃酷6网[js]",
+      "name": "聚合酷6网[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/酷6网.js"
+      "ext": "./js/酷6网.js"
     },
     {
       "key": "drpy_js_网易公版影像",
-      "name": "聚合┃网易公版[js]",
+      "name": "聚合网易公版[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/网易公版影像.js"
+      "ext": "./js/网易公版影像.js"
     },
     {
       "key": "drpy_js_酷奇MV",
-      "name": "MV┃酷奇[js]",
+      "name": "MV酷奇[js]",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/酷奇MV.js"
+      "ext": "./js/酷奇MV.js"
     },
     {
       "key": "bb",
       "name": "配置接口完全免费",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/drpy.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/drpy.js"
     },
     {
       "key": "cc",
       "name": "请勿相信视频中任何广告",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/drpy.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/drpy.js"
     }
   ],
   "parses": [
