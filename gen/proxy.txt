@@ -8,6 +8,7 @@
 .10beasts.net
 .10conditionsoflove.com
 .10musume.com
+.111666.best
 .123rf.com
 .12bet.com
 .12vpn.com
@@ -39,6 +40,7 @@
 .1dumb.com
 .1e100.net
 .1eew.com
+.1lib.sk
 .1mobile.com
 .1mobile.tw
 .1point3acres.com
@@ -1616,6 +1618,7 @@
 .do
 .doc.new
 .docker.com
+.docker.io
 .docs.new
 .doctorvoice.org
 .documentingreality.com
@@ -2482,6 +2485,7 @@
 .gmll.org
 .gmo
 .gmodules.com
+.gmp4.com
 .gmx
 .gmx.net
 .gn
@@ -4512,6 +4516,7 @@
 .on.cc
 .on2.com
 .onapp.com
+.one.one
 .onedrive.com
 .onedumb.com
 .onejav.com
@@ -4906,6 +4911,7 @@
 .pure18.com
 .pureapk.com
 .pureconcepts.net
+.puredns.org
 .pureinsight.org
 .purepdf.com
 .purevpn.com
@@ -4945,6 +4951,7 @@
 .qienkuen.org
 .qiwen.lu
 .qkshare.com
+.qmp4.com
 .qmzdd.com
 .qooqlevideo.com
 .qoos.com
@@ -5145,6 +5152,7 @@
 .ruhr
 .rukor.org
 .rule34.xxx
+.rule34video.com
 .rumble.com
 .runbtx.com
 .rushbee.com
@@ -6104,6 +6112,7 @@
 .tngrnow.com
 .tngrnow.net
 .tnp.org
+.tnt-ea.com
 .to
 .togetter.com
 .toh.info
@@ -7194,8 +7203,13 @@
 .yyjlymb.xyz
 .yysub.net
 .yzzk.com
+.z-lib.fm
+.z-lib.fo
+.z-lib.gd
+.z-lib.gl
 .z-lib.io
 .z-lib.org
+.z-library.sk
 .zacebook.com
 .zalmos.com
 .zamimg.com
