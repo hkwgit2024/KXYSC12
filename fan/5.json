@@ -10,13 +10,6 @@
       "searchable": 0
     },
     {
-      "key": "预告",
-      "name": "新片预告",
-      "type": 3,
-      "api": "csp_DouBan",
-      "searchable": 0
-    },
-    {
       "key": "配置中心",
       "name": "配置中心",
       "type": 3,
@@ -77,8 +70,16 @@
       }
     },
     {
-      "key": "尼玛",
-      "name": "尼玛APP",
+      "key": "移动",
+      "name": "移动APP",
+      "type": 3,
+      "api": "csp_YD",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "牛马",
+      "name": "牛马APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -443,7 +444,7 @@
     },
     {
       "key": "玩偶哥哥",
-      "name": "玩偶4K弹幕",
+      "name": "玩偶",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -453,7 +454,7 @@
     },
     {
       "key": "木偶",
-      "name": "木偶4K弹幕",
+      "name": "木偶",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -463,7 +464,7 @@
     },
     {
       "key": "蜡笔",
-      "name": "蜡笔4K弹幕",
+      "name": "蜡笔",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -474,7 +475,7 @@
     },
     {
       "key": "至臻",
-      "name": "至臻4K弹幕",
+      "name": "至臻",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -485,7 +486,7 @@
     },
     {
       "key": "多多",
-      "name": "多多4K弹幕",
+      "name": "多多",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -496,7 +497,7 @@
     },
     {
       "key": "欧哥",
-      "name": "欧哥4K弹幕",
+      "name": "欧哥",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -507,7 +508,7 @@
     },
     {
       "key": "二小",
-      "name": "二小4K弹幕",
+      "name": "二小",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -518,7 +519,7 @@
     },
     {
       "key": "百家",
-      "name": "百家4K弹幕",
+      "name": "百家",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -529,7 +530,7 @@
     },
     {
       "key": "大玩",
-      "name": "大玩4K弹幕",
+      "name": "大玩",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -540,7 +541,7 @@
     },
     {
       "key": "虎斑",
-      "name": "虎斑4K弹幕",
+      "name": "虎斑",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -551,7 +552,7 @@
     },
     {
       "key": "闪电",
-      "name": "闪电4K弹幕",
+      "name": "闪电",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -562,7 +563,7 @@
     },
     {
       "key": "下饭",
-      "name": "下饭4K弹幕",
+      "name": "下饭",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -573,7 +574,7 @@
     },
     {
       "key": "团长",
-      "name": "团长4K弹幕",
+      "name": "团长",
       "type": 3,
       "api": "csp_PanWebTz",
       "searchable": 1,
@@ -583,7 +584,7 @@
     },
     {
       "key": "雷鲸",
-      "name": "雷鲸4K弹幕",
+      "name": "雷鲸",
       "type": 3,
       "api": "csp_PanWebShareCloudLJ",
       "searchable": 1,
@@ -598,7 +599,7 @@
     },
     {
       "key": "海绵",
-      "name": "海绵4K弹幕",
+      "name": "海绵",
       "type": 3,
       "api": "csp_PanWebShareCloudHM",
       "searchable": 1,
@@ -613,7 +614,7 @@
     },
     {
       "key": "Pan1",
-      "name": "1234K弹幕",
+      "name": "123",
       "type": 3,
       "api": "csp_PanWebShareCloud123",
       "searchable": 1,
@@ -628,7 +629,7 @@
     },
     {
       "key": "夸父",
-      "name": "夸父4K弹幕",
+      "name": "夸父",
       "type": 3,
       "api": "csp_PanWebShareCloudKF",
       "searchable": 1,
@@ -643,7 +644,7 @@
     },
     {
       "key": "趣盘",
-      "name": "趣盘4K弹幕",
+      "name": "趣盘",
       "type": 3,
       "api": "csp_PanWebQu",
       "searchable": 1,
@@ -660,7 +661,7 @@
     },
     {
       "key": "聚搜",
-      "name": "聚搜4K弹幕",
+      "name": "聚搜",
       "type": 3,
       "api": "csp_PanWebSearch",
       "searchable": 1,
@@ -675,7 +676,7 @@
     },
     {
       "key": "盘库",
-      "name": "盘库4K弹幕",
+      "name": "盘库",
       "type": 3,
       "api": "csp_PanWebKuBa",
       "searchable": 1,
@@ -688,7 +689,7 @@
     },
     {
       "key": "双星",
-      "name": "双星4K弹幕",
+      "name": "双星",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/cloud.min.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/双星.js",
@@ -741,17 +742,6 @@
       "playerType": 2
     },
     {
-      "key": "火车影视",
-      "name": "火车影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/py/火车影视.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },
-    {
       "key": "美帕影视",
       "name": "美帕影视",
       "type": 3,
@@ -783,14 +773,6 @@
       "filterable": 1,
       "changeable": 1,
       "ext": "http://kkwk123.top/api.php/app/"
-    },
-    {
-      "key": "移动",
-      "name": "移动影视",
-      "type": 3,
-      "api": "csp_YD",
-      "searchable": 1,
-      "quickSearch": 1
     },
     {
       "key": "厂长影视",
@@ -1411,6 +1393,13 @@
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XBPQ/樱花动漫.json"
     },
     {
+      "key": "巴士动漫",
+      "name": "巴士动漫",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XYQHiker/巴士动漫.json"
+    },
+    {
       "key": "好看动漫",
       "name": "好看动漫",
       "type": 3,
@@ -1632,61 +1621,6 @@
       "filterable": 1
     },
     {
-      "key": "阿里云盘",
-      "name": "阿里云盘",
-      "type": 3,
-      "api": "csp_PanAli",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/json/aliShare.json"
-    },
-    {
-      "key": "夸克云盘",
-      "name": "夸克云盘",
-      "type": 3,
-      "api": "csp_PanQuark",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/json/quarkShare.json"
-    },
-    {
-      "key": "UC",
-      "name": "UC云盘",
-      "type": 3,
-      "api": "csp_PanUc",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/json/ucShare.json"
-    },
-    {
-      "key": "百度云盘",
-      "name": "百度云盘",
-      "type": 3,
-      "api": "csp_PanBaiDu",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      }
-    },
-    {
       "key": "AList",
       "name": "AList合集",
       "type": 3,
@@ -1714,15 +1648,6 @@
       "style": {
         "type": "list"
       }
-    },
-    {
-      "key": "push_agent",
-      "name": "手机推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0
     }
   ],
   "parses": [

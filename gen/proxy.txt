@@ -2861,6 +2861,7 @@
 .hotav.tv
 .hotbak.net
 .hotcoin.com
+.hotcool.tw
 .hotfrog.com.tw
 .hotgoo.com
 .hotjar.com
@@ -4308,6 +4309,9 @@
 .nightswatch.top
 .nike
 .nike.com
+.nikke-en.com
+.nikke-jp.com
+.nikke-kr.com
 .nikkei.com
 .nikon
 .ninecommentaries.com
