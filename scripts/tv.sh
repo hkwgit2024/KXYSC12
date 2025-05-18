@@ -2,12 +2,12 @@
 
 rm -rf fan/[0-9].json
 
-curl -o- "https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/lem.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/1.json
-curl -o- "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/2.json
-curl -o- "https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/3.json
-curl -o- "https://raw.githubusercontent.com/ne7359/tvurl/main/0821.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/4.json
-curl -o- "https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/api.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/5.json
-curl -o- "https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tvbox18.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/6.json
+curl -o- --connect-timeout 10 --retry 3 "https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/lem.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/1.json
+curl -o- --connect-timeout 10 --retry 3 "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/2.json
+curl -o- --connect-timeout 10 --retry 3 "https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/3.json
+curl -o- --connect-timeout 10 --retry 3 "https://raw.githubusercontent.com/ne7359/tvurl/main/0821.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/4.json
+curl -o- --connect-timeout 10 --retry 3 "https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/api.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/5.json
+curl -o- --connect-timeout 10 --retry 3 "https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tvbox18.json" | sed 's/\r/\n/g' | grep -vE '^(\s*)(//|"notice"|"logo")' | grep -v "^$" >dist/6.json
 find dist -name '6.json' | xargs perl -pi -e "s/\'/\"/g"
 
 find dist -name '[0-9].json' | xargs perl -pi -e 's|\t| |g'
@@ -24,13 +24,14 @@ find dist -name '[0-9].json' | xargs perl -pi -e 's|\*/(\s*)$|』|g'
 find dist -name '[0-9].json' | xargs perl -pi -e 's|\n||g'
 find dist -name '[0-9].json' | xargs perl -pi -e 's|『[\s\S]*』||g'
 find dist -name '[0-9].json' | xargs perl -pi -e 's/("lives"|"doh")\s*:\s*\[((?!\],).)+(\],)//g'
-find dist -name '[0-9].json' | xargs perl -pi -e 's/#([^#]*)(短剧|音乐|短视频|小说|相声|少儿|戏曲|MTV|评书)([^\$]*)\$([0-9]+)//g'
-find dist -name '[0-9].json' | xargs perl -pi -e 's/("短剧",|"短剧大全",|"音乐",|"预告片",|"汽车",|"搞笑",|"影视",)//g'
-find dist -name '[0-9].json' | xargs perl -pi -e 's/\{([^\{]*)"key"((?!"key").)+(公告|Market|FirstAid|csp_Push|LocalFile|YouTube|Youtube|bili|Bili|DJMV|哔哩|短剧|少儿|戏曲|墙外|小说|童趣|兔小贝|听书|广播|相声|评书|音乐|短视频|酷奇MV|预告|翻墙|完全免费|任何广告|push_agent|KkSs|UuSs|PanSso|YpanSo|Xzso|MIPanSo|PanSearch|Aliso|YiSo|PanTa|PanBaiDu|PanUc|PanQuark|PanAli|小纸条)((?!"key").)+\{([^\{]*)"key"/{$5"key"/g'
-find dist -name '[0-9].json' | xargs perl -pi -e 's/\{([^\{]*)"key"((?!"key").)+(公告|Market|FirstAid|csp_Push|LocalFile|YouTube|Youtube|bili|Bili|DJMV|哔哩|短剧|少儿|戏曲|墙外|小说|童趣|兔小贝|听书|广播|相声|评书|音乐|短视频|酷奇MV|预告|翻墙|完全免费|任何广告|push_agent|KkSs|UuSs|PanSso|YpanSo|Xzso|MIPanSo|PanSearch|Aliso|YiSo|PanTa|PanBaiDu|PanUc|PanQuark|PanAli|小纸条)((?!"key").)+\{([^\{]*)"key"/{$5"key"/g'
-find dist -name '[0-9].json' | xargs perl -pi -e 's/\{([^\{]*)"key"((?!"key").)+(公告|Market|FirstAid|csp_Push|LocalFile|YouTube|Youtube|bili|Bili|DJMV|哔哩|短剧|少儿|戏曲|墙外|小说|童趣|兔小贝|听书|广播|相声|评书|音乐|短视频|酷奇MV|预告|翻墙|完全免费|任何广告|push_agent|KkSs|UuSs|PanSso|YpanSo|Xzso|MIPanSo|PanSearch|Aliso|YiSo|PanTa|PanBaiDu|PanUc|PanQuark|PanAli|小纸条)((?!"key").)+\{([^\{]*)"key"/{$5"key"/g'
-find dist -name '[0-9].json' | xargs perl -pi -e 's/\{([^\{]*)"key"((?!"key").)+(公告|Market|FirstAid|csp_Push|LocalFile|YouTube|Youtube|bili|Bili|DJMV|哔哩|短剧|少儿|戏曲|墙外|小说|童趣|兔小贝|听书|广播|相声|评书|音乐|短视频|酷奇MV|预告|翻墙|完全免费|任何广告|push_agent|KkSs|UuSs|PanSso|YpanSo|Xzso|MIPanSo|PanSearch|Aliso|YiSo|PanTa|PanBaiDu|PanUc|PanQuark|PanAli|小纸条)((?!"key").)+\{([^\{]*)"key"/{$5"key"/g'
-find dist -name '[0-9].json' | xargs perl -pi -e 's/,\s*\{([^\{]*)"key"((?!("key"|\],)).)+(公告|Market|FirstAid|csp_Push|LocalFile|YouTube|Youtube|bili|Bili|DJMV|哔哩|短剧|少儿|戏曲|墙外|小说|童趣|兔小贝|听书|广播|相声|评书|音乐|短视频|酷奇MV|预告|翻墙|完全免费|任何广告|push_agent|KkSs|UuSs|PanSso|YpanSo|Xzso|MIPanSo|PanSearch|Aliso|YiSo|PanTa|PanBaiDu|PanUc|PanQuark|PanAli|小纸条)((?!("key"|\],)).)+([^\[]+)("parses"|"rules")/\],$8/g'
+find dist -name '[0-9].json' | xargs perl -pi -e 's/#([^#]*)(短剧|音乐|短视频|小说|相声|少儿|儿童|戏曲|MTV|评书)([^\$]*)\$([0-9]+)//g'
+find dist -name '[0-9].json' | xargs perl -pi -e 's/("短剧"|"短剧大全"|"音乐"|"预告片"|"汽车"|"搞笑"|"影视"|"影视解说"|"爽文短剧"|"热门短剧"|"斯诺克"|"网球"),//g'
+find dist -name '[0-9].json' | xargs perl -pi -e 's/,("短剧"|"短剧大全"|"音乐"|"预告片"|"汽车"|"搞笑"|"影视"|"影视解说"|"爽文短剧"|"热门短剧"|"斯诺克"|"网球")\]/\]/g'
+find dist -name '[0-9].json' | xargs perl -pi -e 's/\{([^\{]*)"key"((?!"key").)+(公告|说明|Market|FirstAid|csp_Push|LocalFile|YouTube|Youtube|bili|Bili|DJMV|哔哩|短剧|少儿|儿童|戏曲|墙外|小说|童趣|兔小贝|听书|广播|相声|评书|音乐|短视频|酷奇MV|预告|翻墙|任何广告|push_agent|Cloud-drive|alitoken|csp_Pan|AList|配置|peizhi|网盘|云盘)((?!"key").)+\{([^\{]*)"key"/{$5"key"/g'
+find dist -name '[0-9].json' | xargs perl -pi -e 's/\{([^\{]*)"key"((?!"key").)+(公告|说明|Market|FirstAid|csp_Push|LocalFile|YouTube|Youtube|bili|Bili|DJMV|哔哩|短剧|少儿|儿童|戏曲|墙外|小说|童趣|兔小贝|听书|广播|相声|评书|音乐|短视频|酷奇MV|预告|翻墙|任何广告|push_agent|Cloud-drive|alitoken|csp_Pan|AList|配置|peizhi|网盘|云盘)((?!"key").)+\{([^\{]*)"key"/{$5"key"/g'
+find dist -name '[0-9].json' | xargs perl -pi -e 's/\{([^\{]*)"key"((?!"key").)+(公告|说明|Market|FirstAid|csp_Push|LocalFile|YouTube|Youtube|bili|Bili|DJMV|哔哩|短剧|少儿|儿童|戏曲|墙外|小说|童趣|兔小贝|听书|广播|相声|评书|音乐|短视频|酷奇MV|预告|翻墙|任何广告|push_agent|Cloud-drive|alitoken|csp_Pan|AList|配置|peizhi|网盘|云盘)((?!"key").)+\{([^\{]*)"key"/{$5"key"/g'
+find dist -name '[0-9].json' | xargs perl -pi -e 's/\{([^\{]*)"key"((?!"key").)+(公告|说明|Market|FirstAid|csp_Push|LocalFile|YouTube|Youtube|bili|Bili|DJMV|哔哩|短剧|少儿|儿童|戏曲|墙外|小说|童趣|兔小贝|听书|广播|相声|评书|音乐|短视频|酷奇MV|预告|翻墙|任何广告|push_agent|Cloud-drive|alitoken|csp_Pan|AList|配置|peizhi|网盘|云盘)((?!"key").)+\{([^\{]*)"key"/{$5"key"/g'
+find dist -name '[0-9].json' | xargs perl -pi -e 's/,\s*\{([^\{]*)"key"((?!("key"|\],)).)+(公告|说明|Market|FirstAid|csp_Push|LocalFile|YouTube|Youtube|bili|Bili|DJMV|哔哩|短剧|少儿|儿童|戏曲|墙外|小说|童趣|兔小贝|听书|广播|相声|评书|音乐|短视频|酷奇MV|预告|翻墙|任何广告|push_agent|Cloud-drive|alitoken|csp_Pan|AList|配置|peizhi|网盘|云盘)((?!("key"|\],)).)+([^\[]+)("parses"|"rules")/\],$8/g'
 
 find dist -name '1.json' | xargs jq '.' >fan/1.json
 find dist -name '2.json' | xargs jq '.' >fan/2.json
