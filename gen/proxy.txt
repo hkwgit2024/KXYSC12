@@ -3545,6 +3545,8 @@
 .lbank.info
 .lbyczf.com
 .lc
+.ldplayer.net
+.ldplayer.tw
 .le-vpn.com
 .leafyvpn.net
 .leclerc
@@ -4161,6 +4163,7 @@
 .nabble.com
 .nagoya
 .naitik.net
+.naixi.net
 .nakido.com
 .nakuz.com
 .nalandabodhi.org
@@ -5192,6 +5195,7 @@
 .safechat.com
 .safeguarddefenders.com
 .safervpn.com
+.sagernet.org
 .saintyculture.com
 .saiq.me
 .sakura
@@ -6072,6 +6076,7 @@
 .ticket.com.tw
 .tigervpn.com
 .tiktok.com
+.tiktokcdn-eu.com
 .tiktokcdn-us.com
 .tiktokcdn.com
 .tiktokv.com

@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0508.jar;md5;93781BBD27E6FE6B5A4000B1FC4E944B",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0517.jar;md5;9D8CE31EDD5E8C2CA3BC0C6F6AD95132",
   "wallpaper": "https://pic.850930.xyz/",
   "sites": [
     {
@@ -51,20 +51,6 @@
       "changeable": 1,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/js/lf_live10_min-output.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/json/lf_live.json"
-    },
-    {
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/pg.jar",
-      "key": "csp_Config_PG",
-      "name": "🔨网盘及弹幕配置",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/T/pg.json"
     },
     {
       "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/pg.jar",
@@ -272,22 +258,6 @@
       "changeable": 0
     },
     {
-      "key": "csp_WoGGGuard",
-      "name": "👽玩偶哥哥(SP)",
-      "type": 3,
-      "api": "csp_WoGGGuard",
-      "timeout": 30,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.com/",
-        "danMu": "弹"
-      }
-    },
-    {
       "key": "csp_SbaibaiGuard",
       "name": "🐟素白白(SP)",
       "type": 3,
@@ -347,19 +317,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOb1uAWbkRHp7hdxprG9un3+TfN183v1zIyaYDoDAIaLw5L8Dp8+v88LrEL3dBzrmWbdMBX0WNm7HtkQuw0AIzUurGBVyPqCKzDmbriATuukhctJlsLo8KxCw=="
-    },
-    {
-      "key": "csp_LibvioGuard",
-      "name": "🎉Libvio(SP)",
-      "type": 3,
-      "api": "csp_LibvioGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
     },
     {
       "key": "csp_ZxzjGuard",
@@ -779,7 +736,7 @@
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
-      "ext": "7lj763gg402i7942503g9gj0hj4li281k7g69k56829j33311j400hk3ki0557400l8k49gh9g02i1j13l1kh9jgl5gk40hkl362760jl8h09hgk73813kl736gk1l18g3l4i0g0g56h7629ik"
+      "ext": "7lj763gg402i7942503g9g9jg94l9884l3k6i952i1951j70534g2ji3i81g55003ki27hgji1688lg56g1ih6h5i6ij15k9lk452078lkkhl1k074jj68"
     },
     {
       "key": "csp_Xdai_鲨鱼_QJ",
@@ -1212,14 +1169,6 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy2.min.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/js/腾云驾雾[官].js"
-    },
-    {
-      "key": "csp_AList",
-      "name": "📜AList",
-      "type": 3,
-      "api": "csp_AList",
-      "searchable": 1,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/T/a.json"
     },
     {
       "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/gm.jar",
@@ -1772,6 +1721,12 @@
       "name": "🧿MiFun(PY)",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/MiFunAPP.py"
+    },
+    {
+      "key": "py_热播",
+      "name": "🧿热播(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/热播APP.py"
     },
     {
       "key": "py_海马",

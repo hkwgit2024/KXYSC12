@@ -13,21 +13,6 @@
       "changeable": 0
     },
     {
-      "key": "玩偶",
-      "name": "👽玩偶哥哥",
-      "type": 3,
-      "api": "csp_WoGGGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.com/",
-        "danMu": "弹"
-      }
-    },
-    {
       "key": "alllive",
       "name": "📽️一直播直播",
       "type": 3,
@@ -100,20 +85,6 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "rfOX1voDIQhH8epBwtCFsq+8syyZ18T30GkibomjS1xHcE9fpWU7oKJ1cO9K0M5hrnOHZ9dKjiJz5HEyTr57RZHCqunfFT7jH/mEy+uqVyo="
-    },
-    {
-      "key": "Lib",
-      "name": "🌟立播秒播",
-      "type": 3,
-      "api": "csp_LibvioGuard",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
     },
     {
       "key": "zxzj",
@@ -362,17 +333,6 @@
       "changeable": 0
     },
     {
-      "key": "csp_AList",
-      "name": "AList网盘",
-      "type": "3",
-      "api": "csp_AList",
-      "searchable": "0",
-      "quickSearch": "0",
-      "filterable": "1",
-      "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/json/alist.json"
-    },
-    {
       "key": "新6V",
       "name": "新6V磁力慎用",
       "type": 3,
@@ -445,9 +405,7 @@
         "海外动漫",
         "体育",
         "足球",
-        "篮球",
-        "网球",
-        "斯诺克"
+        "篮球"
       ]
     },
     {
