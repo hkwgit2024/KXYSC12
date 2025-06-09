@@ -139,6 +139,7 @@
 .8z1.net
 .9001700.com
 .908taiwan.org
+.91dasai.com
 .91vps.club
 .92ccav.com
 .991.com
@@ -467,6 +468,7 @@
 .arlingtoncemetery.mil
 .armorgames.com
 .army.mil
+.arstechnica.net
 .art19.com
 .art4tibet1998.org
 .arte
@@ -752,6 +754,7 @@
 .bl-doujinsouko.com
 .blacked.com
 .blacklogic.com
+.blackmagicdesign.com
 .blackvpn.com
 .blewpass.com
 .blingblingsquad.net
@@ -1206,6 +1209,7 @@
 .chushigangdrug.ch
 .ci
 .ci-en.jp
+.cici.com
 .ciciai.com
 .cienen.com
 .cineastentreff.de
@@ -1299,6 +1303,7 @@
 .codeshare.io
 .codeskulptor.org
 .cofacts.tw
+.coffeemanga.to
 .coin2co.in
 .coinbase.com
 .coinbene.com
@@ -1391,6 +1396,7 @@
 .ct.org.tw
 .ctao.org
 .ctfriend.net
+.ctinews.com
 .ctitv.com.tw
 .ctowc.org
 .cts.com.tw
@@ -4838,7 +4844,6 @@
 .powerpointninja.com
 .ppy.sh
 .pr
-.pramerica
 .praxi
 .prayforchina.net
 .prcleader.org
@@ -4850,6 +4855,7 @@
 .prestige-av.com
 .prestigein.com
 .prfct.co
+.primevideo.com
 .printfriendly.com
 .prism-break.org
 .prisoneralert.com
@@ -5059,6 +5065,7 @@
 .redchinacn.org
 .redd.it
 .reddit.com
+.reddithelp.com
 .redditlist.com
 .redditmedia.com
 .redditspace.com
@@ -5179,9 +5186,15 @@
 .s-onetag.com
 .s1heng.com
 .s1s1s1.com
+.s3-ap-northeast-1.amazonaws.com
+.s3-ap-northeast-2.amazonaws.com
 .s3-ap-southeast-1.amazonaws.com
 .s3-ap-southeast-2.amazonaws.com
+.s3-eu-central-1.amazonaws.com
 .s3.amazonaws.com
+.s3.ap-northeast-2.amazonaws.com
+.s3.eu-central-1.amazonaws.com
+.s3.us-east-1.amazonaws.com
 .s4miniarchive.com
 .s8forum.com
 .sa

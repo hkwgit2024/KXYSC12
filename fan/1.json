@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0517.jar;md5;9D8CE31EDD5E8C2CA3BC0C6F6AD95132",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0607.jar;md5;A76C1743E05595835E40C68F9E3E39CA",
   "wallpaper": "https://pic.850930.xyz/",
   "sites": [
     {
@@ -26,6 +26,15 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/js/豆瓣[官].js"
+    },
+    {
+      "key": "csp_YGPGuard",
+      "name": "🎞预告片(SP)",
+      "type": 3,
+      "api": "csp_YGPGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "key": "drjs_雷蒙资源",
@@ -521,6 +530,15 @@
       "ext": {}
     },
     {
+      "key": "csp_AppXY",
+      "name": "⭐星芽短剧(SP)",
+      "type": 3,
+      "api": "csp_AppXY",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_Living",
       "name": "🍋柠檬直播(SP)",
       "type": 3,
@@ -610,6 +628,16 @@
       }
     },
     {
+      "key": "csp_AppYsV2_影探",
+      "name": "🕵️‍♂️影探(APP)",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cms.lygdyy.cn/api.php/app/"
+    },
+    {
       "key": "csp_TTian_天天_QJ",
       "name": "⛅天天(SP)",
       "type": 3,
@@ -667,12 +695,12 @@
       "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
     },
     {
-      "key": "csp_AppYsV2_超级",
+      "key": "csp_AppYsV2QJ_超级",
       "name": "🎐超级(SP)",
       "type": 3,
-      "api": "csp_AppYsV2",
+      "api": "csp_AppYsV2QJ",
       "playerType": 2,
-      "ext": "7lj763gg0939795i0678i48hk312jji7g4k69h089ij36j71031154l2k91k151k138612h68842ji"
+      "ext": "7lj763gg09397907492i87j2g8128687kgg1ih5hij8772225j4i54l2k91k151k138612h68842ji"
     },
     {
       "key": "csp_Xdai_橘子_QJ",
@@ -699,6 +727,14 @@
       "ext": "7lj763gg402i794247258k9jh6598585l3g6ij13il8g20g9qiaoji8j9i9k1g3k90h7i507i213k5j602"
     },
     {
+      "key": "csp_Muou_柚子_QJ",
+      "name": "🍈柚子(SP)",
+      "type": 3,
+      "api": "csp_Muou",
+      "playerType": 2,
+      "ext": "7lj763gg0939795i0678i481k40hi2i3ghlg840i98j9667qiaoji000134jg7k591gjjk9j5lg53255g2i7gl2749l3j2h8g5"
+    },
+    {
       "key": "csp_Muou_永夜_QJ",
       "name": "🌙永夜(SP)",
       "type": 3,
@@ -707,12 +743,20 @@
       "ext": "7lj763gg0939790i413gi4jjh545959lhighi4414qiaoji964ihg48l909l2l019kgii607i213k5j602"
     },
     {
-      "key": "csp_Shark_专业_QJ",
+      "key": "csp_Muou_趣看_QJ",
+      "name": "🥽趣看(SP)",
+      "type": 3,
+      "api": "csp_Muou",
+      "playerType": 2,
+      "ext": "7lj763gg402i7942463j9j9jg1499j87l9g9i413il8gqiaoji20g7g4919j3g019296lk9351hh3k5gg38lj0754il3jg"
+    },
+    {
+      "key": "csp_Xdai_专业_QJ",
       "name": "👔专业(SP)",
       "type": 3,
-      "api": "csp_Shark",
+      "api": "csp_Xdai",
       "playerType": 1,
-      "ext": "7lj763gg402i7942432l89j2hi5095jiljhhj910il8771225g4415l4lj02150l179l44g2965180ig3812h0iik5k557k6k0693g4glig6j7lj27962kl76hhg5g58k2lhikh1kk263g64ik0i691hi2kh5g6371g5lh6020kgihgj819828g5701k "
+      "ext": "7lj763gg402i7942503g9gj0hj4li298lllii113j8862i3j79713kl8j2367k3j229l0kklhh63978g27368jg6ljj739i2i3597j0jhi91lgl828996ig236"
     },
     {
       "key": "csp_Xdai_星河_QJ",
@@ -736,7 +780,7 @@
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
-      "ext": "7lj763gg402i7942503g9g9jg94l9884l3k6i952i1951j70534g2ji3i81g55003ki27hgji1688lg56g1ih6h5i6ij15k9lk452078lkkhl1k074jj68"
+      "ext": "7lj763gg402i7942463j9j9jg8558j9jlgh1j913il86313j776l14ljjh3l5k383999648j9064g6h22738938il8jk30k2i6427h67jkhglji910996ig539"
     },
     {
       "key": "csp_Xdai_鲨鱼_QJ",
@@ -744,7 +788,7 @@
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
-      "ext": "7lj763gg402i79425227999jg7508k90k3k6j244j6952l2557574gg6kh00480l42i05hg49i578l973l18ghj2g3kk0ll4l1392258l7h6ikk077j56l"
+      "ext": "7lj763gg402i794240208hi3g05l8181hihhjl53988272355j5107k0jh0l4g362jh008g7h97g91g3210l959lk5jk00l6i856520hl493k3lk019l2ljh73li1i19"
     },
     {
       "key": "csp_Xdai_雨滴_QJ",
@@ -752,7 +796,7 @@
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
-      "ext": "7lj763gg402i7942482k93i0h4458293llg1i959i3843j285i4l1glkli590j56559144kji902i5j36352hkjglhgk12l4g2392i46hik0i3gg698964lk37gl5512g9lj90gjg4677h69j046255h93lg416576hkl76l2kk8i0gj888k67h5700h0l6438ig74k8k148kk45j8242l375j9g4789j64023i313847k10g62i40i3ik00634127154957"
+      "ext": "7lj763gg402i794252729j81hl4gjh87g7hlij0lj6j8337942134gl0h7165707028353h48h1i9088321kh6j9g4gh40hkg97i7l07khk1jhgk25jj3lg462lk5710l5gljkg9gl787168ij416457i5lg1h7i22hkg27276h69k"
     },
     {
       "key": "csp_Xdai_优质_QJ",
@@ -760,7 +804,7 @@
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
-      "ext": "7lj763gg402i79425j2893i0h14i8596k6h1i75gj4i76g791i4602g9g8410i5642j951h5814192943219g99glhh319l7k02k6046l0gkigki2l842jk363gl5453l1l2jhl3g02l3k798l4h3j4582lh4g7l61hgll7776h096h0j4jh7k"
+      "ext": "7lj763gg402i7942503g83j2g04i8090khhh8451ik902l6l53510hg9gi410i5607974jhk994283883904gk88l3k549h1g87i754kkjh3jhki2g8724k064g85411gigljkl3g620"
     },
     {
       "key": "csp_Xdai_木叶_QJ",
@@ -1777,6 +1821,12 @@
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/火车太顺APP.py"
     },
     {
+      "key": "py_剧多",
+      "name": "🧿剧多(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/剧多短剧APP.py"
+    },
+    {
       "key": "py_恋鱼",
       "name": "🧿恋鱼(PY)",
       "type": 3,
@@ -1912,10 +1962,28 @@
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/绝对影视.py"
     },
     {
+      "key": "py_偷乐",
+      "name": "🧿偷乐(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/偷乐短剧.py"
+    },
+    {
+      "key": "py_好帅",
+      "name": "🧿好帅(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/好帅短剧.py"
+    },
+    {
       "key": "py_红果",
       "name": "🧿红果(PY)",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/红果网页.py"
+    },
+    {
+      "key": "py_甜圈",
+      "name": "🧿甜圈(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/甜圈短剧.py"
     },
     {
       "key": "py_嗷呜",
@@ -1972,46 +2040,16 @@
       "api": "https://catbox.n13.club/t9/douban.php"
     },
     {
+      "key": "T4_预告",
+      "name": "4️⃣预告(T4)",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/yugaopian.php"
+    },
+    {
       "key": "T4_采集",
       "name": "4️⃣采集(T4)",
       "type": 4,
       "api": "https://catbox.n13.club/t9/caiji.php"
-    },
-    {
-      "key": "T4_360",
-      "name": "4️⃣360(T4)",
-      "type": 4,
-      "api": "https://catbox.n13.club/t9/360.php"
-    },
-    {
-      "key": "T4_Auete",
-      "name": "4️⃣Auete(T4)",
-      "type": 4,
-      "api": "https://catbox.n13.club/t9/auete.php"
-    },
-    {
-      "key": "T4_6V",
-      "name": "4️⃣6V(T4)",
-      "type": 4,
-      "api": "https://catbox.n13.club/t9/6v.php"
-    },
-    {
-      "key": "T4_4KHDR",
-      "name": "4️⃣4KHDR(T4)",
-      "type": 4,
-      "api": "https://catbox.n13.club/t9/4khdr.php"
-    },
-    {
-      "key": "T4_电影港",
-      "name": "4️⃣电影港(T4)",
-      "type": 4,
-      "api": "https://catbox.n13.club/t9/dygangs.php"
-    },
-    {
-      "key": "T4_DJUU",
-      "name": "4️⃣DJUU(T4)",
-      "type": 4,
-      "api": "https://catbox.n13.club/t9/djuu.php"
     },
     {
       "key": "T4_糖豆",
@@ -2032,16 +2070,20 @@
       "api": "https://catbox.n13.club/t9/bookan.php"
     },
     {
-      "key": "T4_360看球",
-      "name": "4️⃣360看球(T4)",
-      "type": 4,
-      "api": "https://catbox.n13.club/t9/360kq.php"
-    },
-    {
       "key": "T4_企鹅体育",
       "name": "4️⃣企鹅体育(T4)",
       "type": 4,
       "api": "https://catbox.n13.club/t9/qietiyu.php"
+    },
+    {
+      "key": "vod_小慧",
+      "name": "🚀小慧",
+      "type": 1,
+      "api": "http://cms.xiaohui.cyou:1002/api.php/provide/vod/?ac=list",
+      "playUrl": "json:http://xiaohui.cyou:1000/api/?key=7ee73e22b404453adc116a403a32e9c8&url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "vod_黑木",
@@ -2144,25 +2186,6 @@
       "api": "https://api.1080zyku.com/inc/api_mac10.php",
       "searchable": 1,
       "quickSearch": 1
-    },
-    {
-      "key": "vod_超级",
-      "name": "🚀超级",
-      "type": 1,
-      "api": "http://cjvip.free.hr/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "vod_追风",
-      "name": "🚀追风",
-      "type": 1,
-      "api": "http://www.zfsp.cc/api.php/provide/vod",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "timeout": 10
     },
     {
       "key": "vod_飞速",
@@ -3095,7 +3118,14 @@
     "wasu",
     "renrenmi",
     "duoduozy",
-    "bilibili"
+    "bilibili",
+    "m1905",
+    "seven",
+    "m78",
+    "mtv",
+    "sjs",
+    "dbs",
+    "yds"
   ],
   "ijk": [
     {

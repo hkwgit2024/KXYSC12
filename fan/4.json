@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/jar/fan.txt;md5;fe5929df64eb2358effeb032359732e5",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/jar/fan.txt;md5;d95cd1a158eee9b9b9912ee7ad109e5c",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -8,6 +8,15 @@
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "YGP",
+      "name": "🚀叨观荐影预告片",
+      "type": 3,
+      "api": "csp_YGPGuard",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
@@ -405,7 +414,9 @@
         "海外动漫",
         "体育",
         "足球",
-        "篮球"
+        "篮球",
+        "网球",
+        "斯诺克"
       ]
     },
     {
@@ -589,6 +600,22 @@
         "ratio": 1.1
       },
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/好趣网.js"
+    },
+    {
+      "key": "drpy_js_DJ音乐",
+      "name": "音频DJ音乐(js)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "changeable": 0,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/DJ音乐.js"
+    },
+    {
+      "key": "drpy_js_短视频",
+      "name": "聚合短视频(js)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/lib/drpy2.min.js",
+      "changeable": 0,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/js/短视频.js"
     },
     {
       "key": "drpy_js_酷6网",

@@ -800,6 +800,7 @@
 .ciattackers.com
 .cmhalq.com
 .cnshopin.com
+.configuration.apple.com
 .cooliphonecasesstore.com
 .coolmonster.net
 .coreml.net
@@ -926,6 +927,7 @@
 .faceshift.cn
 .facetime.net
 .famosascalvas.com
+.fcs-keys-pub-prod.cdn-apple.com
 .finalcutpro.com
 .find-apple.com
 .findmybeats.com
@@ -941,16 +943,17 @@
 .frishoes.com
 .fundaiphone5s.com
 .gamebeforethegame.com
+.gdmf-ados.apple.com
+.gdmf.apple.com
 .geoport.com
 .getdrebeatssale.com
 .gg.apple.com
 .gmnetworks.net
-.gnf-mdn.apple.com
-.gnf-mr.apple.com
 .gobeatsye.com
 .gobuyonlinestore.net
 .goodsdunk.net
 .gs.apple.com
+.gsra.apple.com
 .headphonepubs.com
 .headphones-cool.com
 .headphones-dre.com
@@ -1388,7 +1391,6 @@
 .next.com
 .nflhotsalejerseys.com
 .nicesshop.net
-.ns.itunes.apple.com
 .offerairjordanlebron.com
 .officialbeatsbydreshop.com
 .officialbeatsbydrestore.com
@@ -1484,7 +1486,6 @@
 .swift.org
 .swiftui.cn
 .swiftui.com.cn
-.swpost.apple.com
 .swscan.apple.com
 .szcheapmonsterheadphones.com
 .szwinnertechnology.com
@@ -1532,6 +1533,7 @@
 .wholesalediscountpurses.com
 .wholesalefine.com
 .wholesaleonlinemart.com
+.wkms-public.apple.com
 .worldcoinpay.com
 .wpewebkit.org
 .wuxiapple.com
@@ -1574,9 +1576,6 @@ amp-api.media.apple.com
 amp-api.music.apple.com
 aod.itunes.apple.com
 api-edge.apps.apple.com
-api-p-ap-c.smoot.apple.com
-api-p-ap-d.smoot.apple.com
-api-p-ap-e.smoot.apple.com
 app-site-association.cdn-apple.com
 appldnld.apple.com
 appldnld.g.aaplimg.com
@@ -1649,7 +1648,6 @@ gsp10-ssl-cn.ls.apple.com
 gsp12-cn.ls.apple.com
 gsp13-cn.ls.apple.com
 gsp4-cn.ls.apple.com
-gsp4-cn.ls.apple.com.edgekey.net
 gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
 gsp5-cn.ls.apple.com
 gsp85-cn-ssl.ls.apple.com
@@ -1661,7 +1659,6 @@ gspe19-cn-ssl.ls.apple.com
 gspe19-cn.ls-apple.com.akadns.net
 gspe19-cn.ls.apple.com
 gspe21-ssl.ls.apple.com
-gspe21.ls.apple.com
 gspe35-ssl.ls.apple.com
 gspe79-cn-ssl.ls.apple.com
 gspe85-cn-ssl.ls.apple.com
@@ -1673,8 +1670,6 @@ hls.itunes.apple.com
 iadsdk.apple.com
 icloud-cdn.icloud.com.akadns.net
 icloud.cdn-apple.com
-images.apple.com
-images.apple.com.akadns.net
 images.apple.com.edgekey.net.globalredir.akadns.net
 inappcheck-cn.itunes-apple.com.akadns.net
 inappcheck-lb.itunes-apple.com.akadns.net
@@ -1804,7 +1799,6 @@ weather-map2.apple.com
 weatherkit.apple.com
 www-cdn.icloud.com.akadns.net
 www.apple.com
-www.apple.com.edgekey.net
 www.apple.com.edgekey.net.globalredir.akadns.net
 www.support.apple.com
 xp.apple.com

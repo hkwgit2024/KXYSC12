@@ -160,6 +160,20 @@
       }
     },
     {
+      "key": "csp_XYQHiker_短剧",
+      "name": "短剧(XYQHiker)",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/ys/短剧.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.6
+      }
+    },
+    {
       "key": "黑木耳资源🌈",
       "name": "黑木耳资源🌈💯",
       "type": 1,
@@ -272,6 +286,15 @@
       "categories": []
     },
     {
+      "key": "旺旺资源",
+      "name": "旺旺(短剧)🌈",
+      "type": 1,
+      "api": "https://wwzy.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": []
+    },
+    {
       "key": "花旗资源",
       "name": "花旗资源🌈",
       "type": 1,
@@ -298,6 +321,15 @@
       }
     },
     {
+      "key": "免费短视频资源",
+      "name": "免费短视频🌈",
+      "type": 1,
+      "api": "https://api.zeqaht.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": []
+    },
+    {
       "key": "虾米资源",
       "name": "虾米资源🌈",
       "type": 1,
@@ -318,6 +350,7 @@
       "searchable": 1,
       "changeable": 1,
       "categories": [
+        "短剧",
         "伦理片",
         "港台三级",
         "韩国伦理",
@@ -343,6 +376,7 @@
       "searchable": 1,
       "changeable": 1,
       "categories": [
+        "短剧",
         "伦理片"
       ]
     },
@@ -4240,6 +4274,14 @@
       "name": "🔞玉兔资源🌈",
       "type": 1,
       "api": "https://yutuzy10.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "*免费短视频🔞",
+      "name": "🔞免费短视频🌈",
+      "type": 1,
+      "api": "http://xoxozy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
     },
