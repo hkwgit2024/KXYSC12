@@ -64840,6 +64840,7 @@ sdk-analytics-web.cloud.itau.com.br
 sdk-cache.video.ptqy.gitv.tv
 sdk.1rtb.net
 sdk.ad.smaato.net
+sdk.adx.adwangmai.com
 sdk.api.bjshcw.com
 sdk.api.oaid.wocloud.cn
 sdk.appadhoc.com.bsclink.cn

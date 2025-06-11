@@ -64840,6 +64840,7 @@ address=/sdk-analytics-web.cloud.itau.com.br/
 address=/sdk-cache.video.ptqy.gitv.tv/
 address=/sdk.1rtb.net/
 address=/sdk.ad.smaato.net/
+address=/sdk.adx.adwangmai.com/
 address=/sdk.api.bjshcw.com/
 address=/sdk.api.oaid.wocloud.cn/
 address=/sdk.appadhoc.com.bsclink.cn/
