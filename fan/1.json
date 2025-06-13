@@ -695,7 +695,15 @@
       "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
     },
     {
-      "key": "csp_AI2_QJ",
+      "key": "csp_AI2_巧技一_QJ",
+      "name": "🎄巧技一(SP)",
+      "type": 3,
+      "api": "csp_AI2",
+      "playerType": 1,
+      "ext": "7lj763gg0939795l0379j99jg244859ihighi941i3993j3256471ilhl8045l081i9k57hi845g87902h47l2iil7ki11g9k2787j50ggh1i8h3248872l776k34753l5l9jkg3lk643229ij116800i4g0103l22k0g87228kji6h8919h66l5264k5j3l"
+    },
+    {
+      "key": "csp_AI2_巧技二_QJ",
       "name": "🎄巧技二(SP)",
       "type": 3,
       "api": "csp_AI2",
@@ -733,6 +741,14 @@
       "api": "csp_Qiji",
       "playerType": 2,
       "ext": "7lj763gg0939795i077gi481k00ki2i0g6lh840h9kj36k74041707k2kk12491g028354h8884384812909g49lk7kh1jl5k4796157khg2jgkh239729kg73li1l10"
+    },
+    {
+      "key": "csp_Muou_火猫_QJ",
+      "name": "😺火猫(SP)",
+      "type": 3,
+      "api": "csp_Muou",
+      "playerType": 2,
+      "ext": "7lj763gg0939790i413gi484k8058896highi4414h68l7g6hk8qiaojig9k2k289l9ik807i213k5j602"
     },
     {
       "key": "csp_Muou_驿站_QJ",
