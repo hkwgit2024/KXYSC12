@@ -106,7 +106,7 @@
       "quickSearch": 1,
       "api": "csp_AppGet2",
       "ext": {
-        "url": "http://160.202.243.62:2566",
+        "url": "http://160.202.244.9:6659",
         "dataKey": "qwertyuiopqwerty",
         "dataIv": "qwertyuiopqwerty",
         "deviceId": "",
@@ -156,14 +156,18 @@
       }
     },
     {
-      "key": "满分",
-      "name": "满分APP",
+      "key": "麻花",
+      "name": "麻花APP",
       "type": 3,
-      "api": "csp_AppYs",
-      "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://111.173.115.215:9118/icciu_api.php/v1.vod"
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://49.235.114.19:130",
+        "dataKey": "q7gj4f9br3fls6nh",
+        "dataIv": "q7gj4f9br3fls6nh",
+        "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
+        "version": "700"
+      }
     },
     {
       "key": "海豚",
@@ -647,8 +651,26 @@
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XYQHiker/短剧屋.json"
     },
     {
-      "key": "QD4K",
-      "name": "QD影视影视",
+      "key": "满分",
+      "name": "满分影视",
+      "type": 3,
+      "api": "csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://111.173.115.215:9118/icciu_api.php/v1.vod"
+    },
+    {
+      "key": "顾我",
+      "name": "顾我影视",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_AppYsV2",
+      "ext": "http://121.62.21.14:520/api.php/app/"
+    },
+    {
+      "key": "起点",
+      "name": "起点影视",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -657,8 +679,8 @@
       "ext": "http://172.83.156.150:1010/api.php/app/"
     },
     {
-      "key": "HG影视",
-      "name": "HG影视影视",
+      "key": "好感",
+      "name": "好感影视",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -910,7 +932,7 @@
     },
     {
       "key": "七点影视",
-      "name": "农民影视",
+      "name": "七点影视",
       "type": 3,
       "api": "csp_HBPQ",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XBPQ/七点影视.json"
