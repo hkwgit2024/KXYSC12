@@ -2420,6 +2420,7 @@
 .githubmemory.com
 .githubusercontent.com
 .gitlab.com
+.gitlab.net
 .gitmemory.com
 .gizlen.net
 .gjczz.com
