@@ -260,16 +260,6 @@
       "ext": "https://v.xlys.ltd.ua"
     },
     {
-      "key": "csp_Mp4Mov",
-      "name": "🧲Mp4电影",
-      "type": 3,
-      "api": "csp_Mp4Mov",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://mp4.z6.net.cn/"
-    },
-    {
       "key": "csp_New6v",
       "name": "🧲新6V",
       "type": 3,
@@ -292,15 +282,6 @@
       "name": "🧲七妹",
       "type": 3,
       "api": "csp_QnMp4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_SeedHub",
-      "name": "🧲SeedHub",
-      "type": 3,
-      "api": "csp_SeedHub",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
