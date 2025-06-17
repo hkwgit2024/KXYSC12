@@ -156,6 +156,20 @@
       }
     },
     {
+      "key": "剧咖",
+      "name": "剧咖APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://get.xiaoqi0.cn",
+        "dataKey": "jukayingshi66666",
+        "dataIv": "jukayingshi66666",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
       "key": "麻花",
       "name": "麻花APP",
       "type": 3,
@@ -450,6 +464,34 @@
       }
     },
     {
+      "key": "晚枫",
+      "name": "晚枫APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://111.180.202.216:999",
+        "dataKey": "fjhndgbjidfhgjsd",
+        "dataIv": "fjhndgbjidfhgjsd",
+        "deviceId": "2a7baa6ca6f46308cbf1d939bab0586f3",
+        "version": "120"
+      }
+    },
+    {
+      "key": "诺映",
+      "name": "诺映APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://www.noad.top",
+        "dataKey": "708FA298F0855840",
+        "dataIv": "708FA298F0855840",
+        "deviceId": "2129ec9e6e5703cb0aeeddd79554e38f8",
+        "version": "103"
+      }
+    },
+    {
       "key": "趣看",
       "name": "趣看APP",
       "type": 3,
@@ -486,6 +528,19 @@
         "dataKey": "6b7cf13bf47ba2e6",
         "dataIv": "6b7cf13bf47ba2e6",
         "jxurl": "http://app.789dd.cn"
+      }
+    },
+    {
+      "key": "攻阁",
+      "name": "攻阁APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppMuou",
+      "ext": {
+        "url": "http://111.180.198.40:1110",
+        "dataKey": "14deb3a41a955648",
+        "dataIv": "14deb3a41a955648",
+        "jxurl": "https://ww.ndjdnd.icu"
       }
     },
     {
@@ -570,6 +625,26 @@
       }
     },
     {
+      "key": "校长",
+      "name": "校长",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/cloud.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/校长.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "人人电影网",
+      "name": "人人",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/cloud.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/人人电影网.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
       "key": "米搜",
       "name": "米搜搜索",
       "type": 3,
@@ -584,7 +659,7 @@
       "name": "人人搜索",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/cloud.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/人人.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/人人分享站.js",
       "style": {
         "type": "list"
       }
@@ -920,13 +995,6 @@
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XBPQ/骚火影视.json"
     },
     {
-      "key": "农民影视",
-      "name": "农民影视",
-      "type": 3,
-      "api": "csp_HBPQ",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XBPQ/农民影视.json"
-    },
-    {
       "key": "七点影视",
       "name": "七点影视",
       "type": 3,
@@ -986,6 +1054,16 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/碟调影视.js"
+    },
+    {
+      "key": "农民影视",
+      "name": "农民影视",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XYQHiker/农民影视.json"
     },
     {
       "key": "盒子影视",
@@ -1448,7 +1526,7 @@
       }
     },
     {
-      "name": "QD4K",
+      "name": "巧计",
       "type": 1,
       "url": "https://zy.qiaoji8.com/xiafan.php?url=",
       "ext": {
