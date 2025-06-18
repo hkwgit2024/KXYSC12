@@ -21,22 +21,6 @@
       "filterable": 1
     },
     {
-      "key": "农民",
-      "name": "👩‍🌾农民",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "手机",
-        "编码": "UTF-8",
-        "简介": "简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介：&&</p>",
-        "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-time-class-0-year-{year}-letter--area-{area}-lang-.html",
-        "分类": "短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"
-      }
-    },
-    {
       "key": "csp_Lkdy",
       "name": "🏔️来看",
       "type": 3,
@@ -62,6 +46,27 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "csp_Czsapp",
+      "name": "🏭厂长",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.czzymovie.com/"
+    },
+    {
+      "key": "农民",
+      "name": "👩‍🌾农民",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/农民影视.json"
     },
     {
       "key": "骚火",
@@ -189,17 +194,6 @@
         "分类url": "https://www.bestpipe.cn/vodshow/{cateId}-{area}-------{catePg}---.html",
         "分类": "电影$20#剧集$21#短剧$24#综艺$23#动漫$22"
       }
-    },
-    {
-      "key": "csp_Czsapp",
-      "name": "🏭厂长",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.czzymovie.com/"
     },
     {
       "key": "csp_Fantuan",

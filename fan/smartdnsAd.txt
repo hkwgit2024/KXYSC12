@@ -21821,6 +21821,7 @@ data-news.cdn.cootekservice.com
 data-optout-service.uca.cloud.unity3d.com
 data-pic.cdn.cootekservice.com
 data-px.services
+data-sdk-uuid-log.d.meituan.net
 data-ssl.pnet.co.za
 data-ssl.stepstone.at
 data-ssl.stepstone.be
@@ -34281,6 +34282,7 @@ h2.msn.com
 h2sry.site
 h353.ncadvertiser.com
 h3d.fun
+h5.analytics.126.net
 h5.hpplay.com.cn
 h5.jiumaster.com
 h5.pk1179.com
@@ -44875,6 +44877,7 @@ log.houyi.baofeng.net
 log.hunantv.com
 log.hypebeast.com
 log.idnes.cz
+log.iflytek.com
 log.kaayun.com
 log.kajicam.com
 log.kinolights.com
