@@ -470,6 +470,7 @@
 .artofpeacefoundation.org
 .artstation.com
 .artsy.net
+.arvanstorage.ir
 .arxiv.org
 .as
 .asacp.org
@@ -2528,6 +2529,7 @@
 .gotrusted.com
 .gotw.ca
 .gov
+.gov.ir
 .gov.taipei
 .gov.tw
 .gp
@@ -3116,9 +3118,11 @@
 .ipvanish.com
 .iq
 .ir
+.irangov.ir
 .iredmail.org
 .irib.ir
 .irish
+.irna.ir
 .ironpython.net
 .ironsocket.com
 .is
@@ -4793,6 +4797,7 @@
 .premproxy.com
 .presentation.new
 .presentationzen.com
+.president.ir
 .presidentlee.tw
 .prestige-av.com
 .prestigein.com
