@@ -117,6 +117,20 @@
       }
     },
     {
+      "key": "桃子",
+      "name": "桃子APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://appcms.tzys.xyz",
+        "dataKey": "KL6vlZkw6WL5x90U",
+        "dataIv": "KL6vlZkw6WL5x90U",
+        "deviceId": "4b4c36766c5a6b7736574c3578393055",
+        "version": "119"
+      }
+    },
+    {
       "key": "魔方",
       "name": "魔方APP",
       "type": 3,
@@ -131,20 +145,6 @@
       }
     },
     {
-      "key": "剧咖",
-      "name": "剧咖APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://get.xiaoqi0.cn",
-        "dataKey": "jukayingshi66666",
-        "dataIv": "jukayingshi66666",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
       "key": "海豚",
       "name": "海豚APP",
       "type": 3,
@@ -154,20 +154,6 @@
         "url": "https://appcms.htsp4k.top",
         "dataKey": "7CYQQzwchRQpHCOj",
         "dataIv": "7CYQQzwchRQpHCOj",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
-      "key": "晓晓",
-      "name": "晓晓APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://ys.ewo.asia",
-        "dataKey": "Z0qTnwyLAJCtuIkI",
-        "dataIv": "Z0qTnwyLAJCtuIkI",
         "deviceId": "",
         "version": ""
       }
@@ -424,32 +410,6 @@
       }
     },
     {
-      "key": "柚子",
-      "name": "柚子APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppMuou",
-      "ext": {
-        "url": "http://172.247.192.138:17263",
-        "dataKey": "3f94fca574a811a8",
-        "dataIv": "3f94fca574a811a8",
-        "jxurl": "http://172.247.192.140:12264"
-      }
-    },
-    {
-      "key": "火猫",
-      "name": "火猫APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppMuou",
-      "ext": {
-        "url": "http://154.12.90.59:14580",
-        "dataKey": "6b7cf13bf47ba2e6",
-        "dataIv": "6b7cf13bf47ba2e6",
-        "jxurl": "http://app.789dd.cn"
-      }
-    },
-    {
       "key": "腾讯视频",
       "name": "腾讯视频",
       "type": 3,
@@ -656,24 +616,6 @@
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XYQHiker/短剧屋.json"
     },
     {
-      "key": "满分",
-      "name": "满分影视",
-      "type": 3,
-      "api": "csp_AppYs",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://111.173.115.215:9118/icciu_api.php/v1.vod"
-    },
-    {
-      "key": "顾我",
-      "name": "顾我影视",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_AppYsV2",
-      "ext": "http://121.62.21.14:520/api.php/app/"
-    },
-    {
       "key": "起点",
       "name": "起点影视",
       "type": 3,
@@ -682,16 +624,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "http://172.83.156.150:1010/api.php/app/"
-    },
-    {
-      "key": "好感",
-      "name": "好感影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://cs.hgyx.vip/api2/api.php/app/"
     },
     {
       "key": "金牌影视",
@@ -711,17 +643,6 @@
       "name": "猎手影视",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/py/猎手影视.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },
-    {
-      "key": "美帕影视",
-      "name": "美帕影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/py/美帕影视.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -790,13 +711,6 @@
       "api": "csp_KmeiJu"
     },
     {
-      "key": "绝对影视",
-      "name": "绝对影视",
-      "type": 3,
-      "api": "csp_FourK",
-      "ext": "https://www.4kvm.tv"
-    },
-    {
       "key": "白白影视",
       "name": "白白影视",
       "type": 3,
@@ -856,13 +770,6 @@
       "filterable": 1
     },
     {
-      "key": "可可影视",
-      "name": "可可影视",
-      "type": 3,
-      "api": "csp_HBPQ",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XBPQ/可可影视.json"
-    },
-    {
       "key": "海纳影视",
       "name": "海纳影视",
       "type": 3,
@@ -919,37 +826,6 @@
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XBPQ/三四影视.json"
     },
     {
-      "key": "耐看影视",
-      "name": "耐看影视",
-      "type": 3,
-      "api": "csp_WebNK",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "w7TClcONw6LDrsKYwoXCosKcwpvCrcKcw6HDrsKnwqDCo2rCqMKiw7HDsMOxYcKewpvClMOvw5fCqMOmw59VXFLCpMOiw6PCnMKzwpzCjuWGtemEmOaPleWRnMKf5Yem5L6Q5ZGxbeW+oeintui1tOa8ieetjMOXwpvDtw=="
-    },
-    {
-      "key": "思古影视",
-      "name": "思古影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/思古影视.js"
-    },
-    {
-      "key": "魔力高清",
-      "name": "魔力影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/魔力高清.js"
-    },
-    {
-      "key": "碟调影视",
-      "name": "碟调影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/碟调影视.js"
-    },
-    {
       "key": "农民影视",
       "name": "农民影视",
       "type": 3,
@@ -971,7 +847,7 @@
     },
     {
       "key": "电影牛",
-      "name": "电影牛影视",
+      "name": "影牛影视",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -981,17 +857,10 @@
     },
     {
       "key": "剧圈圈",
-      "name": "剧圈圈影视",
+      "name": "剧圈影视",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/剧圈圈.js"
-    },
-    {
-      "key": "看了么",
-      "name": "看了么影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/看了么.js"
     },
     {
       "key": "1905",
