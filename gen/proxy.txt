@@ -4690,6 +4690,7 @@
 .picacomic.com
 .picacomiccn.com
 .picasaweb.com
+.picgo.net
 .picidae.net
 .pictet
 .picturedip.com

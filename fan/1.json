@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0627.jar;md5;7E29158B8DA716210E4AD3906F90F7E1",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0628.jar;md5;81E5E5DCD9A770EC70C1474D8AC78EAC",
   "wallpaper": "https://pic.850930.xyz/",
   "sites": [
     {
@@ -1036,12 +1036,6 @@
       "type": 3,
       "api": "csp_FourK",
       "ext": "https://www.4kvm.tv"
-    },
-    {
-      "key": "csp_Siren_FM",
-      "name": "🎩私人(SP)",
-      "type": 3,
-      "api": "csp_Siren"
     },
     {
       "key": "csp_Lkdy_FM",
