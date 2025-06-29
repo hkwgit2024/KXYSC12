@@ -3,6 +3,13 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
+      "key": "弹幕",
+      "name": "🅿弹幕搜索",
+      "type": 3,
+      "api": "csp_Huban",
+      "jar": "https://jihulab.com/yoursmile66/TVBox/-/raw/main/HubanTC.jar;md5;fcf50c490fd2566b04dda76e21b25542"
+    },
+    {
       "key": "csp_Gz360",
       "name": "🍉瓜子",
       "type": 3,
@@ -99,16 +106,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "7lj763gg402i794247258k9jh6598585l3g6ij13il8g20g9qiaoji8j9i9k1g3k90h7i507i213k5j602"
-    },
-    {
-      "key": "柚子",
-      "name": "💢柚子",
-      "type": 3,
-      "api": "csp_Muou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "7lj763gg0939790i413gi4igh94585i7g0l98449i399qiaoji20187h78327624i6j3i9lj8g09l9ig1ii3"
     },
     {
       "key": "永夜",
