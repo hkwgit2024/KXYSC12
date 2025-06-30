@@ -262,21 +262,6 @@
       }
     },
     {
-      "key": "海纳TV",
-      "name": "🌀海纳TV",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "简介：</em>&&",
-        "数组": "row\">&&</div></div>",
-        "分类url": "https://www.hainatv.net/index.php/vod/show/area/{area}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$59"
-      }
-    },
-    {
       "key": "西瓜",
       "name": "🍉西瓜",
       "type": 3,
@@ -359,16 +344,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "csp_Jianpian",
-      "name": "🧲荐片",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/jianpian.json"
     },
     {
       "key": "csp_xlys",
