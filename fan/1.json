@@ -238,7 +238,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://api2.rinhome.com"
+      "ext": "https://4icnx7.qyjzlh.com"
     },
     {
       "key": "csp_IkanBot",
@@ -1986,6 +1986,12 @@
       "name": "🧿4KAV(PY)",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/4KAV.py"
+    },
+    {
+      "key": "py_荐片",
+      "name": "🧿荐片(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/荐片.py"
     },
     {
       "key": "py_柯南",
