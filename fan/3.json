@@ -366,6 +366,15 @@
       "filterable": 1
     },
     {
+      "key": "csp_Jianpian",
+      "name": "🧲荐片",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_xlys",
       "name": "🧲修罗",
       "type": 3,
