@@ -1,6 +1,6 @@
 {
   "wallpaper": "https://wp.upx8.com/api.php",
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/custom_spider.jar;md5;6f86d70c110eb76ad81084beeffaa198",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/custom_spider.jar;md5;28c09f10019f5b9f0cf9094e67f051f3",
   "sites": [
     {
       "key": "drpy_js_豆瓣",
@@ -167,8 +167,7 @@
       "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://apijp.rinhome.com"
+      "filterable": 1
     },
     {
       "key": "csp_Ikanbot",
