@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0702.jar;md5;892CBB97AF5669DFB114418ED9BE362E",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0704.jar;md5;CC360C9DDA5FE05A87067BB6FC52DAD3",
   "wallpaper": "https://pic.850930.xyz/",
   "sites": [
     {
@@ -229,6 +229,13 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy2.min.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/荐片.js"
+    },
+    {
+      "key": "csp_Jianpian_FM",
+      "name": "🏆荐片(SP)",
+      "api": "csp_Jianpian",
+      "type": 3,
+      "playerType": "2"
     },
     {
       "key": "csp_IkanBot",
