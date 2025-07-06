@@ -1985,6 +1985,12 @@
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/4KAV.py"
     },
     {
+      "key": "py_NUNFLIX",
+      "name": "🧿Nunflix(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/NUNFLIX.py"
+    },
+    {
       "key": "py_荐片",
       "name": "🧿荐片(PY)",
       "type": 3,
