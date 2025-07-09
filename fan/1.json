@@ -737,22 +737,6 @@
       "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
     },
     {
-      "key": "csp_AI2_巧技一_QJ",
-      "name": "🎄巧技一(SP)",
-      "type": 3,
-      "api": "csp_AI2",
-      "playerType": 1,
-      "ext": "7lj763gg0939795l0379j99jg244859ihighi941i3993j3256471ilhl8045l081i9k57hi845g87902h47l2iil7ki11g9k2787j50ggh1i8h3248872l776k34753l5l9jkg3lk643229ij116800i4g0103l22k0g87228kji6h8919h66l5264k5j3l"
-    },
-    {
-      "key": "csp_AI2_巧技二_QJ",
-      "name": "🎄巧技二(SP)",
-      "type": 3,
-      "api": "csp_AI2",
-      "playerType": 1,
-      "ext": "7lj763gg0939790i4123i4i0g54l8387hihii54j96jh6k72015j14k3l8045l081i9k52g7994197823i15g18hk2k808hjhl2l754kkjlij8k9358g28hj7hg25j0llkkk8ig8k5782i649k4g2l45i3g51h3227k7gj367kh69llk998422g97i0h0320358h76h6k3"
-    },
-    {
       "key": "csp_AppYsV2QJ_超级一",
       "name": "🎐超级一(SP)",
       "type": 3,
@@ -814,7 +798,7 @@
       "type": 3,
       "api": "csp_Muou",
       "playerType": 2,
-      "ext": "7lj763gg0939790i413gi4igh94585i7g0l98449i399qiaoji20187h78327624i6j3i9lj8g09l9ig1ii3"
+      "ext": "7lj763gg402i79425i3l85i6hqiaoji14i9ijiljhhj910il877129534l1ik9l1184k401g9g54gk8j5i9097751kh28kh9j12ji8i541446kghk792gj76jj64g621h95554k67k18797k9jl3l058g4h59763kh1i2823llg3"
     },
     {
       "key": "csp_Xdai_永夜_QJ",
@@ -838,7 +822,7 @@
       "type": 3,
       "api": "csp_Shark",
       "playerType": 1,
-      "ext": "7lj763gg0939795i007ii481k008i2i3g5l8840l9kjk6670031743g2h6164h07558245g3845392972819h994k1k400khli736i0lligk9gh273ih6jkl7jg84k54lhl9i5gkl376266h9k4624548kl649676gg9k2763llkj6gj818l"
+      "ext": "7lj763gg0939795i007gi487k212jhjig3lh9g079jj16g774k401gk0kg135l190i8k45hh94418hj52301kiijg3h248lhk265774gk5hiiil0238439k06kg95541k6l6i3g3kk6l3g60875g245491l4"
     },
     {
       "key": "csp_Xdai_星河_QJ",
@@ -846,7 +830,7 @@
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
-      "ext": "7lj763gg402i7942503g9gj0hj4li2i6l9gijh13i58g296k475317hjkj0l4l1229i07h81gg45i78k2804k9ghk5l50ikjki522278j280jig82i9624g747hk4454l0kh93l4g0 "
+      "ext": "7lj763gg09397919493ki4i0g6559i93k2h88449i39973395h4014khl0185509558245g3840295j3624ihl85l5gi1ik4g6317106k2gk9hlg71ji6il169gk1j44l9g193g7gk713k2hil136h"
     },
     {
       "key": "csp_Xdai_时常_QJ",
@@ -854,7 +838,7 @@
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 1,
-      "ext": "7lj763gg0939791h1l3k81j1hl48i294k7g6j6599ijg6k22031343g4gl15585843i205gh9i02i0j6384ikljhg1gg1gk4g6382006l8k09hgi"
+      "ext": "7lj763gg402i79425i3l85i6h14i9ijiljqiaojihhj910il877129534l1ik9l1184k401g9g54gk8j5i9097751kh28kh9j12ji8i541446kghk19hg576j46gg538l41l0kkkklj6hk72gjj3li45h3h492747k8g976kk5h43i69h6"
     },
     {
       "key": "csp_Xdai_鲨鱼_QJ",
@@ -902,7 +886,7 @@
       "type": 3,
       "api": "csp_Nmvod",
       "playerType": 2,
-      "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g548458hh994hi3j26i53gj8hk6g30jl5li3j"
+      "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
     },
     {
       "key": "csp_AI_1_QJ",

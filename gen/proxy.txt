@@ -1730,6 +1730,7 @@
 .e-zone.com.hk
 .e.akamai.net
 .e123.hk
+.e621.net
 .ea.com
 .earlytibet.com
 .earthcam.com

@@ -73,18 +73,6 @@
       }
     },
     {
-      "key": "斗量",
-      "name": "斗量APP",
-      "type": 3,
-      "api": "csp_AppSy",
-      "ext": {
-        "url": "https://app.ystva.com",
-        "key1": "hsZwQK5yrnefW7OJ",
-        "key2": "hsZwQK5yrnefW7OJ",
-        "key3": "hsZwQK5yrnefW7OJ"
-      }
-    },
-    {
       "key": "追忆",
       "name": "追忆APP",
       "type": 3,
@@ -112,6 +100,51 @@
       }
     },
     {
+      "key": "麻花",
+      "name": "麻花APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "",
+        "site": "https://apicoss-alimama-com-1307821617.file.myqcloud.com/Uploadsget",
+        "dataKey": "q7gj4f9br3fls6nh",
+        "dataIv": "q7gj4f9br3fls6nh",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "豆丁",
+      "name": "豆丁APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "",
+        "site": "https://vip.123pan.cn/1848451100/zl/xfdd.txt",
+        "dataKey": "xasdasdqwertyuio",
+        "dataIv": "xasdasdqwertyuio",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "灵虎",
+      "name": "灵虎APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "",
+        "site": "https://bind.315999.xyz/89.txt",
+        "dataKey": "#getapp@TMD@2025",
+        "dataIv": "#getapp@TMD@2025",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
       "key": "橘猫",
       "name": "橘猫APP",
       "type": 3,
@@ -132,7 +165,8 @@
       "quickSearch": 1,
       "api": "csp_AppGet2",
       "ext": {
-        "url": "http://122.228.193.2:9988",
+        "url": "",
+        "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
         "dataKey": "ca94b06ca359d80e",
         "dataIv": "ca94b06ca359d80e",
         "deviceId": "",
@@ -182,6 +216,46 @@
       }
     },
     {
+      "key": "鲶鱼",
+      "name": "鲶鱼APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://47.122.22.78",
+        "dataKey": "2234567890123456",
+        "dataIv": "2234567890123456",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "码头",
+      "name": "码头APP",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://www.lgmt.cc",
+        "dataKey": "asfjaskasgggassf",
+        "dataIv": "asfjaskasgggassf",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "米诺",
+      "name": "米诺APP",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://www.milkidc.cn",
+        "dataKey": "20c79c979da8db0f",
+        "dataIv": "20c79c979da8db0f",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
       "key": "光盘",
       "name": "光盘APP",
       "type": 3,
@@ -207,20 +281,6 @@
         "dataIv": "2268331221bobobo",
         "deviceId": "",
         "version": "105"
-      }
-    },
-    {
-      "key": "优质",
-      "name": "优质APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://apiapplbys.lbys.app:5678",
-        "dataKey": "apiapplbyskey168",
-        "dataIv": "apiapplbyskey168",
-        "deviceId": "",
-        "version": "107"
       }
     },
     {
@@ -379,8 +439,8 @@
       }
     },
     {
-      "key": "优质",
-      "name": "优质APP",
+      "key": "萝卜",
+      "name": "萝卜APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -407,8 +467,8 @@
       }
     },
     {
-      "key": "人人",
-      "name": "人人APP",
+      "key": "小红",
+      "name": "小红APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -1112,6 +1172,34 @@
         "dataIv": "672263e98f232a05",
         "deviceId": "",
         "version": "170"
+      }
+    },
+    {
+      "key": "派对动漫",
+      "name": "派对动漫",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://qjappcms.acg.party",
+        "dataKey": "AmtMYFCJDPoTlK7z",
+        "dataIv": "AmtMYFCJDPoTlK7z",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "丫丫",
+      "name": "丫丫APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://tv.yy-fun.cc",
+        "dataKey": "qkxnwkfjwpcnwycl",
+        "dataIv": "qkxnwkfjwpcnwycl",
+        "deviceId": "",
+        "version": ""
       }
     },
     {
