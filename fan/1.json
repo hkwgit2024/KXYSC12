@@ -1819,6 +1819,30 @@
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/MiFunAPP.py"
     },
     {
+      "key": "py_在看",
+      "name": "🧿在看(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/get4.py",
+      "ext": {
+        "host": "http://149.88.64.161/",
+        "api": "/api.php/getappapi",
+        "datakey": "123456789ABCDEFG",
+        "dataiv": "123456789ABCDEFG"
+      }
+    },
+    {
+      "key": "py_咖啡",
+      "name": "🧿咖啡(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/get3.py",
+      "ext": {
+        "host": "https://cdn-tupic-duofun-neimenggu.56uxi.com/2.txt",
+        "api": "/api.php/qijiappapi",
+        "datakey": "qwertyuiopqwertt",
+        "dataiv": "qwertyuiopqwertt"
+      }
+    },
+    {
       "key": "py_热播",
       "name": "🧿热播(PY)",
       "type": 3,
