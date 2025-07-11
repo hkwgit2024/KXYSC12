@@ -98,6 +98,16 @@
       "ext": "7lj763gg402i79425i3l85i6h14i9ijiljqiaojihhj910il877129534l1ik9l1184k401g9g54gk8j5i9097751kh28kh9j12ji8i541446kghk19hg576j46gg538l41l0kkkklj6hk72gjj3li45h3h492747k8g976kk5h43i69h6"
     },
     {
+      "key": "柚子",
+      "name": "💢柚子",
+      "type": 3,
+      "api": "csp_Muou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "7lj763gg402i79425i3l85i6hqiaoji14i9ijiljhhj910il877129534l1ik9l1184k401g9g54gk8j5i9097751kh28kh9j12ji8i541446kghk792gj76jj64g621h95554k67k18797k9jl3l058g4h59763kh1i2823llg3"
+    },
+    {
       "key": "huomaoys",
       "name": "💢火猫",
       "type": 3,
@@ -156,27 +166,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "7lj763gg402i794247258k9jh6598585l3g6ij13il8g20g9qiaoji8j9i9k1g3k90h7i507i213k5j602"
-    },
-    {
-      "key": "专业",
-      "name": "💢专业",
-      "type": 3,
-      "api": "csp_Shark",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "7lj763gg0939795i007gi487k212jhjig3lh9g079jj16g774k401gk0kg135l190i8k45hh94418hj52301kiijg3h248lhk265774gk5hiiil0238439k06kg95541k6l6i3g3kk6l3g60875g245491l4"
-    },
-    {
-      "key": "柚子",
-      "name": "💢柚子",
-      "type": 3,
-      "api": "csp_Muou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "7lj763gg402i79425i3l85i6hqiaoji14i9ijiljhhj910il877129534l1ik9l1184k401g9g54gk8j5i9097751kh28kh9j12ji8i541446kghk792gj76jj64g621h95554k67k18797k9jl3l058g4h59763kh1i2823llg3"
     },
     {
       "key": "csp_Qiyou",

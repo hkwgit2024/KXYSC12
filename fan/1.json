@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0704.jar;md5;CC360C9DDA5FE05A87067BB6FC52DAD3",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0711.jar;md5;4B8B07EDD7C71D7B699A45292949B338",
   "wallpaper": "https://pic.850930.xyz/",
   "sites": [
     {
@@ -252,6 +252,13 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy2.min.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/ikanbot2.js"
+    },
+    {
+      "key": "drjs_瓜子影视",
+      "name": "🍉瓜子影视(DRPY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/libs/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/js/瓜子影视.js"
     },
     {
       "key": "csp_AllliveGuard",
@@ -691,6 +698,22 @@
       "ext": "7lj763gg09397919456493i0h44j8681highi4"
     },
     {
+      "key": "csp_NanGua_QJ",
+      "name": "🎃南瓜(SP)",
+      "type": 3,
+      "api": "csp_NanGua",
+      "playerType": 2,
+      "ext": "7lj763gg0939795i017ii486k512jkihhilg9g0h96j865740113"
+    },
+    {
+      "key": "csp_Hmys_QJ",
+      "name": "🎐拾光(SP)",
+      "type": 3,
+      "api": "csp_Hmys",
+      "playerType": 1,
+      "ext": "https://dy.jmzp.net.cn"
+    },
+    {
       "key": "csp_Bdys01_QJ",
       "name": "🔊修罗(SP)",
       "type": 3,
@@ -830,7 +853,7 @@
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
-      "ext": "7lj763gg09397919493ki4i0g6559i93k2h88449i39973395h4014khl0185509558245g3840295j3624ihl85l5gi1ik4g6317106k2gk9hlg71ji6il169gk1j44l9g193g7gk713k2hil136h"
+      "ext": "7lj763gg402i794247239g9jk10kjl82l3g6845ki2i66j7906194lg6g8460h5k548i51l8805497807509g597kgk419l4l461675gl5g5ikkk329i28lg60h15541k9l3i3h1l266357j8j5625409hl8543522k5"
     },
     {
       "key": "csp_Xdai_时常_QJ",

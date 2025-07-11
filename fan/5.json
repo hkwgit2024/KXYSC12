@@ -209,6 +209,36 @@
       }
     },
     {
+      "key": "鲸鱼",
+      "name": "鲸鱼APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "",
+        "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
+        "dataKey": "AAdgrdghjfgswerA",
+        "dataIv": "AAdgrdghjfgswerA",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "热剧",
+      "name": "热剧APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "",
+        "site": "https://app-qy.oss-cn-shanghai.aliyuncs.com/rebo.txt",
+        "dataKey": "8191A7F47B37882F",
+        "dataIv": "8191A7F47B37882F",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
       "key": "鲶鱼",
       "name": "鲶鱼APP",
       "type": 3,
@@ -263,20 +293,6 @@
       }
     },
     {
-      "key": "客星",
-      "name": "客星APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://api.hiapp.com.cn",
-        "dataKey": "2268331221bobobo",
-        "dataIv": "2268331221bobobo",
-        "deviceId": "",
-        "version": "105"
-      }
-    },
-    {
       "key": "云速",
       "name": "云速APP",
       "type": 3,
@@ -326,11 +342,11 @@
       "quickSearch": 1,
       "api": "csp_AppGet",
       "ext": {
-        "url": "https://appcms.htsp4k.top",
-        "dataKey": "7CYQQzwchRQpHCOj",
-        "dataIv": "7CYQQzwchRQpHCOj",
+        "url": "http://getapp.hiapp.com.cn",
+        "dataKey": "2268331221bobobo",
+        "dataIv": "2268331221bobobo",
         "deviceId": "",
-        "version": ""
+        "version": "107"
       }
     },
     {
@@ -570,6 +586,19 @@
       }
     },
     {
+      "key": "火猫",
+      "name": "火猫APP",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppMuou",
+      "ext": {
+        "url": "http://154.12.22.168:14988",
+        "dataKey": "531f6082a43ac5d7",
+        "dataIv": "531f6082a43ac5d7",
+        "jxurl": "http://app.789dd.cn"
+      }
+    },
+    {
       "key": "腾讯视频",
       "name": "腾讯视频",
       "type": 3,
@@ -604,10 +633,10 @@
       "api": "csp_SP360"
     },
     {
-      "key": "趣盘",
-      "name": "趣盘",
+      "key": "夸父",
+      "name": "夸父",
       "type": 3,
-      "api": "csp_PanWebQu",
+      "api": "csp_PanWebShareCloudKF",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -616,9 +645,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": {
-        "url": "https://www.qupanshe.com"
-      }
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/json/kf.json"
     },
     {
       "key": "双星",
