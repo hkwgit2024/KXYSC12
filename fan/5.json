@@ -740,6 +740,12 @@
       "key": "米搜",
       "name": "米搜搜索",
       "type": 3,
+      "api": "csp_MiSou"
+    },
+    {
+      "key": "米搜",
+      "name": "米搜搜索",
+      "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/cloud.min.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/米搜.js",
       "style": {
@@ -786,10 +792,10 @@
       "filterable": 0
     },
     {
-      "key": "河马短剧",
-      "name": "河马短剧",
+      "key": "甜圈短剧",
+      "name": "甜圈短剧",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/py/河马短剧.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/py/甜圈短剧.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
