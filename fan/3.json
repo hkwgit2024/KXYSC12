@@ -469,15 +469,6 @@
       "filterable": 1
     },
     {
-      "key": "csp_AppXY",
-      "name": "🎀️星牙短剧",
-      "type": 3,
-      "api": "csp_AppXY",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_Kanqiu",
       "name": "⚾看球",
       "type": 3,
