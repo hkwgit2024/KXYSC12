@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0712.jar;md5;A0D0865ED4584D92CEDB0213CE5B786A",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0717.jar;md5;6B0AB91BA79E264C16C403E8F10BD1AD",
   "wallpaper": "https://pic.850930.xyz/",
   "sites": [
     {
@@ -1016,8 +1016,7 @@
       "key": "csp_Qiyou_FM",
       "name": "🥝奇优(SP)",
       "type": 3,
-      "api": "csp_Qiyou",
-      "ext": "http://www.dyxz2.com/"
+      "api": "csp_Qiyou"
     },
     {
       "key": "csp_Quanwk_FM",
@@ -1025,13 +1024,6 @@
       "type": 3,
       "api": "csp_Quanwk",
       "ext": "https://www.91qkw.com"
-    },
-    {
-      "key": "csp_Lggys_FM",
-      "name": "🤣攻阁(SP)",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_Lggys"
     },
     {
       "key": "csp_Jiaozi_FM",
@@ -1073,7 +1065,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.czzy77.com"
+      "ext": "https://www.czzymovie.com"
     },
     {
       "key": "csp_AppXYFM",
@@ -1279,6 +1271,36 @@
       }
     },
     {
+      "key": "py_APP4K_APP",
+      "name": "🧿APP4K(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/get4.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://59.153.167.186",
+        "api": "/api.php/getappapi",
+        "datakey": "SDSFET23215FDSF2",
+        "dataiv": "SDSFET23215FDSF2"
+      }
+    },
+    {
+      "key": "py_知了_APP",
+      "name": "🧿知了(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/get4.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://zzos.cc",
+        "api": "/api.php/getappapi",
+        "datakey": "zzoccc2025555555",
+        "dataiv": "zzoccc2025555555"
+      }
+    },
+    {
       "key": "py_麻花_APP",
       "name": "🧿麻花(PY)",
       "type": 3,
@@ -1429,21 +1451,6 @@
       }
     },
     {
-      "key": "py_鲶鱼_APP",
-      "name": "🧿鲶鱼(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/get4.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "http://47.122.22.78",
-        "api": "/api.php/getappapi",
-        "datakey": "2234567890123456",
-        "dataiv": "2234567890123456"
-      }
-    },
-    {
       "key": "py_码头_APP",
       "name": "🧿码头(PY)",
       "type": 3,
@@ -1471,21 +1478,6 @@
         "api": "/api.php/getappapi",
         "datakey": "20c79c979da8db0f",
         "dataiv": "20c79c979da8db0f"
-      }
-    },
-    {
-      "key": "py_光盘_APP",
-      "name": "🧿光盘(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/get4.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "http://119.13.88.18",
-        "api": "/api.php/getappapi",
-        "datakey": "xnybssspqtwotuwj",
-        "dataiv": "xnybssspqtwotuwj"
       }
     },
     {
