@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0717.jar;md5;6B0AB91BA79E264C16C403E8F10BD1AD",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0718.jar;md5;A331D127115942E0347E59AB8E94A6C0",
   "wallpaper": "https://pic.850930.xyz/",
   "sites": [
     {
@@ -644,6 +644,16 @@
       "style": {
         "type": "list"
       }
+    },
+    {
+      "key": "csp_AppYsV2_臻彩",
+      "name": "🅰臻彩(SP)",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://cmszcsj.lfytv.cn/api.php/app/"
     },
     {
       "key": "csp_TTian_天天_QJ",
@@ -1309,7 +1319,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "host": "https://apicoss-alimama-com-1307821617.file.myqcloud.com/Uploadsget",
+        "host": "http://124.223.27.166:130",
         "api": "/api.php/getappapi",
         "datakey": "q7gj4f9br3fls6nh",
         "dataiv": "q7gj4f9br3fls6nh"
@@ -1358,6 +1368,21 @@
         "api": "/api.php/qijiappapi",
         "datakey": "pBVmysmGX8TsgrQN",
         "dataiv": "pBVmysmGX8TsgrQN"
+      }
+    },
+    {
+      "key": "py_顾我_APP",
+      "name": "🧿顾我(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/get3.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://121.62.21.14:520",
+        "api": "/api.php/qijiappapi",
+        "datakey": "ca94b06ca3c7d80e",
+        "dataiv": "ca94b06ca3c7d80e"
       }
     },
     {
