@@ -1259,10 +1259,10 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "host": "https://cdn-tupic-duofun-neimenggu.56uxi.com/2.txt",
+        "host": "https://omofun.lol/coffee.txt",
         "api": "/api.php/qijiappapi",
-        "datakey": "qwertyuiopqwertt",
-        "dataiv": "qwertyuiopqwertt"
+        "datakey": "qwertyuiopqwertm",
+        "dataiv": "qwertyuiopqwertm"
       }
     },
     {
@@ -1296,18 +1296,18 @@
       }
     },
     {
-      "key": "py_知了_APP",
-      "name": "🧿知了(PY)",
+      "key": "py_稀饭_APP",
+      "name": "🧿稀饭(PY)",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/get4.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "host": "https://zzos.cc",
+        "host": "https://app.xifanys.com",
         "api": "/api.php/getappapi",
-        "datakey": "zzoccc2025555555",
-        "dataiv": "zzoccc2025555555"
+        "datakey": "HM6Ly9yeS4ya3dvL",
+        "dataiv": "HM6Ly9yeS4ya3dvL"
       }
     },
     {
@@ -1356,21 +1356,6 @@
       }
     },
     {
-      "key": "py_橘猫_APP",
-      "name": "🧿橘猫(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/get3.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://qjappcms.jm4k.top",
-        "api": "/api.php/qijiappapi",
-        "datakey": "pBVmysmGX8TsgrQN",
-        "dataiv": "pBVmysmGX8TsgrQN"
-      }
-    },
-    {
       "key": "py_顾我_APP",
       "name": "🧿顾我(PY)",
       "type": 3,
@@ -1379,7 +1364,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "host": "http://121.62.21.14:520",
+        "host": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/app.txt",
         "api": "/api.php/qijiappapi",
         "datakey": "ca94b06ca3c7d80e",
         "dataiv": "ca94b06ca3c7d80e"
@@ -1439,7 +1424,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "host": "https://qjappcms.cs4k.top",
+        "host": "https://newappcms.cs4k.top",
         "api": "/api.php/qijiappapi",
         "datakey": "Z98KXaLtO2wC1Pte",
         "dataiv": "Z98KXaLtO2wC1Pte"
@@ -1533,21 +1518,6 @@
         "api": "/api.php/getappapi",
         "datakey": "KL6vlZkw6WL5x90U",
         "dataiv": "KL6vlZkw6WL5x90U"
-      }
-    },
-    {
-      "key": "py_魔方_APP",
-      "name": "🧿魔方(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/get4.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://mfsp33.top",
-        "api": "/api.php/getappapi",
-        "datakey": "1234567887654321",
-        "dataiv": "1234567887654321"
       }
     },
     {
