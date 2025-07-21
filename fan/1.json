@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0719.jar;md5;A5E641E169F53B4BD34A1C6A463CF31E",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0721.jar;md5;BCE09983C2B93ACB9C9FC28110772AB5",
   "wallpaper": "https://pic.850930.xyz/",
   "sites": [
     {
@@ -626,7 +626,8 @@
       "changeable": 0,
       "style": {
         "type": "list"
-      }
+      },
+      "ext": "uqGL1fpJNAUa4uUHi9iMsef1+C/R"
     },
     {
       "key": "csp_Sir88Guard",
@@ -2031,6 +2032,12 @@
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/荐片.py"
     },
     {
+      "key": "py_猎手",
+      "name": "🧿猎手(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/电影猎手.py"
+    },
+    {
       "key": "py_柯南",
       "name": "🧿柯南(PY)",
       "type": 3,
@@ -2074,6 +2081,12 @@
       "name": "🧿绝对(PY)",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/绝对影视.py"
+    },
+    {
+      "key": "py_河马",
+      "name": "🧿河马(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/html/河马短剧.py"
     },
     {
       "key": "py_偷乐",
