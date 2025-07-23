@@ -1022,7 +1022,8 @@
       "key": "csp_Lkdy_FM",
       "name": "🏔️来看(SP)",
       "type": 3,
-      "api": "csp_Lkdy"
+      "api": "csp_Lkdy",
+      "ext": "https://lkvod.com"
     },
     {
       "key": "csp_Tvyb_FM",
