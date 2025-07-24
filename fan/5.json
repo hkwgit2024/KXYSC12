@@ -81,14 +81,14 @@
       "name": "咖啡APP",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet2",
+      "api": "csp_AppGet",
       "ext": {
         "url": "",
-        "site": "https://omofun.lol/coffee.txt",
-        "dataKey": "qwertyuiopqwertm",
-        "dataIv": "qwertyuiopqwertm",
+        "site": "https://omofun.lol/1.txt",
+        "dataKey": "skdhalkshqklwkj1",
+        "dataIv": "skdhalkshqklwkj1",
         "deviceId": "",
-        "version": "",
+        "version": "109",
         "ua": "okhttp/3.10.0"
       }
     },
@@ -107,15 +107,15 @@
       }
     },
     {
-      "key": "APP4K",
+      "key": "蓝光",
       "name": "蓝光APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
       "ext": {
-        "url": "http://59.153.167.186",
-        "dataKey": "SDSFET23215FDSF2",
-        "dataIv": "SDSFET23215FDSF2",
+        "url": "http://122.228.193.2:9654",
+        "dataKey": "ca94b06ca3c7d80e",
+        "dataIv": "ca94b06ca3c7d80e",
         "deviceId": "",
         "version": "119"
       }
@@ -631,16 +631,6 @@
       }
     },
     {
-      "key": "懒盘",
-      "name": "懒盘",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/cloud.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/懒盘.js",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
       "key": "百酷",
       "name": "百酷",
       "type": 3,
@@ -964,6 +954,13 @@
       "type": 3,
       "api": "csp_HBPQ",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XBPQ/海纳影视.json"
+    },
+    {
+      "key": "免费影视",
+      "name": "免费影视",
+      "type": 3,
+      "api": "csp_HBPQ",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XBPQ/免费影视.json"
     },
     {
       "key": "面包影视",
@@ -1449,12 +1446,6 @@
       }
     },
     {
-      "key": "网络直播",
-      "name": "网络直播",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/py/网络直播.py"
-    },
-    {
       "key": "88看球",
       "name": "88看球",
       "type": 3,
@@ -1463,6 +1454,12 @@
       "style": {
         "type": "list"
       }
+    },
+    {
+      "key": "网络直播",
+      "name": "网络直播",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/py/网络直播.py"
     },
     {
       "key": "养生堂",
