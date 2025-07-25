@@ -199,6 +199,15 @@
       "filterable": 1
     },
     {
+      "key": "csp_baibai",
+      "name": "💯白白",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "api": "csp_SuBaiBai",
+      "ext": "https://www.subaibai.com"
+    },
+    {
       "key": "csp_Quanwk",
       "name": "👀全看",
       "type": 3,
