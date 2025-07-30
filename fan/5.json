@@ -555,10 +555,10 @@
       "api": "csp_SP360"
     },
     {
-      "key": "夸父",
-      "name": "夸父",
+      "key": "海绵",
+      "name": "海绵",
       "type": 3,
-      "api": "csp_PanWebShareCloudKF",
+      "api": "csp_PanWebShareCloudHM",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -567,7 +567,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/json/kf.json"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/json/hm.json"
     },
     {
       "key": "双星",
