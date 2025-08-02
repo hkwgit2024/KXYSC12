@@ -228,16 +228,6 @@
       "ext": "https://www.subaibai.com"
     },
     {
-      "key": "csp_Quanwk",
-      "name": "👀全看",
-      "type": 3,
-      "api": "csp_Quanwk",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.91qkw.com"
-    },
-    {
       "key": "可可",
       "name": "☕️可可",
       "type": 3,

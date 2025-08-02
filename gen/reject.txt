@@ -571,6 +571,7 @@
 .1r8435gsqldr.com
 .1redirb.com
 .1rer.hummel.net
+.1rtb.com
 .1rx.io
 .1rxntv.io
 .1s1r7hr1k.de
@@ -5689,6 +5690,7 @@
 .adinte.jp
 .adintend.com
 .adinterax.com
+.adintl.cn
 .adinvigorate.com
 .adipolo.com
 .adipolosolutions.com
@@ -6818,6 +6820,7 @@
 .adx.36kr.com
 .adx.ads.heytapmobi.com
 .adx.ads.oppomobile.com
+.adx.adwangmai.com
 .adx.adxglobal.com
 .adx.apiok.net
 .adx.appsdk.com.cn
@@ -45581,6 +45584,7 @@
 .log.ad.xiaomi.com
 .log.adplex.co.kr
 .log.aispeech.com
+.log.aliyuncs.com
 .log.amemv.com
 .log.appstore3.huan.tv
 .log.avlyun.com
@@ -83861,6 +83865,7 @@
 .ubilinkbin.com
 .ubiquitoussea.com
 .ubiquitousyard.com
+.ubixioe.com
 .ublasklnrnifs.site
 .ubm.docu.info
 .ubm.fangtoo.com
@@ -92012,6 +92017,7 @@
 .zhangxinzhixun.com
 .zhangyumo.top
 .zhangyunxiawinner.top
+.zhangyuyidong.cn
 .zhannei-dm.csdn.net
 .zhantai.com
 .zhanzhang.net

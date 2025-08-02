@@ -1379,36 +1379,6 @@
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/js/腾云驾雾[官].js"
     },
     {
-      "key": "py_咖啡_APP",
-      "name": "🧿咖啡(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://omofun.lol/1.txt",
-        "api": "/api.php/getappapi",
-        "datakey": "skdhalkshqklwkj1",
-        "dataiv": "skdhalkshqklwkj1"
-      }
-    },
-    {
-      "key": "py_蓝光_APP",
-      "name": "🧿蓝光(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "http://122.228.193.2:9654",
-        "api": "/api.php/getappapi",
-        "datakey": "ca94b06ca3c7d80e",
-        "dataiv": "ca94b06ca3c7d80e"
-      }
-    },
-    {
       "key": "py_魔方_APP",
       "name": "🧿魔方(PY)",
       "type": 3,
@@ -1421,6 +1391,81 @@
         "api": "/api.php/getappapi",
         "datakey": "1234567887654321",
         "dataiv": "1234567887654321"
+      }
+    },
+    {
+      "key": "py_火猫_APP",
+      "name": "🧿火猫(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/03.txt",
+        "api": "/api.php/getappapi",
+        "datakey": "J6AIORKJ3PQOJKM9",
+        "dataiv": "J6AIORKJ3PQOJKM9"
+      }
+    },
+    {
+      "key": "py_若雪_APP",
+      "name": "🧿若雪(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/qijiapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://appcms.rx4k.top",
+        "api": "/api.php/qijiappapi",
+        "datakey": "ZX10ysTYZWtIJCTU",
+        "dataiv": "ZX10ysTYZWtIJCTU"
+      }
+    },
+    {
+      "key": "py_海豚_APP",
+      "name": "🧿海豚(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/qijiapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://qjappcms.htsp4k.top",
+        "api": "/api.php/qijiappapi",
+        "datakey": "R69yVluzg6yLpjp0",
+        "dataiv": "R69yVluzg6yLpjp0"
+      }
+    },
+    {
+      "key": "py_哔滴_APP",
+      "name": "🧿哔滴(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/qijiapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
+        "api": "/api.php/qijiappapi",
+        "datakey": "5ae8ee4bb95ea0ce",
+        "dataiv": "5ae8ee4bb95ea0ce"
+      }
+    },
+    {
+      "key": "py_丫丫_APP",
+      "name": "🧿丫丫(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://tv.yy-fun.cc",
+        "api": "/api.php/getappapi",
+        "datakey": "qkxnwkfjwpcnwycl",
+        "dataiv": "qkxnwkfjwpcnwycl"
       }
     },
     {
@@ -1469,18 +1514,18 @@
       }
     },
     {
-      "key": "py_麻花_APP",
-      "name": "🧿麻花(PY)",
+      "key": "py_蓝光_APP",
+      "name": "🧿蓝光(PY)",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "host": "http://124.223.27.166:130",
+        "host": "http://122.228.193.2:9654",
         "api": "/api.php/getappapi",
-        "datakey": "q7gj4f9br3fls6nh",
-        "dataiv": "q7gj4f9br3fls6nh"
+        "datakey": "ca94b06ca3c7d80e",
+        "dataiv": "ca94b06ca3c7d80e"
       }
     },
     {
@@ -1499,38 +1544,8 @@
       }
     },
     {
-      "key": "py_灵虎_APP",
-      "name": "🧿灵虎(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://bind.315999.xyz/89.txt",
-        "api": "/api.php/getappapi",
-        "datakey": "#getapp@TMD@2025",
-        "dataiv": "#getapp@TMD@2025"
-      }
-    },
-    {
-      "key": "py_顾我_APP",
-      "name": "🧿顾我(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/qijiapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/app.txt",
-        "api": "/api.php/qijiappapi",
-        "datakey": "ca94b06ca3c7d80e",
-        "dataiv": "ca94b06ca3c7d80e"
-      }
-    },
-    {
-      "key": "py_雄鹰_APP",
-      "name": "🧿雄鹰(PY)",
+      "key": "py_蓝鹰_APP",
+      "name": "🧿蓝鹰(PY)",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/qijiapp.py",
       "searchable": 1,
@@ -1559,21 +1574,6 @@
       }
     },
     {
-      "key": "py_蓝鹰_APP",
-      "name": "🧿蓝鹰(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/qijiapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "http://172.247.192.138:18520",
-        "api": "/api.php/qijiappapi",
-        "datakey": "SuNlEkOLAoWJj1Oe",
-        "dataiv": "SuNlEkOLAoWJj1Oe"
-      }
-    },
-    {
       "key": "py_仓鼠_APP",
       "name": "🧿仓鼠(PY)",
       "type": 3,
@@ -1582,7 +1582,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "host": "https://newappcms.cs4k.top",
+        "host": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
         "api": "/api.php/qijiappapi",
         "datakey": "Z98KXaLtO2wC1Pte",
         "dataiv": "Z98KXaLtO2wC1Pte"
@@ -1649,21 +1649,6 @@
       }
     },
     {
-      "key": "py_溜溜_APP",
-      "name": "🧿溜溜(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://appcms.ll4k.xyz",
-        "api": "/api.php/getappapi",
-        "datakey": "NiDGaKiVnkO3QX1Q",
-        "dataiv": "NiDGaKiVnkO3QX1Q"
-      }
-    },
-    {
       "key": "py_瓜萌_APP",
       "name": "🧿瓜萌(PY)",
       "type": 3,
@@ -1676,6 +1661,21 @@
         "api": "/api.php/getappapi",
         "datakey": "f2A7D4B9E8C16531",
         "dataiv": "f2A7D4B9E8C16531"
+      }
+    },
+    {
+      "key": "py_溜溜_APP",
+      "name": "🧿溜溜(PY)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://appcms.ll4k.xyz",
+        "api": "/api.php/getappapi",
+        "datakey": "NiDGaKiVnkO3QX1Q",
+        "dataiv": "NiDGaKiVnkO3QX1Q"
       }
     },
     {
@@ -1706,21 +1706,6 @@
         "api": "/api.php/getappapi",
         "datakey": "2015692015692015",
         "dataiv": "2015692015692015"
-      }
-    },
-    {
-      "key": "py_雨滴_APP",
-      "name": "🧿雨滴(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
-        "api": "/api.php/getappapi",
-        "datakey": "k9o3p2c8b7m3z0o8",
-        "dataiv": "k9o3p2c8b7m3z0o8"
       }
     },
     {
@@ -1874,18 +1859,18 @@
       }
     },
     {
-      "key": "py_米饭_APP",
-      "name": "🧿米饭(PY)",
+      "key": "py_多多_APP",
+      "name": "🧿多多(PY)",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "host": "http://45.43.29.111:9527",
+        "host": "https://app.cf4k.xyz/1.txt",
         "api": "/api.php/getappapi",
-        "datakey": "GETMIFUNGEIMIFUN",
-        "dataiv": "GETMIFUNGEIMIFUN"
+        "datakey": "qqqqqqqqqqqqqqqq",
+        "dataiv": "qqqqqqqqqqqqqqqq"
       }
     },
     {
@@ -1916,21 +1901,6 @@
         "api": "/api.php/getappapi",
         "datakey": "AmtMYFCJDPoTlK7z",
         "dataiv": "AmtMYFCJDPoTlK7z"
-      }
-    },
-    {
-      "key": "py_丫丫_APP",
-      "name": "🧿丫丫(PY)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "http://tv.yy-fun.cc",
-        "api": "/api.php/getappapi",
-        "datakey": "qkxnwkfjwpcnwycl",
-        "dataiv": "qkxnwkfjwpcnwycl"
       }
     },
     {
