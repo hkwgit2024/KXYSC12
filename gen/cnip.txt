@@ -6248,7 +6248,6 @@ IP-CIDR,2405:f6c0::/32,no-resolve
 IP-CIDR,2405:f80::/32,no-resolve
 IP-CIDR,2405:f940::/32,no-resolve
 IP-CIDR,2405:fdc0::/32,no-resolve
-IP-CIDR,2405:fe80::/32,no-resolve
 IP-CIDR,2405:ff80::/32,no-resolve
 IP-CIDR,2406:1080::/32,no-resolve
 IP-CIDR,2406:1100::/32,no-resolve
