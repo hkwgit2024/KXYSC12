@@ -726,6 +726,7 @@
 .bitcointalk.org
 .bitcoinworld.com
 .bitfinex.com
+.bitget.com
 .bithumb.com
 .bitmex.com
 .bitshare.com
@@ -1241,6 +1242,7 @@
 .clips4sale.com
 .cloakpoint.com
 .cloudcone.com
+.cloudflare-dns.com
 .cloudflare-ipfs.com
 .cloudflare.com
 .cloudflareinsights.com
@@ -4308,7 +4310,6 @@
 .no-ip.org
 .nobel.se
 .nobelprize.org
-.nodeloc.com
 .nodeseek.com
 .nodesnoop.com
 .noisli.com
@@ -6380,6 +6381,7 @@
 .unwire.hk
 .uocn.org
 .uol
+.upbit.com
 .updatestar.com
 .upghsbc.com
 .upholdjustice.org
