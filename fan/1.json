@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0730.jar;md5;9FCE4CE1E8DF9D051167F53D22DAF256",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0808.jar;md5;62B0A223C600077B9F089F4887681802",
   "wallpaper": "https://pic.850930.xyz/",
   "sites": [
     {
@@ -1119,6 +1119,30 @@
       }
     },
     {
+      "key": "csp_AppGet_兔子_FM",
+      "name": "🐇兔子(SP)",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://211.154.24.56:5211",
+        "dataKey": "685bf108bc47b67d",
+        "siteApi": "get",
+        "version": "521"
+      }
+    },
+    {
+      "key": "csp_AppGet_永永_FM",
+      "name": "♾️永永(SP)",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://app.lkdyw.cn/",
+        "dataKey": "e65144389e9361b5",
+        "siteApi": "get",
+        "version": ""
+      }
+    },
+    {
       "key": "csp_Jpys_FM",
       "name": "🥇️金牌(SP)",
       "type": 3,
@@ -1484,21 +1508,6 @@
       }
     },
     {
-      "key": "py_哔滴_APP",
-      "name": "🧿哔滴(QIJI)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/qijiapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
-        "api": "/api.php/qijiappapi",
-        "datakey": "5ae8ee4bb95ea0ce",
-        "dataiv": "5ae8ee4bb95ea0ce"
-      }
-    },
-    {
       "key": "py_丫丫_APP",
       "name": "🧿丫丫(GET)",
       "type": 3,
@@ -1526,21 +1535,6 @@
         "api": "/api.php/getappapi",
         "datakey": "uI1TkPJC8B46AyN3",
         "dataiv": "uI1TkPJC8B46AyN3"
-      }
-    },
-    {
-      "key": "py_稀饭_APP",
-      "name": "🧿稀饭(GET)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://app.xifanys.com",
-        "api": "/api.php/getappapi",
-        "datakey": "HM6Ly9yeS4ya3dvL",
-        "dataiv": "HM6Ly9yeS4ya3dvL"
       }
     },
     {
