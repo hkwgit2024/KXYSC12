@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0810.jar;md5;53EB135C5A37B357A97562BEB0FE91A0",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0811.jar;md5;38C3175B5A1160140AF3A4E750BCA5F4",
   "wallpaper": "https://pic.850930.xyz/",
   "sites": [
     {
@@ -1850,21 +1850,6 @@
         "api": "/api.php/getappapi",
         "datakey": "qqqqqqqqqqqqqqqq",
         "dataiv": "qqqqqqqqqqqqqqqq"
-      }
-    },
-    {
-      "key": "py_次元_APP",
-      "name": "🧿次元(GET)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://jjjj.nilinili.org",
-        "api": "/api.php/getappapi",
-        "datakey": "672263e98f232a05",
-        "dataiv": "672263e98f232a05"
       }
     },
     {
