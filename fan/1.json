@@ -75,16 +75,6 @@
     },
     {
       "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/pg.jar",
-      "key": "csp_Kuaikan_PG",
-      "name": "👀快看(SP)",
-      "type": 3,
-      "api": "csp_Kuaikan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/pg.jar",
       "key": "vod_量子资源",
       "name": "🚀量子资源",
       "type": 1,
