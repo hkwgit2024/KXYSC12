@@ -671,6 +671,7 @@
 .bet365.com
 .betaclouds.net
 .betfair.com
+.betterhash.net
 .betternet.co
 .bettervpn.com
 .bettween.com
@@ -2695,6 +2696,7 @@
 .hermes
 .heroku.com
 .herokuapp.com
+.herominers.com
 .heungkongdiscuss.com
 .hexieshe.com
 .hexieshe.xyz
@@ -3168,6 +3170,7 @@
 .italiatibet.org
 .itasoftware.com
 .itau
+.itch.io
 .itemdb.com
 .itemfix.com
 .ithome.com.tw
