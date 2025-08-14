@@ -1393,21 +1393,6 @@
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/js/腾云驾雾[官].js"
     },
     {
-      "key": "py_乐达_APP",
-      "name": "🧿乐达(GET)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://ledayy.com",
-        "api": "/api.php/getappapi",
-        "datakey": "hjjp68c2okw12345",
-        "dataiv": "hjjp68c2okw12345"
-      }
-    },
-    {
       "key": "py_灵虎_APP",
       "name": "🧿灵虎(GET)",
       "type": 3,
@@ -1540,21 +1525,6 @@
         "api": "/api.php/getappapi",
         "datakey": "ca94b06ca3c7d80e",
         "dataiv": "ca94b06ca3c7d80e"
-      }
-    },
-    {
-      "key": "py_豆丁_APP",
-      "name": "🧿豆丁(GET)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://vip.123pan.cn/1848451100/zl/xfdd.txt",
-        "api": "/api.php/getappapi",
-        "datakey": "xasdasdqwertyuio",
-        "dataiv": "xasdasdqwertyuio"
       }
     },
     {
@@ -1723,21 +1693,6 @@
       }
     },
     {
-      "key": "py_小红_APP",
-      "name": "🧿小红(GET)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://www.xiaohys.com",
-        "api": "/api.php/getappapi",
-        "datakey": "ENonBHeVBoYZhVUV",
-        "dataiv": "ENonBHeVBoYZhVUV"
-      }
-    },
-    {
       "key": "py_白蛇_APP",
       "name": "🧿白蛇(GET)",
       "type": 3,
@@ -1765,21 +1720,6 @@
         "api": "/api.php/getappapi",
         "datakey": "ebad3f1a58b13933",
         "dataiv": "ebad3f1a58b13933"
-      }
-    },
-    {
-      "key": "py_外剧_APP",
-      "name": "🧿外剧(GET)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://guowaiju.com",
-        "api": "/api.php/getappapi",
-        "datakey": "7xv16h7qgkrs9b1p",
-        "dataiv": "7xv16h7qgkrs9b1p"
       }
     },
     {
