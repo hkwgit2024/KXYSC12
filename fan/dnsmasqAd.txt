@@ -13984,6 +13984,7 @@ address=/bootcdn.cn/
 address=/bootcdn.net/
 address=/bootcss.com/
 address=/bootingunpickedusable.com/
+address=/bootpreload.uve.weibo.com/
 address=/bootstrap-framework.org/
 address=/bootstraplugin.com/
 address=/bootvolleyball.com/

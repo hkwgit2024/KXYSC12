@@ -1520,6 +1520,8 @@
 .demdex.net
 .democrats.org
 .demosisto.hk
+.deno.com
+.deno.dev
 .depositphotos.com
 .derpibooru.org
 .derpicdn.net
@@ -2275,6 +2277,7 @@
 .furhhdl.org
 .furinkan.com
 .furl.net
+.furrybar.com
 .futurechinaforum.org
 .futuremessage.org
 .fux.com
@@ -4160,6 +4163,7 @@
 .nationsonline.org
 .nationwide.com
 .naughtyamerica.com
+.naver.com
 .naver.jp
 .navy.mil
 .naweeklytimes.com
