@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0819.jar;md5;1A31E1B3F9AD7D5730E6A3B83BBE1F1F",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/J/lem0820.jar;md5;48ADBBD51C59EF9454D9F60F90EE0FAB",
   "wallpaper": "https://pic.850930.xyz/",
   "sites": [
     {
@@ -268,10 +268,10 @@
       "changeable": 0
     },
     {
-      "key": "csp_SbaibaiGuard",
-      "name": "🐟素白白(SP)",
+      "key": "csp_JpysGuard",
+      "name": "💮文才(SP)",
       "type": 3,
-      "api": "csp_SbaibaiGuard",
+      "api": "csp_JpysGuard",
       "timeout": 15,
       "playerType": 2,
       "searchable": 1,
@@ -290,15 +290,14 @@
       "changeable": 1
     },
     {
-      "key": "csp_NanGuaGuard",
-      "name": "🎃南瓜(SP)",
+      "key": "csp_AppYsV2Guard_下饭",
+      "name": "🍙下饭(SP)",
       "type": 3,
-      "api": "csp_NanGuaGuard",
-      "timeout": 15,
-      "playerType": 2,
+      "api": "csp_AppYsV2Guard",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "filterable": 1,
+      "ext": "rfOK0+FRORAJ7epFjN2F5bqpqyOZwM/2zjo8fIu3AAlFJl8e/Co3qKR3f7pI2cY5ozXZZ9dHjiJz7Ht9P/01UpTYurKeSnahWreewemiQ2fux0BkNEtR69ypVhP1Muo4YsZTow4IKQzyEtbS42eHS9QK"
     },
     {
       "key": "csp_YCyzGuard",
@@ -332,10 +331,10 @@
       "changeable": 1
     },
     {
-      "key": "csp_JpysGuard",
-      "name": "💮文才(SP)",
+      "key": "csp_SbaibaiGuard",
+      "name": "🐟素白白(SP)",
       "type": 3,
-      "api": "csp_JpysGuard",
+      "api": "csp_SbaibaiGuard",
       "timeout": 15,
       "playerType": 2,
       "searchable": 1,
