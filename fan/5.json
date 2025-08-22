@@ -302,20 +302,6 @@
       }
     },
     {
-      "key": "爱看",
-      "name": "爱看丨APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://154.37.220.65",
-        "dataKey": "uI1TkPJC8B46AyN3",
-        "dataIv": "uI1TkPJC8B46AyN3",
-        "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
-        "version": "120"
-      }
-    },
-    {
       "key": "蓝光",
       "name": "蓝光APP",
       "type": 3,
@@ -681,22 +667,6 @@
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XYQHiker/短剧屋.json"
     },
     {
-      "key": "七七",
-      "name": "七七影视",
-      "type": 1,
-      "api": "http://6.qqqtv.top/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "推荐",
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫"
-      ]
-    },
-    {
       "key": "天翼影视",
       "name": "天翼影视",
       "type": 1,
@@ -739,16 +709,6 @@
       "name": "零度影视",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/py/零度影视.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "追星影视",
-      "name": "追星影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/py/追星影视.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -902,13 +862,6 @@
       "type": 3,
       "api": "csp_HBPQ",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XBPQ/骚火影视.json"
-    },
-    {
-      "key": "七点影视",
-      "name": "七点影视",
-      "type": 3,
-      "api": "csp_HBPQ",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/XBPQ/七点影视.json"
     },
     {
       "key": "三九影视",
@@ -1071,20 +1024,6 @@
         "dataIv": "AmtMYFCJDPoTlK7z",
         "deviceId": "",
         "version": ""
-      }
-    },
-    {
-      "key": "黑猫动漫",
-      "name": "黑猫动漫",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://dm.xxdm123.top:9991",
-        "dataKey": "0fe3b5781782c621",
-        "dataIv": "0fe3b5781782c621",
-        "deviceId": "",
-        "version": "203"
       }
     },
     {
