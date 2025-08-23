@@ -290,14 +290,14 @@
       "changeable": 1
     },
     {
-      "key": "csp_AppYsV2Guard_下饭",
-      "name": "🍙下饭(SP)",
+      "key": "csp_AppYsV2Guard_剧九",
+      "name": "🍙剧九(SP)",
       "type": 3,
       "api": "csp_AppYsV2Guard",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "rfOK0+FRORAJ7epFjN2F5bqpqyOZwM/2zjo8fIu3AAlFJl8e/Co3qKR3f7pI2cY5ozXZZ9dHjiJz7Ht9P/01UpTYurKeSnahWreewemiQ2fux0BkNEtR69ypVhP1Muo4YsZTow4IKQzyEtbS42eHS9QK"
+      "ext": "rfOK0+FRORAJ7epFjN2F+Lm9o2nF28P91TA4dIy3AAlFJl8e/Co3qKR3f7pI2cY5ozXZZ9dHjiJz7Ht9P/01UpTYurKeSnahWreewemiQ2fux0BkNEtR69ypVhP1Muo4YsZTow4IKQzyEtbS42eHS9QK"
     },
     {
       "key": "csp_YCyzGuard",
@@ -1602,21 +1602,6 @@
       }
     },
     {
-      "key": "py_爱看_APP",
-      "name": "🧿爱看(GET)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "http://154.37.220.65",
-        "api": "/api.php/getappapi",
-        "datakey": "uI1TkPJC8B46AyN3",
-        "dataiv": "uI1TkPJC8B46AyN3"
-      }
-    },
-    {
       "key": "py_蓝光_APP",
       "name": "🧿蓝光(GET)",
       "type": 3,
@@ -1839,21 +1824,6 @@
         "api": "/api.php/getappapi",
         "datakey": "AmtMYFCJDPoTlK7z",
         "dataiv": "AmtMYFCJDPoTlK7z"
-      }
-    },
-    {
-      "key": "py_黑猫_APP",
-      "name": "🧿黑猫(GET)",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/PY/app/getapp.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://dm.xxdm123.top:9991",
-        "api": "/api.php/getappapi",
-        "datakey": "0fe3b5781782c621",
-        "dataiv": "0fe3b5781782c621"
       }
     },
     {
@@ -2371,22 +2341,6 @@
       "api": "https://api.1080zyku.com/inc/api_mac10.php",
       "searchable": 1,
       "quickSearch": 1
-    },
-    {
-      "key": "vod_七七",
-      "name": "🚀七七",
-      "type": 1,
-      "api": "http://7.qqqtv.top/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "推荐",
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫"
-      ]
     },
     {
       "key": "vod_飞速",
