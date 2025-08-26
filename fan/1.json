@@ -218,7 +218,8 @@
       "name": "🏆荐片(SP)",
       "api": "csp_Jianpian",
       "type": 3,
-      "playerType": "2"
+      "playerType": "2",
+      "ext": "https://ka1dfj.slsw6.com"
     },
     {
       "key": "drjs_荐片",

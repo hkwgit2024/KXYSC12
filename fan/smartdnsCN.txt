@@ -10306,6 +10306,7 @@ afanti100.com
 afarway.com
 afca-asia.org
 afcec.com
+afcs.dell.com
 afdian.com
 afdian.net
 afdiancdn.com
@@ -23829,6 +23830,7 @@ client-api.itunes.apple.com
 client51.com
 clientflow.apple.com
 clientflow.apple.com.akadns.net
+clientperipherals.dell.com
 clifford-hospital.org
 cliffordtrading.com
 cliim.com
@@ -25758,7 +25760,6 @@ copcsc.org
 copl.com.hk
 copperalliance.asia
 copperhome.net
-copy-manga.com
 copyedu.com
 copyfuture.com
 copyswisswatches.com
@@ -27448,6 +27449,7 @@ curtisasia.com
 cusdvs.com
 cusdvs.net
 custeel.com
+customization-cdn.dell.com
 customizedfasteners.com
 customsapp.com
 custouch.com
@@ -29058,6 +29060,7 @@ ddove.com
 ddpai.com
 ddpoc.com
 ddqcw.com
+dds.dell.com
 ddsaas.com
 ddsiojf.xyz
 ddsk.la
@@ -29266,6 +29269,7 @@ delixi.com
 delixidrive.com
 deliyun.com
 dell-alw.com
+dell-brand.com
 dell027.com
 dellecs.com
 dellemc-solution.com
@@ -30482,6 +30486,7 @@ dl-kg.com
 dl-meitu.com
 dl-rc.com
 dl.delivery.mp.microsoft.com
+dl.dell.com
 dl0728.com
 dl23zx.com
 dl2link.com
@@ -32573,6 +32578,9 @@ e99999.com
 ea-china.com
 ea-retina.com
 ea-xing.com
+ea2cn-dev-outlet.dell.com
+ea2cn-prod-outlet.dell.com
+ea2cn-staging-outlet.dell.com
 ea360.com
 ea3w.com
 eabax.com
@@ -35351,6 +35359,7 @@ fcport.com
 fcpowerup.com
 fcqjc.com
 fcrc114.com
+fcs.dell.com
 fcs1.com
 fcsc.com
 fcsccz.com
@@ -37172,7 +37181,11 @@ ft22.com
 ft3e.com
 ft77.com
 ft98.com
+fta.dell.com
+ftaapj.dell.com
+ftaemea.dell.com
 ftaro.com
+ftasitapj.dell.com
 ftbj.net
 ftcoaster.com
 ftd.nz
@@ -37348,6 +37361,7 @@ funcrea.com
 functionads.com
 functionaltextilesshanghai.com
 functioncool.com
+functiongraph.run
 fund001.com
 fundebug.com
 fundebug.net
@@ -38313,6 +38327,8 @@ gbt88.com
 gbtranswins.com
 gbvh.com
 gbw114.com
+gbxgateway-dev.dell.com
+gbxgateway.dell.com
 gc-zb.com
 gc0771.com
 gc1616.com
@@ -68045,9 +68061,7 @@ manfen5.com
 manfred-auto.com
 manfrottoclub.com
 manga.bilibili.com
-mangacopy.com
 mangafuna.xyz
-mangafunb.fun
 manganesenanhai.com
 mangg.com
 mangguo.com
@@ -77634,6 +77648,7 @@ plateno.cc
 plateno.com
 platenogroup.com
 platform-cn.com
+platform.dell.com
 platinum-traveller.com
 platinumchina.com
 play-analytics.com
@@ -82578,6 +82593,7 @@ roaing.com
 robam.com
 robei.com
 roboeyeai.com
+robomaster.com
 roboo.com
 robook.com
 robopeak.net
@@ -84120,6 +84136,7 @@ sceea.org
 sceeo.com
 sceia.org
 scemrq.com
+scene7-cdn.dell.com
 scengine.com
 scenictc.com
 scensmart.com
@@ -87884,6 +87901,7 @@ si-en.com
 si-era.com
 si-in.com
 si-win.com
+si.cdn.dell.com
 sia1995.net
 siad-c.com
 siaedu.net
@@ -88872,6 +88890,7 @@ slzww.com
 sm-check.com
 sm-cq.com
 sm-main.com
+sm.dell.com
 sm0.fun
 sm160.com
 sm160.net
@@ -89182,6 +89201,8 @@ snowflake.pink
 snowkey.com
 snowlotusgroup.com
 snowyimall.com
+snp.cdn.dell.com
+snpi.dell.com
 snps.tech
 snptc.com
 snrat.com
@@ -91033,6 +91054,7 @@ support-china.apple-support.akadns.net
 support-cn.samsung.com
 support.amd.com
 support.apple.com
+supportassist.dell.com
 supreme-oe.com
 supuvalve.com
 supwisdom.com
@@ -103428,13 +103450,13 @@ www-376655.com
 www-4466666.com
 www-666789.com
 www-76244.com
+www-csb.dell.com
 www.adobe.com
 www.amd.com
 www.apple.com
 www.apple.com.edgekey.net.globalredir.akadns.net
 www.cg
 www.com.my
-www.dell-brand.com
 www.dell.com
 www.destinationurl.com
 www.djivideos.com
