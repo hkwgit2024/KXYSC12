@@ -8992,7 +8992,6 @@ address=/andomedia.com/
 address=/andomediagroup.com/
 address=/andrewrosilla.world/
 address=/android.bcfads.com/
-address=/android.bugly.qq.com/
 address=/android.push.126.net/
 address=/android.txtsmarter.com/
 address=/androidduvetscribble.com/
