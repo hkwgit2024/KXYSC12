@@ -1,6 +1,6 @@
 {
   //"spider": "http://appym.lyyytv.cn/uploads/tvbox/yt.jar",
-  "spider": "./yt2.jar",
+  "spider": "./yt.jar",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
