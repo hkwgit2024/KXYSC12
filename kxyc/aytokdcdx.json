@@ -1,0 +1,28 @@
+{
+  "urls": [
+    {
+      "name": "康兄搜集OK专线1",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/1.json"
+    },
+    {
+      "name": "康兄搜集OK专线2",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/2.json"
+    },
+    {
+      "name": "康兄搜集OK专线3",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/3.json"
+    },
+    {
+      "name": "康兄搜集OK专线4",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/4.json"
+    },
+    {
+      "name": "康兄搜集OK专线5",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/5.json"
+    },
+    {
+      "name": "康兄搜集OK专线6",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/lmclub/box/main/app/conf/tv.json"
+    }
+  ]
+}
