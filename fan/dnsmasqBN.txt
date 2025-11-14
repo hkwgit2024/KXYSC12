@@ -1,4 +1,0 @@
-bogus-nxdomain=114.114.114.114
-bogus-nxdomain=119.29.29.29
-bogus-nxdomain=223.5.5.5
-bogus-nxdomain=180.76.76.76
