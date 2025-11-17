@@ -1,0 +1,35 @@
+{
+    "warningText": "低调使用！！！",
+    "urls": [
+        {
+            "name": "📚【天微线】｜本地仓库📚",
+            "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/tw/api.json"
+        },
+		{
+            "name": "📚【凯少线】｜本地仓库📚",
+            "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/wdks/api.json"
+        },
+        {
+            "name": "📚【天微VIP线】｜本地仓库📚",
+            "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/main/rhb/%E6%9C%AC%E5%9C%B0%E3%80%90%E5%A4%A9%E5%BE%AEVIP%E7%BA%BF%E3%80%91/api.json"
+        },
+		{
+            "name": "📚【拾光大佬】",
+            "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/main/rhb/%E6%9C%AC%E5%9C%B0%E3%80%90%E6%8B%BE%E5%85%89%E5%A4%A7%E4%BD%AC%E3%80%91/api.json"
+        },
+        {
+            "name": "📚【王二小】｜在线📚",
+            "url": "http://tvbox.王二小放牛娃.top"
+        },
+        {
+            "name": "📚【饭太硬】｜在线📚",
+            "url": "http://www.饭太硬.com/tv"
+        },
+		{
+            "name": "📚【林中鸟】｜本地仓库📚",
+            "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/%E6%9E%97%E4%B8%AD%E9%B8%9F4K/%E6%9E%97%E4%B8%AD%E9%B8%9F4K.json"
+        }
+    ]
+}
+
+
