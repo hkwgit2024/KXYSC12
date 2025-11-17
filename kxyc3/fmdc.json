@@ -1,32 +1,49 @@
 {
-    "warningText": "低调使用！！！",
+    "warningText": "【康兄影仓】郑重提醒您:
+  📢凡购买康兄移动高清智能网络盒子的用户🎅 
+  🎁可免费专享👉手机➕盒子👈双端影视会员🎁
+  👉本软件现已支持AI语音功能🎙按着绿色语音键可喊出节目👈
+  🌳本软件内置资源与原作者无任何版权关联,所有内置资源均由用户自行搜集于网络
+  ⚠本软件原本空壳软件,仅用于测试与学习,请于使用后24小时内删除",",
     "urls": [
+		{
+            "name": "康兄搜集综合专线1",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc3/zhsvipdx.json"
+        },
+		{
+            "name": "康兄搜集综合专线2",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc3/zhsvipdx2.json"
+        },
         {
-            "name": "📚【天微线】｜本地仓库📚",
+            "name": "康兄搜集综合专线3",
             "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/tw/api.json"
         },
 		{
-            "name": "📚【凯少线】｜本地仓库📚",
+            "name": "康兄搜集综合专线4",
             "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/wdks/api.json"
         },
         {
-            "name": "📚【天微VIP线】｜本地仓库📚",
+            "name": "康兄搜集综合专线5",
             "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/main/rhb/%E6%9C%AC%E5%9C%B0%E3%80%90%E5%A4%A9%E5%BE%AEVIP%E7%BA%BF%E3%80%91/api.json"
         },
 		{
-            "name": "📚【拾光大佬】",
+            "name": "康兄搜集综合专线6",
             "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/main/rhb/%E6%9C%AC%E5%9C%B0%E3%80%90%E6%8B%BE%E5%85%89%E5%A4%A7%E4%BD%AC%E3%80%91/api.json"
         },
         {
-            "name": "📚【王二小】｜在线📚",
+            "name": "康兄搜集综合专线7",
             "url": "http://tvbox.王二小放牛娃.top"
         },
         {
-            "name": "📚【饭太硬】｜在线📚",
+            "name": "康兄搜集综合专线8",
             "url": "http://www.饭太硬.com/tv"
         },
 		{
-            "name": "📚【林中鸟】｜本地仓库📚",
+            "name": "康兄搜集综合专线9",
+            "url": "https://www.252035.xyz/p/jsm.json"
+        },
+		{
+            "name": "康兄搜集综合专线10",
             "url": "https://hk.gh-proxy.com/raw.githubusercontent.com/waxtdm/zhtyh/refs/heads/main/rhb/%E6%9E%97%E4%B8%AD%E9%B8%9F4K/%E6%9E%97%E4%B8%AD%E9%B8%9F4K.json"
         }
     ]
