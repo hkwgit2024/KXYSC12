@@ -1,9 +1,6 @@
 {
   "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1733932725378/fan.txt;md5;f98827d83bb8ca104b0b1ead61a98c5b",
   "wallpaper": "https://api.likepoems.com/img/bing",
-  "warningText":"【蜗牛影视】提示:
-  📢接口软件永远免费 
-  📢长期维护切勿贩卖",
   "sites": [
       {
       "key": "腾讯弹幕",
@@ -189,7 +186,7 @@
       "filterable": 0
     },
     {
-      "key": "配置中心"，//潇洒
+      "key": "配置中心",
       "name": "🚦配置┃中心",
       "type": 3,
       "api": "csp_Config",
@@ -203,7 +200,7 @@
     },
     {
       "key": "mgys",
-      "name": "🎬蜗牛┃4K"，//玉玉
+      "name": "🎬蜗牛┃4K",
       "type": 3,
       "jar": "https://gitee.com/woniuxs/woniu/raw/main/iiCeK2hicw6d;md5;7ee82ff7f6b078cf17f3475515bfa32f",
       "playerType": "2",
@@ -212,7 +209,7 @@
     },
     {
       "key": "韩小圈",
-      "name": "🐚韩圈┃App",//潇洒
+      "name": "🐚韩圈┃App",
       "type": 3,
       "api": "csp_HanXiaoQuan",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -224,7 +221,7 @@
     },
     {
       "key": "星芽短剧",
-      "name": "🐓星芽┃短剧",//潇洒
+      "name": "🐓星芽┃短剧",
       "type": 3,
       "api": "csp_AppXY",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -234,7 +231,7 @@
     },
     {
       "key": "河马短剧",
-      "name": "🛌河马┃短剧",//潇洒
+      "name": "🛌河马┃短剧",
       "type": 3,
       "api": "csp_AppHMDJ",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -244,7 +241,7 @@
     },
     {
       "key": "nm",
-      "name": "💥蜗牛┃秒播",//玉玉
+      "name": "💥蜗牛┃秒播",
       "type": 3,
       "jar": "https://gitee.com/woniuxs/woniu/raw/main/iiCeK2hicw6d;md5;7ee82ff7f6b078cf17f3475515bfa32f",
       "api": "http://47.99.102.252/js/opennongmin.js"
@@ -277,7 +274,7 @@
     },
     {
         "key": "荐片弹幕",
-        "name": "💨荐片┃弹幕",//潇洒
+        "name": "💨荐片┃弹幕",
         "type": 3,
         "api": "csp_Jianpian",
         "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -291,7 +288,7 @@
     },
     {
       "key": "南瓜弹幕",
-      "name": "🐚南瓜┃弹幕",//潇洒
+      "name": "🐚南瓜┃弹幕",
       "type": 3,
       "api": "csp_Nangua",
       "jar": "http://xn--ihqu10cn4c.xn--v4q818bf34b.com/by/jar/danmu.php",
@@ -304,7 +301,7 @@
     },
     {
       "key": "厂长弹幕",
-      "name": "🐷厂长┃弹幕",//潇洒
+      "name": "🐷厂长┃弹幕",
       "type": 3,
       "api": "csp_Czzy",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -317,7 +314,7 @@
     },
     {
       "key": "天天弹幕",
-      "name": "🐹天天┃弹幕",//潇洒
+      "name": "🐹天天┃弹幕",
       "type": 3,
       "api": "csp_TianTian",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -330,7 +327,7 @@
     },
     {
       "key": "热播弹幕",
-      "name": "🐶热播┃弹幕",//潇洒
+      "name": "🐶热播┃弹幕",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
       "type": 3,
       "api": "csp_ReBo",
@@ -343,7 +340,7 @@
     },
     {
       "key": "糯米弹幕",
-      "name": "🍚糯米┃弹幕",//潇洒
+      "name": "🍚糯米┃弹幕",
       "type": 3,
       "api": "csp_Nmys",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -356,7 +353,7 @@
     },
     {
       "key": "文才弹幕",
-      "name": "🌸文才┃弹幕",//潇洒
+      "name": "🌸文才┃弹幕",
       "type": 3,
       "api": "csp_Jpys",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -369,7 +366,7 @@
     },
     {
       "key": "SP33",
-      "name": "📺蜗牛┃解析",//潇洒
+      "name": "📺蜗牛┃解析",
       "type": 3,
       "api": "csp_SP33",
       "jar": "https://tv.xn--11x555b.top/TV/spider.jar",
@@ -380,7 +377,7 @@
     },
     {
       "key": "天天影视",
-      "name": "🚝天天┃APP",//潇洒
+      "name": "🚝天天┃APP",
       "type": 3,
       "api": "csp_AppTT",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -390,7 +387,7 @@
     },
     {
       "key": "西瓜视频",
-      "name": "🍉西瓜┃视频",//潇洒
+      "name": "🍉西瓜┃视频",
       "type": 3,
       "api": "csp_AmuXiguaV2",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -405,7 +402,7 @@
     },
     {
       "key": "奇优影视",
-      "name": "🐧奇优┃影视",//潇洒
+      "name": "🐧奇优┃影视",
       "type": 3,
       "api": "csp_Qiyou",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -416,7 +413,7 @@
     },
     {
       "key": "农民影视",
-      "name": "🦢农民┃影视",//潇洒
+      "name": "🦢农民┃影视",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
       "type": 3,
       "api": "csp_Nmys",
@@ -426,7 +423,7 @@
     },
     {
       "key": "瓜子影视",
-      "name": "🥜瓜子┃2K纯净",//潇洒
+      "name": "🥜瓜子┃2K纯净",
       "type": 3,
       "api": "csp_Gz360",
       "jar": "https://tv.xn--11x555b.top/jar/spider.txt;md5;62604d62b4f3bd41b195b5670bed80a9",
@@ -465,7 +462,7 @@
     },
     {
       "key": "木耳",
-      "name": "🐰木耳┃秒播",//ok
+      "name": "🐰木耳┃秒播",
       "type": 1,
       "api": "https://json02.heimuer.xyz/api.php/provide/vod",
       "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732006789516/ojpg.txt;md5;325f01f06d650401452dfdafdb848c7d",
@@ -529,7 +526,7 @@
     },
     {
       "key": "guoguo",
-      "name": "🎬蜗牛┃备用",//小米
+      "name": "🎬蜗牛┃备用",
       "type": 3,
       "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1734155068522/1214wudi.jar;md5;e3373285325c90d62408e42710d8d066",
       "api": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/drpy_libs/drpy2.min.js",
