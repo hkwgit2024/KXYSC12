@@ -1,6 +1,6 @@
 {
   "wallpaper": "https://tool.weetai.cn/api/images/05.png","logo":"https://gitcode.net/tushaoyong543452/tsy543452/-/raw/master/fuli/00.gif",
-  "spider": "https://gitee.com/wuyougouwu/tvsource/raw/master/jar/xbpq%E6%96%B0%E7%89%88.jar",
+  "spider": "./xbpqxb.jar",
   "sites": [
       {
       "key": "火狐",
@@ -221,4 +221,5 @@
       "playerType": 1
     }
   ]
+
 }
