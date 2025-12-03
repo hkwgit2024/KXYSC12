@@ -1,0 +1,24 @@
+{
+    "urls": [
+        {
+            "name": "狗血短剧",
+            "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxdj/DJ4/duanju.json"
+        },
+        {
+            "name": "狗血短剧2",
+            "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxdj/DJ6/api.json"
+        },
+		{
+            "name": "狗血短剧3",
+            "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxdj/DJ5/api.json"
+        },
+				{
+            "name": "狗血短剧4",
+            "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxdj/djsvipdx4.json"
+        },
+        {
+            "name": "狗血短剧5",
+            "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/duanju.json"
+        }
+    ]
+}
