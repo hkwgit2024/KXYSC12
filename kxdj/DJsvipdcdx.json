@@ -2,15 +2,15 @@
     "urls": [
         {
             "name": "狗血短剧",
-            "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxdj/DJ4/duanju.json"
+            "url": "./DJ4/duanju.json"
         },
         {
             "name": "狗血短剧2",
-            "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxdj/DJ6/api.json"
+            "url": "./DJ6/api.json"
         },
 		{
             "name": "狗血短剧3",
-            "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxdj/DJ5/api.json"
+            "url": "./DJ5/api.json"
         },
 				{
             "name": "狗血短剧4",
