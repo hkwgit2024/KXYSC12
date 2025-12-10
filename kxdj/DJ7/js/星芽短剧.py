@@ -152,11 +152,11 @@ class Spider(Spider):
 
     def homeContent(self, filter):
         result = {}
-        result = {"class": [{"type_id": "1", "type_name": "七星剧场"},
-                            {"type_id": "3", "type_name": "七星新剧"},
-                            {"type_id": "2", "type_name": "七星热播"},
-                            {"type_id": "7", "type_name": "七星星选"},
-                            {"type_id": "5", "type_name": "七星阳光"}],
+        result = {"class": [{"type_id": "1", "type_name": "康兄剧场"},
+                            {"type_id": "3", "type_name": "康兄新剧"},
+                            {"type_id": "2", "type_name": "康兄热播"},
+                            {"type_id": "7", "type_name": "康兄星选"},
+                            {"type_id": "5", "type_name": "康兄阳光"}],
                   }
 
         return result
@@ -260,12 +260,12 @@ class Spider(Spider):
                 bofang = bofang + str(name) + '$' + id + '#'
 
             bofang = bofang[:-1] if bofang.endswith('#') else bofang
-            xianlu = '七星'
+            xianlu = '康兄'
         else:
             # 如果没有theaters数据，检查是否有单个视频URL
             if 'video_url' in data['data'] and data['data']['video_url']:
                 bofang = '1$' + data['data']['video_url']
-                xianlu = '七星'
+                xianlu = '康兄'
             else:
                 bofang = Jumps
                 xianlu = '1'
