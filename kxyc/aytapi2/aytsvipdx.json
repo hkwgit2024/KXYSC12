@@ -1,5 +1,5 @@
 {
-      "spider": "./spider.jar;md5;72AEABE90734E895CC2516E4F0294AFF",
+      "spider": "./spider.jar;md5;F242377386E0396C007A69E68B5A7C18",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "logo": "https://ghproxy.net/raw.githubusercontent.com/zengjian03/han/master/lib/logo.gif",
@@ -2035,6 +2035,11 @@
         }
     ],
     "parses": [
+		{
+      "name": "素弦4K③",
+      "type": 1,
+      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url="
+        },
         {
             "name": "无上",
             "type": "1",
