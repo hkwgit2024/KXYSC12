@@ -2011,6 +2011,11 @@
         }
     ],
     "parses": [
+		{
+      "name": "素弦4K③",
+      "type": 1,
+      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url="
+        },
         {
             "name": "无上",
             "type": "1",
