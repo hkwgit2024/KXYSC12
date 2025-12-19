@@ -3,6 +3,60 @@
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
+      "key": "腾讯视频",
+      "name": "腾讯视频",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/腾讯视频.js"
+    },
+    {
+      "key": "优酷视频",
+      "name": "优酷视频",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/优酷视频.js"
+    },
+    {
+      "key": "芒果视频",
+      "name": "芒果视频",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/芒果视频.js"
+    },
+    {
+      "key": "爱奇艺",
+      "name": "爱奇异视频",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/爱奇艺.js"
+    },
+    {
+      "key": "三六零",
+      "name": "三六零视频",
+      "type": 3,
+      "api": "csp_SP360"
+    },
+    {
+      "key": "双星",
+      "name": "双星4K",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/双星.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "人人",
+      "name": "人人4K",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/人人电影网.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
       "key": "豆瓣",
       "name": "豆瓣首页",
       "type": 3,
@@ -458,60 +512,6 @@
       "api": "csp_YD",
       "searchable": 1,
       "quickSearch": 1,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "腾讯视频",
-      "name": "腾讯视频",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/腾讯视频.js"
-    },
-    {
-      "key": "优酷视频",
-      "name": "优酷视频",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/优酷视频.js"
-    },
-    {
-      "key": "芒果视频",
-      "name": "芒果视频",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/芒果视频.js"
-    },
-    {
-      "key": "爱奇艺",
-      "name": "爱奇异视频",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/爱奇艺.js"
-    },
-    {
-      "key": "三六零",
-      "name": "三六零视频",
-      "type": 3,
-      "api": "csp_SP360"
-    },
-    {
-      "key": "双星",
-      "name": "双星4K",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/双星.js",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "人人",
-      "name": "人人4K",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/js/人人电影网.js",
       "style": {
         "type": "list"
       }
@@ -1108,6 +1108,16 @@
     }
   ],
   "parses": [
+    {
+            "name": "淘片",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
     {
       "name": "虾米",
       "type": 0,
