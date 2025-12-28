@@ -1,6 +1,110 @@
 {
 
 	"classes": [
+	        {
+      "type_name": "楚剧",
+      "type_id": "楚剧超清"
+    },
+    {
+      "type_name": "黄梅戏",
+      "type_id": "黄梅戏超清"
+    },
+    {
+      "type_name": "湖北大鼓",
+      "type_id": "湖北大鼓高清"
+    },
+    {
+      "type_name": "荆州花鼓戏",
+      "type_id": "荆州花鼓戏"
+    },
+    {
+      "type_name": "湖北汉剧",
+      "type_id": "湖北汉剧超清"
+    },
+    {
+      "type_name": "二人转",
+      "type_id": "二人转超清"
+    },
+    {
+      "type_name": "老电影",
+      "type_id": "老电影超清"
+    },
+    {
+      "type_name": "广场舞",
+      "type_id": "广场舞超清"
+    },
+    {
+      "type_name": "小品",
+      "type_id": "小品超清"
+    },
+    {
+      "type_name": "相声",
+      "type_id": "相声超清"
+    },
+    {
+      "type_name": "美女写真",
+      "type_id": "美女写真超清"
+    },
+    {
+      "type_name": "美食频道",
+      "type_id": "美食频道超清"
+    },
+    {
+      "type_name": "荒野求生",
+      "type_id": "荒野求生超清"
+    },
+    {
+      "type_name": "做菜厨艺",
+      "type_id": "做菜厨艺超清"
+    },
+    {
+      "type_name": "音乐MV",
+      "type_id": "音乐MV超清"
+    },
+    {
+      "type_name": "歌曲KTV",
+      "type_id": "歌曲KTV超清"
+    },
+    {
+      "type_name": "三农",
+      "type_id": "三农超清"
+    },
+    {
+      "type_name": "新闻资讯",
+      "type_id": "新闻资讯"
+    },
+    {
+      "type_name": "军事频道",
+      "type_id": "军事频道超清"
+    },
+    {
+      "type_name": "纪录片",
+      "type_id": "纪录片超清"
+    },
+    {
+      "type_name": "小剧场",
+      "type_id": "小剧场超清"
+    },
+    {
+      "type_name": "动物世界",
+      "type_id": "动物世界超清"
+    },
+    {
+      "type_name": "影视",
+      "type_id": "影视超清"
+    },
+    {
+      "type_name": "情感",
+      "type_id": "情感超清"
+    },
+    {
+      "type_name": "儿童教育",
+      "type_id": "儿童教育超清"
+    },
+    {
+      "type_name": "动画",
+      "type_id": "动画超清"
+    },
 		{
 			"type_name": "音乐",
 			"type_id": "音乐"
