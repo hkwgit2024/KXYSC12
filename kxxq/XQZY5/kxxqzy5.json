@@ -5,7 +5,7 @@
 "spider":"./woniu.jar",
 "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 "logo": "https://pan.shangui.cc/f/66yatp/t017acbfe7120dcf421.gif",
-"warningText":"【蜗牛影视】提示:
+"warningText":"【康兄戏曲】提醒您:
 📢接口软件永远免费 
 📢长期维护切勿贩卖",
 
@@ -19,22 +19,22 @@
 ],
 
 "sites": [
-{"key": "戏曲","name": "🅰️戏曲┃合集","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/戏曲合集.json"},
-{"key": "合集","name": "💋合集┃哔哩","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/合集.json"}, 
-{"key": "MV","name": "🌈歌曲┃哔哩","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/歌曲MV.json"},
-{"key": "美食","name": "🌈美食┃哔哩","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/美食.json"},
-{"key": "演唱会","name": "🅰️演唱会┃哔哩","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/演唱会.json"}, 
-{"key":"csp_BBB","name":"🅱️套餐┃哔哩","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/哔哩套餐1.json"},
-{"key": "Bili","name": "🅱️套餐2┃哔哩","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/哔哩套餐2.json"},
-{"key": "软件","name": "🅰️软件┃教程","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/软件教程.json"}, 
+{"key": "戏曲","name": "🅰️戏曲合集┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/戏曲合集.json"},
+{"key": "合集","name": "💋B站合集┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/合集.json"}, 
+{"key": "MV","name": "🌈B站歌曲┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/歌曲MV.json"},
+{"key": "美食","name": "🌈B站美食┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/美食.json"},
+{"key": "演唱会","name": "🅱️站演唱会┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/演唱会.json"}, 
+{"key":"csp_BBB","name":"🅱️站套餐┃买康兄盒子就送双端专享会员","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/哔哩套餐1.json"},
+{"key": "Bili","name": "🅱️站套餐2┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/哔哩套餐2.json"},
+{"key": "软件","name": "🅱️站软件┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/软件教程.json"}, 
 
-{"key":"腾","name":"🎄腾腾┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/腾讯视频.js"},
-{"key":"优","name":"🎄优优┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/优酷视频.js"},
-{"key":"芒","name":"🎄芒芒┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/芒果视频.js"},
-{"key":"狗","name":"🎄狗狗┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/搜狗视频.js"},
-{"key":"爱","name":"🎄爱爱┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/爱奇艺.js"},
-{"key":"三","name":"🎄三六┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/三六零.js"},
-{"key":"南瓜影视2","name":"🎄南瓜┃影视2","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/南瓜影视.js"},
+{"key":"腾","name":"🎄腾腾影视┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/腾讯视频.js"},
+{"key":"优","name":"🎄优优影视┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/优酷视频.js"},
+{"key":"芒","name":"🎄芒芒影视┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/芒果视频.js"},
+{"key":"狗","name":"🎄狗狗影视┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/搜狗视频.js"},
+{"key":"爱","name":"🎄爱爱影视┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/爱奇艺.js"},
+{"key":"三","name":"🎄三六影视┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/三六零.js"},
+{"key":"南瓜影视2","name":"🎄南瓜影视┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/南瓜影视.js"},
 {"key":"采集之王","name":"🐲采王┃采集","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"order_num":142,"ext":"https://tv.nxog.top/m/js/采集之王.js?type=url&params=https://tv.nxog.top/m/json/采集静态.json"},
 
 {"key":"南瓜影视","name":"🍵南瓜┃影视","type":3,"api":"csp_WexNgys","searchable":1,"quickSearch":1,"filterable":0},
