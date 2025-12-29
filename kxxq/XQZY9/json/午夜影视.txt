@@ -1,0 +1,11 @@
+    {
+    
+    "作者":"顺财",
+    
+    "站名":"午夜影视影视",
+    
+    "主页url":"https://sanyatour.com/",
+    
+    "分类url":"https://sanyatour.com/{cateId}.html",
+    
+    "分类":"电影$dianying#电视剧$dianshiju#美剧$meiju#日剧$riju#泰剧$taiju#最近更新$map#排行榜$label/rank"}

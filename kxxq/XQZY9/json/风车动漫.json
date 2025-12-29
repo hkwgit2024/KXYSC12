@@ -1,0 +1,11 @@
+{
+  "作者": "心动",
+  "站名": "风车动漫",
+  "主页url": "http://www.zzhlingli.com",
+  "请求头": "User-Agent$MOBILE_UA",
+  "搜索模式": "1",
+  "搜索url":"http://www.zzhlingli.com/search.php?searchword={wd}",
+  "分类url": "http://www.zzhlingli.com/frim/{cateId}-{catePg}.html",
+  "分类": "电影&电视剧&综艺&动漫&短剧",
+  "分类值": "1&2&3&4&25"
+}

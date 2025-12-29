@@ -1,0 +1,75 @@
+{
+  "drives": [
+    {
+      "name": "🤍小雅网盘",
+      "server": "https://alist.891218.xyz/💃小雅"
+    },
+    {
+      "name": "🤍环宇轩",
+      "server": "https://alist.891218.xyz/🌏环宇轩"
+    },
+    {
+      "name": "🤍资源小站",
+      "server": "https://pan.ecve.cn/"
+    },
+  {
+            "name": "🤍Ecve",
+            "server": "https://pan.ecve.cn/"
+          },
+          {
+            "name": "🤍小鸭",
+            "server": "https://pan.mediy.cn/"
+          },
+          {
+            "name": "🤍秋雨",
+            "server": "https://share.qiuyu.org/"
+          },
+    {
+      "name": "🧯灭火器",
+      "server": "https://s3.776161.xyz/",
+      "startPage" : "/",
+        "showAll" : false,
+        "search" : true
+    },
+    {
+     "name": "🐉神族九帝",
+     "server": "https://alist.shenzjd.com",
+     "startPage" : "/",
+        "showAll" : false,
+        "search" : true
+    },
+    {
+     "name": "✨星梦",
+     "server": "https://pan.bashroot.top",
+     "startPage" : "/",
+        "showAll" : false,
+        "search" : true
+    },
+    {
+        "name" : "🌊七米蓝",
+        "server" : "https://al.chirmyram.com",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : true
+    },  
+          {
+            "name": "🤍ASMR",
+            "server": "https://www.asmrgay.com/"
+          },
+  {
+        "name" : "🌊灰机场",
+        "server" : "http://www.anscc.net/",
+        "startPage" : "/",
+        "showAll" : false,
+        "search" : true
+    },
+ {
+        "name" : "🌊太阳☀️",
+        "server" : "http://pan.teyonds.com/"
+    }
+  ]
+}
+
+
+
+

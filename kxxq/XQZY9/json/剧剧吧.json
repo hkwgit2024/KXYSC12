@@ -1,0 +1,7 @@
+{      
+        "请求头": "User-Agent$手机",
+        "编码": "UTF-8",
+        "搜索Url":"https://www.duanju8.cc/search/-------------.html?wd={wd}",
+        "主页url":"https://www.duanju8.cc/",
+        "分类url": "https://www.duanju8.cc/show/{cateId}--{by}---{letter}---{catePg}---{year}.html",
+        "分类": "短剧$1#美剧$8#韩剧$9#恋爱$2#反转$3#悬疑$4#穿越$5#古装$6#都市$7"}

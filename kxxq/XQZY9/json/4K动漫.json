@@ -1,0 +1,15 @@
+ {
+                "搜索模式": "1",
+                "搜索url": "https://cn.agekkkk.com/search/-------------.html?wd=/{wd}",
+                "搜索数组":"<a &&</a>",
+                "搜索标题":"title=\"&&\"",
+                "搜索副标题":"<div>&&</div>",
+                "搜索图片":"data-original=\"&&\"",
+                "搜索链接":"href=\"&&\"",
+                "搜索链接前缀":"",
+                "搜索链接后缀":"",
+                "播放数组": "class=\"play-list-content\"&&</ul>",
+                "线路标题": "tab\">&&</a",
+                "分类": "日韩漫$1#国产漫$2#动态漫$5#特摄片$4#欧美漫$3",
+                "分类url": "https://cn.agekkkk.com/type/{cateId}-{catePg}.html"
+             }
