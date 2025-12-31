@@ -507,11 +507,8 @@
     }
   ],
   "parses": [
-    {
-      "name": "素弦4K③",
-      "type": 1,
-      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url="
-    },
+    {"name": "康兄解析","type": 1,"url": "https://zy.qiaoji8.com/xiafan.php?url=","ext": {"flag": ["QD4K","iyf","duanju","gzcj","GTV","GZYS","weggz","Ace"],"header": {"User-Agent": "okhttp/4.9.1"}}},
+    {"name": "康兄解析2","type": 0,"url": "https://jx.xmflv.com/?url=","ext": {"header": {"user-agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"}}},
     {
       "name": "-淘片-",
       "type": 0,
@@ -572,16 +569,6 @@
       "url": "http://150.138.72.216:20142/jx/jxapi.php?key=GtPhmT7RXsGshWQTDm&laiyuan=suxian1&url="
     },
     {
-      "name": "素弦4K③",
-      "type": 1,
-      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url="
-    },
-	{
-      "name": "素弦4K②",
-      "type": 1,
-      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url="
-    },
-    {
       "name": "素弦4K④",
       "type": 1,
       "url": "http://jx.xnftv.xyz/api/diy/?key=02wLO4jHzX2J3U7417&url="
@@ -636,6 +623,8 @@
       "type": 1,
       "url": "http://150.138.72.216:20142/jx/api.php?urlKey=yt&videoUrl="
     },
+    {"name": "康兄解析","type": 1,"url": "https://zy.qiaoji8.com/xiafan.php?url=","ext": {"flag": ["QD4K","iyf","duanju","gzcj","GTV","GZYS","weggz","Ace"],"header": {"User-Agent": "okhttp/4.9.1"}}},
+    {"name": "康兄解析2","type": 0,"url": "https://jx.xmflv.com/?url=","ext": {"header": {"user-agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"}}},
     {
       "name": "芒果专线",
       "type": 1,
