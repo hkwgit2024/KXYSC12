@@ -1,0 +1,60 @@
+{
+  "urls": [
+	{	
+      "name": "康兄搜集OK-4K专线1",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc/AYTDX4K/kxayt4k.json"
+    },
+    {	
+      "name": "康兄搜集OK-4K专线2",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc/AYTDX4K/kxaytzh4k.json"
+    },
+    {
+      "name": "康兄搜集OK-4K专线3",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc/AYTDX4K/kxaytzh4k2.json"
+    },
+    {
+      "name": "康兄搜集OK专线8",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc/AYTDX/aytokdx8.json"
+    },
+    {
+      "name": "康兄搜集OK专线9",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc/AYTDX2/aytokdx9.json"
+    },
+    {
+      "name": "康兄搜集OK专线10",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc/AYTDX3/aytokdx10.json"
+    },
+	{
+      "name": "康兄搜集OK专线11",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc/AYTDX4/aytokdx11.json"
+    },
+    {
+      "name": "康兄搜集OK专线12",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc/AYTDX5/aytokdx12.json"
+    },
+	{
+      "name": "康兄搜集OK-AYT专线1",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC/refs/heads/bach/aytsvipdx17.json"
+    },
+    {
+      "name": "康兄搜集OK-AYT专线2",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC/refs/heads/bach/aytsvipdx18.json"
+    },
+    {
+      "name": "康兄搜集OK-AYT专线3",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC5/refs/heads/bach/aytsvipdx13.json"
+    },
+    {
+      "name": "康兄搜集OK-AYT专线4",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC4/refs/heads/bach/aytsvipdx7.json"
+    },
+    {
+      "name": "康兄搜集OK-AYT专线5",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC4/refs/heads/bach/aytsvipdx8.json"
+    },
+    {
+      "name": "康兄搜集OK=AYT专线6",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc/aytapi2/aytsvipdx.json"
+    }
+  ]
+}

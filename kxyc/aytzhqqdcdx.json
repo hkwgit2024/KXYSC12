@@ -1,0 +1,60 @@
+{
+  "urls": [
+    {
+      "name": "康兄搜集OK-AYT专线1",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC/refs/heads/bach/aytsvipdx17.json"
+    },
+    {
+      "name": "康兄搜集OK-AYT专线2",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC/refs/heads/bach/aytsvipdx18.json"
+    },
+    {
+      "name": "康兄搜集OK-AYT专线3",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC5/refs/heads/bach/aytsvipdx13.json"
+    },
+    {
+      "name": "康兄搜集OK-AYT专线4",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC4/refs/heads/bach/aytsvipdx7.json"
+    },
+    {
+      "name": "康兄搜集OK-AYT专线5",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC4/refs/heads/bach/aytsvipdx8.json"
+    },
+    {
+      "name": "康兄搜集OK-AYT专线6",
+      "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxyc/AYTDX5/aytokdx12.json"
+    },
+	{
+      "name": "康兄搜集OK-XQZY专线7",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY5/kxxqzy5.json"
+    },
+    {	
+      "name": "康兄搜集OK专线1",
+      "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxyc/aytokdx1.json"
+    },
+    {
+      "name": "康兄搜集OK专线2",
+      "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxyc/aytokdx2.json"
+    },
+    {
+      "name": "康兄搜集OK专线3",
+      "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxyc/aytokdx3.json"
+    },
+    {
+      "name": "康兄搜集OK专线4",
+      "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxyc/aytokdx4.json"
+    },
+    {
+      "name": "康兄搜集OK专线5",
+      "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxyc/aytokdx5.json"
+    },
+	{
+      "name": "康兄搜集OK专线6",
+      "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxyc/aytokdx6.json"
+    },
+    {
+      "name": "康兄搜集OK专线7",
+      "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxyc/aytokdx7.json"
+    }
+  ]
+}
