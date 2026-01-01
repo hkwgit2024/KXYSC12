@@ -1515,8 +1515,18 @@
     }
   ],
   "parses": [
-    {"name": "康兄解析","type": 1,"url": "https://zy.qiaoji8.com/xiafan.php?url=","ext": {"flag": ["QD4K","iyf","duanju","gzcj","GTV","GZYS","weggz","Ace"],"header": {"User-Agent": "okhttp/4.9.1"}}},
-    {"name": "康兄解析2","type": 0,"url": "https://jx.xmflv.com/?url=","ext": {"header": {"user-agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"}}},
+    {
+      "name": "康兄解析",
+      "type": 0,
+      "url": "https://t2.qlplayer.cyou/player/analysis.php?v="
+    },
+	{
+      "name": "康兄解析2",
+      "type": 0,
+      "url": "https://t2.qlplayer.cyou/player/analysis.php?v="
+    },
+    {"name": "康兄解析3","type": 1,"url": "https://zy.qiaoji8.com/xiafan.php?url=","ext": {"flag": ["QD4K","iyf","duanju","gzcj","GTV","GZYS","weggz","Ace"],"header": {"User-Agent": "okhttp/4.9.1"}}},
+    {"name": "康兄解析4","type": 0,"url": "https://jx.xmflv.com/?url=","ext": {"header": {"user-agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"}}},
     {
       "name": "解析失败自己切换",
       "url": "https://www.8090g.cn/jiexi/?url=",
@@ -1570,11 +1580,6 @@
       "url": "https://jx.m3u8.tv/jiexi/?url="
     },
     {
-      "name": "解析2",
-      "type": 0,
-      "url": "https://t2.qlplayer.cyou/player/analysis.php?v="
-    },
-    {
       "name": "解析3",
       "type": 0,
       "url": "https://jx.xmflv.com/?url=",
@@ -1615,12 +1620,15 @@
       "url": "https://nm.xxxc137.top/static/player/artplayer.html?url="
     },
     {
-      "name": "解析6",
+      "name": "康兄解析",
       "type": 0,
       "url": "https://t2.qlplayer.cyou/player/analysis.php?v="
     },
-	{"name": "康兄解析","type": 1,"url": "https://zy.qiaoji8.com/xiafan.php?url=","ext": {"flag": ["QD4K","iyf","duanju","gzcj","GTV","GZYS","weggz","Ace"],"header": {"User-Agent": "okhttp/4.9.1"}}},
-    {"name": "康兄解析2","type": 0,"url": "https://jx.xmflv.com/?url=","ext": {"header": {"user-agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/110.0.0.0Safari/537.36Edg/110.0.1587.57"}}},
+	{
+      "name": "康兄解析2",
+      "type": 0,
+      "url": "https://t2.qlplayer.cyou/player/analysis.php?v="
+    },
     {
       "name": "解析7",
       "type": 0,
