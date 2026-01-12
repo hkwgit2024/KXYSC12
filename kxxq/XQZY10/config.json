@@ -2,12 +2,12 @@
   "spider": "https://ncstatic.clewm.net/rsrc/2025/1018/20/1e6fcfbb0b074b3ea5bb216a234162e6.png;md5;946F8772261DF60FE5F4DC30965A3BB7",
   "wallpaper": "https://yydsys.top/bg.php",
   "logo": "https://origin.picgo.net/2025/10/12/new166e26b264dff8e9.gif",
-  "warningText": "👏欢迎使用康兄系列影视APP！🎙所有APP均支持语音搜索功能，📽请配套使用康兄智能语音版盒子。",
+  "warningText": "接口完全免费，切勿贩卖购买",
   "lives": [
     {
       "name": "Guovin",
       "type": 0,
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "url": "https://hub.gitmirror.com/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
       "epg": "http://epg.51zmt.top:8000/e.xml",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "timeout": 10
@@ -53,200 +53,25 @@
     }
   ],
   "sites": [
-{"key": "戏曲","name": "🎈戏曲综艺┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./json/xiqu.json"},
-{"key": "csp_XYQHiker_戏曲多多","name":"🎻戏曲多多┃买康兄盒子就送双端专享会员","type":3,"api":"csp_XYQHiker","jar": "./jar/custom_spider.jar","searchable":1,"quickSearch":0,"filterable":1,"ext":"./json/戏曲多多.json"},
-{"key": "哔哩哔哩","name": "🅱️哔哩┃哔哩","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./Bilibili/哔哩哔哩.json"},
-{"key": "哔哩合集","name": "🅱️哔哩合集┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./Bilibili/哔哩合集.json"},	  
-{"key": "相声小品","name": "🅱️相声小品┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./Bilibili/相声小品.json"},
-{"key": "MV","name": "🅱️哔哩MV┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./Bilibili/哔哩MTV.json"},
-{"key": "歌舞","name": "💃印度歌舞┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./Bilibili/印度歌舞.json"},
-{"key": "舞蹈","name": "🎗️哔哩舞蹈┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./Bilibili/哔哩舞蹈.json"},
-{"key": "哔哩小说","name": "🅱️哔哩小说┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./Bilibili/哔哩小说.json"},
-	{
-      "key": "啊哈DJ",
-      "name": "🎹啊哈音乐┃买康兄盒子就送双端专享会员",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://ncstatic.clewm.net/rsrc/2025/0716/15/3583b9ecff3bc6a1db4004faf891f7de.png;md5;423e33ec108c0f7816200cebaf18fb69",
-      "ext": "./json/aha.json"
-    }, 	
     {
-      "key": "聚合直播",
-      "name": "🎥聚合直播┃买康兄盒子就送双端专享会员",
+      "key": "豆瓣",
+      "name": "🍥┃豆瓣┃仅供测试，请于测试完毕后24小时删除🍥",
       "type": 3,
-      "api": "csp_Living",
+      "api": "csp_Douban",
       "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "酷狗音乐",
-      "name": "🎸酷狗音乐┃买康兄盒子就送双端专享会员",
-      "type": 3,
-      "api": "csp_Kugou",
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "MV演唱会",
-      "name": "🎵歌曲MV┃买康兄盒子就送双端专享会员",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "json": "./json/song.json"
-      }
-    },
-    {
-      "key": "酷奇MV",
-      "name": "🎸酷奇MV┃买康兄盒子就送双端专享会员",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://ncstatic.clewm.net/rsrc/2025/0716/15/3583b9ecff3bc6a1db4004faf891f7de.png;md5;423e33ec108c0f7816200cebaf18fb69",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "主页url": "https://www.kuqimv.com",
-        "直接播放": "1",
-        "短视频": "1",
-        "分类": "华语高清$1#日韩精选$2#欧美MV$3#高清现场$4#影视MV$5#夜店视频$6#车模视频$7#热舞视频$8#美女写真$9#美女打碟$10",
-        "分类url": "https://www.kuqimv.com/play/{cateId}_{catePg}.html;;z",
-        "数组": "\u003Cli\u003E&&\u003C/li\u003E",
-        "标题": "title=\"&&\"",
-        "副标题": "target=\"play\"\u003E&&\u003C",
-        "搜索模式": "1",
-        "搜索url": "https://www.kuqimv.com/search.php?key={wd}"
-      }
-    },
-    {
-      "key": "MV_vod",
-      "name": "🎤电视MTV┃买康兄盒子就送双端专享会员",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
-      "ext": {
-        "json": "./json/mtv.json"
-      }
+      "ext": "./json/douban.json"
     },
     {
-      "key": "哔哩健身",
-      "name": "🅱️┃哔哩┃健身",
+      "key": "网盘配置",
+      "name": "🍭┃配置┃中心",
       "type": 3,
-      "api": "csp_Bili",
+      "api": "csp_Config",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 0,
       "style": {
         "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "./json/bili.json"
-      }
-    },
-    {
-      "key": "哔哩幼儿",
-      "name": "🅱️┃哔哩┃幼儿",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "./json/yely.json"
-      }
-    },
-    {
-      "key": "哔哩少儿",
-      "name": "🅱️┃哔哩┃少儿",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "./json/sejy.json"
-      }
-    },
-    {
-      "key": "哔哩小学",
-      "name": "🅱️┃哔哩┃小学",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "./json/xxkt.json"
-      }
-    },
-    {
-      "key": "哔哩初中",
-      "name": "🅱️┃哔哩┃初中",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "./json/czkt.json"
-      }
-    },
-    {
-      "key": "哔哩高中",
-      "name": "🅱️┃哔哩┃高中",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "./json/gzkt.json"
+        "ratio": 1.597
       }
     },
     {
@@ -890,6 +715,237 @@
       }
     },
     {
+      "key": "啊哈DJ",
+      "name": "🎹┃啊哈┃音乐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://ncstatic.clewm.net/rsrc/2025/0716/15/3583b9ecff3bc6a1db4004faf891f7de.png;md5;423e33ec108c0f7816200cebaf18fb69",
+      "ext": "./json/aha.json"
+    }, 	
+    {
+      "key": "聚合直播",
+      "name": "🎥┃聚合┃直播",
+      "type": 3,
+      "api": "csp_Living",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "酷狗音乐",
+      "name": "🎸┃酷狗┃音乐",
+      "type": 3,
+      "api": "csp_Kugou",
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "MV演唱会",
+      "name": "🎵┃歌曲┃M V",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "json": "./json/song.json"
+      }
+    },
+    {
+      "key": "酷奇MV",
+      "name": "🎸┃酷奇┃MV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://ncstatic.clewm.net/rsrc/2025/0716/15/3583b9ecff3bc6a1db4004faf891f7de.png;md5;423e33ec108c0f7816200cebaf18fb69",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "主页url": "https://www.kuqimv.com",
+        "直接播放": "1",
+        "短视频": "1",
+        "分类": "华语高清$1#日韩精选$2#欧美MV$3#高清现场$4#影视MV$5#夜店视频$6#车模视频$7#热舞视频$8#美女写真$9#美女打碟$10",
+        "分类url": "https://www.kuqimv.com/play/{cateId}_{catePg}.html;;z",
+        "数组": "\u003Cli\u003E&&\u003C/li\u003E",
+        "标题": "title=\"&&\"",
+        "副标题": "target=\"play\"\u003E&&\u003C",
+        "搜索模式": "1",
+        "搜索url": "https://www.kuqimv.com/search.php?key={wd}"
+      }
+    },
+    {
+      "key": "MV_vod",
+      "name": "🎤┃电视┃MTV",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "json": "./json/mtv.json"
+      }
+    },
+    {
+      "key": "戏曲",
+      "name": "🅱️┃戏曲┃大全",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/xiqu.json"
+      }
+    },
+    {
+      "key": "哔哩影视",
+      "name": "🅱️┃哔哩┃影视",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": "./lib/blys.js"
+    },
+    {
+      "key": "哔哩影音",
+      "name": "🅱️┃哔哩┃影音",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": "./lib/wdbl.js"
+    },
+    {
+      "key": "哔哩健身",
+      "name": "🅱️┃哔哩┃健身",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/bili.json"
+      }
+    },
+    {
+      "key": "哔哩幼儿",
+      "name": "🅱️┃哔哩┃幼儿",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/yely.json"
+      }
+    },
+    {
+      "key": "哔哩少儿",
+      "name": "🅱️┃哔哩┃少儿",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/sejy.json"
+      }
+    },
+    {
+      "key": "哔哩小学",
+      "name": "🅱️┃哔哩┃小学",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/xxkt.json"
+      }
+    },
+    {
+      "key": "哔哩初中",
+      "name": "🅱️┃哔哩┃初中",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/czkt.json"
+      }
+    },
+    {
+      "key": "哔哩高中",
+      "name": "🅱️┃哔哩┃高中",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/gzkt.json"
+      }
+    },
+    {
       "key": "Tgsou",
       "name": "🔎┃飞机┃搜索",
       "type": 3,
@@ -914,27 +970,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-	{
-      "key": "豆瓣",
-      "name": "🍥┃豆瓣┃仅供测试，请于测试完毕后24小时删除🍥",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "changeable": 1,
-      "ext": "./json/douban.json"
-    },
-    {
-      "key": "网盘配置",
-      "name": "🍭┃配置┃中心",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
     },
     {
       "key": "push_agent",
