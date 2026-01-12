@@ -53,50 +53,16 @@
     }
   ],
   "sites": [
-    {
-      "key": "戏曲",
-      "name": "🎈戏曲综艺┃买康兄盒子就送双端专享会员",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "./json/xiqu.json"
-      }
-    },
-    {
-      "key": "哔哩影视",
-      "name": "🅱️B站影视┃买康兄盒子就送双端专享会员",
-      "type": 3,
-      "api": "./js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": "./lib/blys.js"
-    },
-    {
-      "key": "哔哩影音",
-      "name": "🅱️┃B站影音┃买康兄盒子就送双端专享会员",
-      "type": 3,
-      "api": "./js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": "./lib/wdbl.js"
-    },
+{"key": "戏曲","name": "🎈戏曲综艺┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./Bilibili/哔哩戏曲.json"},
+{"key": "csp_XYQHiker_戏曲多多","name":"🎻戏曲多多┃买康兄盒子就送双端专享会员","type":3,"api":"csp_XYQHiker","jar": "./jar/custom_spider.jar","searchable":1,"quickSearch":0,"filterable":1,"ext":"./json/戏曲多多.json"},
+{"key":"MV点播","name":"📺MV欣赏","searchable": 1,"changeable": 1,"quickSearch": 0,"type": 3,"api": "./mv/live2cms.js","ext":"./mv/万首MV.json"},
+{"key": "哔哩哔哩","name": "🅱️哔哩┃哔哩","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./Bilibili/哔哩哔哩.json"},
+{"key": "哔哩合集","name": "🅱️哔哩合集┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./Bilibili/哔哩合集.json"},	  
+{"key": "相声小品","name": "🅱️相声小品┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./Bilibili/相声小品.json"},
+{"key": "MV","name": "🅱️哔哩MV┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./Bilibili/哔哩MTV.json"},
+{"key": "歌舞","name": "💃印度歌舞┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./Bilibili/印度歌舞.json"},
+{"key": "舞蹈","name": "🎗️哔哩舞蹈┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./Bilibili/哔哩舞蹈.json"},
+{"key": "哔哩小说","name": "🅱️哔哩小说┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./Bilibili/哔哩小说.json"},
 	{
       "key": "啊哈DJ",
       "name": "🎹啊哈音乐┃买康兄盒子就送双端专享会员",
