@@ -1,0 +1,24 @@
+{
+  "urls": [
+    {
+      "name": "雷蒙影视",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/1.json"
+    },
+    {
+      "name": "香雅情影视",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/2.json"
+    },
+    {
+      "name": "南风",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/3.json"
+    },
+    {
+      "name": "0821",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/4.json"
+    },
+    {
+      "name": "潇洒",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/5.json"
+    }
+  ]
+}
