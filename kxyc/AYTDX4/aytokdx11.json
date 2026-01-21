@@ -6,35 +6,35 @@
   "sites": [
     {
       "key": "腾讯视频",
-      "name": "🐧腾云┃买康兄影视盒子就送双端专享会员",
+      "name": "🐧腾云┃买康兄盒子就送双端专享会员",
       "type": 3,
       "api": "https://ghproxy.net/raw.githubusercontent.com/zengjian03/han/master/js/drpy2.min.js",
       "ext": "https://ghproxy.net/raw.githubusercontent.com/zengjian03/han/master/js/腾讯视频.js"
     },
     {
       "key": "优酷视频",
-      "name": "🍎酷比┃买康兄影视盒子就送双端专享会员",
+      "name": "🍎酷比┃买康兄盒子就送双端专享会员",
       "type": 3,
       "api": "https://ghproxy.net/raw.githubusercontent.com/zengjian03/han/master/js/drpy2.min.js",
       "ext": "https://ghproxy.net/raw.githubusercontent.com/zengjian03/han/master/js/优酷视频.js"
     },
     {
       "key": "芒果视频",
-      "name": "🥝无果┃买康兄影视盒子就送双端专享会员",
+      "name": "🥝无果┃买康兄盒子就送双端专享会员",
       "type": 3,
       "api": "https://ghproxy.net/raw.githubusercontent.com/zengjian03/han/master/js/drpy2.min.js",
       "ext": "https://ghproxy.net/raw.githubusercontent.com/zengjian03/han/master/js/芒果视频.js"
     },
     {
       "key": "爱奇艺",
-      "name": "🥭奇兽┃买康兄影视盒子就送双端专享会员",
+      "name": "🥭奇兽┃买康兄盒子就送双端专享会员",
       "type": 3,
       "api": "https://ghproxy.net/raw.githubusercontent.com/zengjian03/han/master/js/drpy2.min.js",
       "ext": "https://ghproxy.net/raw.githubusercontent.com/zengjian03/han/master/js/爱奇艺.js"
     },
     {
       "key": "三六零",
-      "name": "📦360┃买康兄影视盒子就送双端专享会员",
+      "name": "📦360┃买康兄盒子就送双端专享会员",
       "type": 3,
       "api": "csp_SP360"
     },
