@@ -2,8 +2,8 @@
 //关注微信公众号【蜗牛科技仓】有惊喜哦！！
 
 {
-"spider": "https://ncstatic.clewm.net/rsrc/2025/1018/20/1e6fcfbb0b074b3ea5bb216a234162e6.png;md5;946F8772261DF60FE5F4DC30965A3BB7",
-//"spider":"./woniu.jar",
+//"spider": "https://ncstatic.clewm.net/rsrc/2025/1018/20/1e6fcfbb0b074b3ea5bb216a234162e6.png;md5;946F8772261DF60FE5F4DC30965A3BB7",
+"spider":"./woniu.jar",
 "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 "logo": "https://pan.shangui.cc/f/66yatp/t017acbfe7120dcf421.gif",
 "warningText":"【康兄盒子】郑重提醒您:
