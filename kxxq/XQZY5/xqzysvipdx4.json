@@ -22,6 +22,8 @@
 ],
 
 "sites": [
+{"key": "csp_XYQHiker_戏曲多多","name":"🎻戏曲多多┃买康兄盒子就送双端专享会员","type":3,"api":"csp_XYQHiker","jar": "https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY10/jar/custom_spider.jar","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY10/json/%E6%88%8F%E6%9B%B2%E5%A4%9A%E5%A4%9A.json"},
+{"key": "戏曲","name": "🎁戏曲综艺┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/戏曲合集.json"},
 {"key": "戏曲","name": "🎁戏曲综艺┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/戏曲合集.json"},
 {"key": "合集","name": "🅱️B站合集┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/合集.json"},
 {"key": "演唱会","name": "🅱️站演唱会┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/演唱会.json"},
@@ -203,6 +205,28 @@
         "纪录片"
         ]
     },
+	 {
+      "key": "电影天堂资源",
+      "name": "🍀┃天堂┃资源",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playurl": "",
+      "categories": ["动作片","科幻片","战争片","恐怖片","剧情片","喜剧片","动画片","国产剧","欧美剧","香港剧","台湾剧","海外剧", "国产动漫","港台动漫","日韩动漫","欧美动漫", "大陆综艺","港台综艺","短剧"]
+        },
+ {
+      "key": "茅台资源",
+      "name": "🍀┃茅台┃资源",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playurl": "",
+      "categories": ["动作片","科幻片","战争片","恐怖片","惊悚片","喜剧片","动漫电影","国产剧","欧美剧","香港剧","台湾剧","海外剧", "国产动漫","港台动漫","日本动漫","欧美动漫", "大陆综艺","港台综艺","短剧"]
+        },
 	    {
         "key": "cjzy_极速",
         "name": "🎁会员秒播5┃买康兄盒子就送双端专享会员",
