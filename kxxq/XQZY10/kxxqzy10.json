@@ -67,6 +67,7 @@
       "name": "🫛┃蔬菜┃APP",
       "type": 3,
       "api": "csp_AppGet",
+	  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/ls125781003/qqctg/refs/heads/main/%E8%82%A5%E7%8C%AB/spider.jar",
       "ext": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt|88689667dce61725"
       },
 	  {
