@@ -63,11 +63,19 @@
 {"key": "舞蹈","name": "🎗️哔哩舞蹈┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./Bilibili/哔哩舞蹈.json"},
 {"key": "哔哩小说","name": "🅱️哔哩小说┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./Bilibili/哔哩小说.json"},
 	  {
+      "key": "永永",
+      "name": "♾️┃永永┃APP",
+      "type": 3,
+      "api": "csp_AppGet",
+	  "jar": "./spider-fm.jar",
+      "ext": "https://444421.xyz|#getapp@TMD@2025|120"
+      },
+	  {
       "key": "蔬菜",
       "name": "🫛┃蔬菜┃APP",
       "type": 3,
       "api": "csp_AppGet",
-	  "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/ls125781003/qqctg/refs/heads/main/%E8%82%A5%E7%8C%AB/spider.jar",
+	  "jar": "./spider-fm.jar",
       "ext": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt|88689667dce61725"
       },
 	  {
