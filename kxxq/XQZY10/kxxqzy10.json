@@ -62,6 +62,38 @@
 {"key": "歌舞","name": "💃印度歌舞┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./Bilibili/印度歌舞.json"},
 {"key": "舞蹈","name": "🎗️哔哩舞蹈┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./Bilibili/哔哩舞蹈.json"},
 {"key": "哔哩小说","name": "🅱️哔哩小说┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","jar": "./jar/fm.jar","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"filterable": 1,"ext": "./Bilibili/哔哩小说.json"},
+      {
+      "key": "潮流",
+      "name": "🏜┃潮流┃APP",
+      "type": 3,
+      "api": "csp_AppRJ",
+	  "jar": "./spider-fm.jar",
+      "ext": "http://v.rbotv.cn"
+      },
+      {
+            "key": "csp_Jpys",
+            "name": "🥇️┃金牌┃影视",
+            "type": 3,
+            "api": "csp_Jpys",
+		    "jar": "./spider-fm.jar"
+      },
+      {
+            "key": "csp_SaoHuo",
+            "name": "🔥┃火火┃影视",
+            "type": 3,
+            "api": "csp_SaoHuo",
+            "playerType": 2,
+		    "jar": "./spider-fm.jar",
+            "ext": "https://shdy5.us"
+      },
+      {
+            "key": "行动",
+            "name": "😌┃行动┃APP",
+            "type": 3,
+            "api": "csp_AppQi",
+		    "jar": "./spider-fm.jar",
+            "ext": "https://qj4.catbb.xyz|eecbio48dsq13kkk"
+      },
 	  {
       "key": "永永",
       "name": "♾️┃永永┃APP",
