@@ -126,6 +126,14 @@
 			"jar": "./spider-xhb.jar",
             "ext": "https://zjuys.com/"
         },
+	    {
+            "key": "永乐",
+            "name": "永乐|弹幕",
+            "type": 3,
+            "api": "csp_HBPQ",
+			"jar": "./spider-xhb.jar",
+            "ext": "./json/永乐影视.json"
+        },
 	  {
       "key": "啊哈DJ",
       "name": "🎹啊哈音乐┃买康兄盒子就送双端专享会员",
