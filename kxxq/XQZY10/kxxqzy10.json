@@ -110,6 +110,22 @@
 	  "jar": "./spider-fm.jar",
       "ext": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt|88689667dce61725"
       },
+        {
+            "key": "jarcai",
+            "name": "文才|弹幕",
+            "type": 3,
+            "api": "csp_Wcai",
+			"jar": "./spider-xhb.jar",
+            "ext": "https://www.jxshdzs.com/"
+        },
+        {
+            "key": "追追",
+            "name": "追追|弹幕",
+            "type": 3,
+            "api": "csp_Wcai",
+			"jar": "./spider-xhb.jar",
+            "ext": "https://zjuys.com/"
+        },
 	  {
       "key": "啊哈DJ",
       "name": "🎹啊哈音乐┃买康兄盒子就送双端专享会员",
