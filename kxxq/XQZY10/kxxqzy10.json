@@ -134,6 +134,14 @@
 			"jar": "./spider-xhb.jar",
             "ext": "./json/永乐影视.json"
         },
+	    {
+            "key": "三九",
+            "name": "三九|弹幕",
+            "type": 3,
+            "api": "csp_HBPQ",
+			"jar": "./spider-xhb.jar",
+            "ext": "./json/三九影视.json"
+        },
 	  {
       "key": "啊哈DJ",
       "name": "🎹啊哈音乐┃买康兄盒子就送双端专享会员",
