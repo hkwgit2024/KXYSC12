@@ -18,6 +18,10 @@
 			"type_id": "花鼓戏"
 		},
 		{
+			"type_name": "戏曲",
+			"type_id": "戏曲"
+		},
+		{
 			"type_name": "老电影",
 			"type_id": "老电影"
 		},
@@ -32,10 +36,6 @@
 		{
 			"type_name": "歌曲",
 			"type_id": "歌曲"
-		},
-		{
-			"type_name": "美女写真",
-			"type_id": "美女写真"
 		},
 		{
 			"type_name": "MV",
@@ -72,6 +72,10 @@
 		{
 			"type_name": "瑜伽",
 			"type_id": "瑜伽"
+		},
+		{
+			"type_name": "美女写真",
+			"type_id": "美女写真"
 		},
 		{
 			"type_name": "体育",
@@ -124,10 +128,6 @@
 		{
 			"type_name": "相声小品",
 			"type_id": "相声小品超清"
-		},
-		{
-			"type_name": "戏曲",
-			"type_id": "戏曲"
 		},
 		{
 			"type_name": "解说",
