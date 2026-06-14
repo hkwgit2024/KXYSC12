@@ -53,6 +53,17 @@
     }
   ],
   "sites": [
+{
+            "key": "戏 曲",
+            "name":"🎈国粹戏曲┃买康兄盒子就送双端专享会员",
+            "type": 3,
+            "api":"csp_Bili",
+            "jar":"https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY4/spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext":"https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY4/json/Bili.json"
+},
    {"key": "csp_XYQHiker_戏曲多多",
 	"name":"🎻戏曲多多┃买康兄盒子就送双端专享会员",
 	"type":3,"api":"csp_XYQHiker",
