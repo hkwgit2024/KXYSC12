@@ -53,17 +53,17 @@
     }
   ],
   "sites": [
-{
-            "key": "戏 曲",
-            "name":"🎈国粹戏曲┃买康兄盒子就送双端专享会员",
-            "type": 3,
-            "api":"csp_Bili",
-            "jar":"https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY4/spider.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext":"https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY4/json/Bili.json"
-},
+  {
+  "key": "戏 曲",
+  "name":"🎈国粹戏曲┃买康兄盒子就送双端专享会员",
+  "type": 3,
+  "api":"csp_Bili",
+  "jar":"https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY4/spider.jar",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "ext":"https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY4/json/Bili.json"
+  },
    {"key": "csp_XYQHiker_戏曲多多",
 	"name":"🎻戏曲多多┃买康兄盒子就送双端专享会员",
 	"type":3,"api":"csp_XYQHiker",
@@ -72,6 +72,21 @@
 	"quickSearch":0,
 	"filterable":1,
 	"ext":"./json/戏曲多多.json"
+   },
+   {
+	"key": "drpyS_梨园行[戏]",
+	"name": "梨园行┃戏曲",
+	"type": 4,
+	"api": "http://82.158.91.105:5757/api/梨园行[戏]?pwd=dzyyds",
+	"searchable": 1,
+	"filterable": 1,
+	"quickSearch": 0,
+	"title": "梨园行[戏]",
+	"author": "EylinSir",
+	"类型": "影视",
+	"logo": "https://img.znds.com//uploads/new/221222/9-2212221050561N.png",
+	"lang": "ds",
+	"ext": ""
    },
       {
       "key": "潮流",
