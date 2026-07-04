@@ -69,7 +69,7 @@
 	"type":3,"api":"csp_XYQHiker",
 	"jar": "./jar/custom_spider.jar",
 	"searchable":1,
-	"quickSearch":0,
+	"quickSearch":1,
 	"filterable":1,
 	"ext":"./json/戏曲多多.json"
    },
@@ -79,6 +79,10 @@
     "type": 3,
     "api": "csp_AppLY",
     "jar":"https://gitee.com/starlinkapi/jar/raw/master/jar/spider.jar",
+	"searchable":1,
+	"quickSearch":1,
+	"filterable":1,
+    "ext":"https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY4/json/Bili.json"
     "style": {
     "type": "list"
    }
