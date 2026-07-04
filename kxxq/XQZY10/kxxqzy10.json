@@ -74,6 +74,16 @@
 	"ext":"./json/戏曲多多.json"
    },
    {
+    "key": "戏曲多多",
+    "name": "💃戏曲经典┃买康兄盒子就送双端专享会员",
+    "type": 3,
+    "api": "csp_AppLY",
+    "jar":"https://gitee.com/starlinkapi/jar/raw/master/jar/spider.jar",
+    "style": {
+    "type": "list"
+   }
+   },
+   {
 	"key": "drpyS_梨园行[戏]",
 	"name": "梨园行┃戏曲",
 	"type": 4,
