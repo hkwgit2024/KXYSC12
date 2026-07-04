@@ -78,8 +78,8 @@
     "name": "💃戏曲经典┃买康兄盒子就送双端专享会员",
     "type": 3,
     "api": "csp_AppLY",
-    "jar":"https://gitee.com/starlinkapi/jar/raw/master/jar/spider.jar",
-    "ext":"https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY4/json/Bili.json",
+  //"jar":"https://gitee.com/starlinkapi/jar/raw/master/jar/spider.jar",
+  //"ext":"https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxxq/XQZY4/json/Bili.json",
     "style": {
     "type": "list"
    }
