@@ -39,16 +39,7 @@
       "searchable": 1,
       "changeable": 0
     },
-    {
-      "key": "Wexduanju001",
-      "name": "🍉短剧┃神品🍉",
-      "type": 3,
-      "api": "csp_Wexduanju001Guard",
-	  "jar": "https://nos.netease.com/ysf/c1bbb19c7270a815cdf24573e6839940.jar;md5;1ae5f93acddd711b89098828735eedd6"
-      "searchable": 1,
-      "changeable": 1
-    },
-	  	 {
+	{
       "key": "ManJuHongGuo",
       "name": "🍉漫短┃小红🍉",
       "type": 3,
