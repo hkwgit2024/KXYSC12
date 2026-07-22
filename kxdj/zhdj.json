@@ -39,6 +39,15 @@
       "searchable": 1,
       "changeable": 0
     },
+    {
+      "key": "Wexduanju001",
+      "name": "🍉短剧┃神品🍉",
+      "type": 3,
+      "api": "csp_Wexduanju001Guard",
+	  "jar": "http://152.136.161.109:8989/custom_spider.jar?token=fc03809502e8d566;md5;cc3b3d2ddf389338b62eccd4a938b610"
+      "searchable": 1,
+      "changeable": 1
+    },
 	  	 {
       "key": "ManJuHongGuo",
       "name": "🍉漫短┃小红🍉",
