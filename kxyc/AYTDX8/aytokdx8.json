@@ -2,7 +2,6 @@
     "spider": "https://cnb.cool/fish2035/xs/-/git/raw/main/spider.jar",
     "wallpaper": "https://img.naixiai.cn/2026/wallpapers/full_vip.jpg",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
-    "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
     "sites": [
 	    {
             "key": "YK",
