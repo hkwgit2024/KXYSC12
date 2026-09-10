@@ -21,7 +21,7 @@
         {
             "key": "py_西饭短剧APP",
             "name": "✨西饭短剧✨",
-            "api": "./py/西饭短剧.py",
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/py/%E8%A5%BF%E9%A5%AD%E7%9F%AD%E5%89%A7.py",
             "filterable": 1,
             "quickSearch": 1,
             "searchable": 1,
