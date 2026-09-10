@@ -131,6 +131,13 @@
             "searchable": 1,
             "changeable": 1,
             "categories": [
+                "女频恋爱",
+                "反转爽剧",
+                "古装仙侠",
+                "年代穿越",
+                "脑洞悬疑",
+                "现代都市",
+                "爽文短剧",
                 "短剧"
             ]
         },
@@ -144,6 +151,12 @@
             "filterable": 1,
             "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
             "categories": [
+                "女频恋爱",
+                "反转爽剧",
+                "古装仙侠",
+                "年代穿越",
+                "脑洞悬疑",
+                "现代都市",
                 "爽文短剧"
             ]
         },
