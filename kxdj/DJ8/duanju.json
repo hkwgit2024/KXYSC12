@@ -15,8 +15,8 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": "./json/Bili短剧.json",
-            "jar": "./jar/YSZYZ.jar"
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/json/Bili短剧.json",
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/jar/YSZYZ.jar"
         },
         {
             "key": "py_西饭短剧APP",
