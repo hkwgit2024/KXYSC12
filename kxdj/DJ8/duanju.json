@@ -55,7 +55,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/河马短剧.json"
+            "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/json/河马短剧.json"
         },
         {
             "key": "鸭鸭资源",
