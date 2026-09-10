@@ -30,7 +30,7 @@
         {
             "key": "py_花生短剧APP",
             "name": "✨花生短剧✨",
-            "api": "./py/花生短剧.py",
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/py/花生短剧.py",
             "filterable": 1,
             "quickSearch": 1,
             "searchable": 1,
@@ -41,7 +41,7 @@
             "name": "✨大米短剧✨",
             "type": 3,
             "api": "csp_AppDaMi",
-            "jar": "./jar/spider1012.jar",
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/jar/spider1012.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -51,7 +51,7 @@
             "name": "✨河马短剧✨",
             "type": 3,
             "api": "csp_XYQHiker",
-            "jar": "./jar/xmbjm.jar",
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/jar/xmbjm.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
