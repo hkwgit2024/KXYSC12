@@ -59,7 +59,7 @@
         },
         {
             "key": "py_星芽短剧APP",
-            "name": "✨py星芽短剧✨乐哥甄选✨",
+            "name": "✨星芽短剧✨康兄甄选✨",
             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/lege0001/TVbox/refs/heads/main/TV/py/%E6%98%9F%E8%8A%BD%E7%9F%AD%E5%89%A7.py",
             "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/lege0001/TVbox/refs/heads/main/TV/jar/xyqxbpq.jar",
             "filterable": 1,
@@ -69,7 +69,7 @@
         },
         {
             "key": "py_河马短剧APP",
-            "name": "✨py河马短剧✨乐哥甄选✨",
+            "name": "✨河马短剧✨康兄甄选✨",
             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/lege0001/TVbox/refs/heads/main/TV/py/河马短剧.py",
             "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/lege0001/TVbox/refs/heads/main/TV/jar/xyqxbpq.jar",
             "filterable": 1,
@@ -79,7 +79,7 @@
         },
         {
             "key": "py_西饭短剧APP",
-            "name": "✨py稀饭短剧✨乐哥甄选✨",
+            "name": "✨稀饭短剧✨康兄甄选✨",
             "api": "https://gh-proxy.com/https://raw.githubusercontent.com/lege0001/TVbox/refs/heads/main/TV/py/西饭短剧.py",
             "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/lege0001/TVbox/refs/heads/main/TV/jar/xyqxbpq.jar",
             "filterable": 1,
