@@ -1,5 +1,5 @@
 {
-    "spider": "./xyqxbpq.jar",
+    "spider": "https://ghfast.top/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/xyqxbpq.jar",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "logo": "https://4708.kstore.space/logo.gif",
     "sites": [
@@ -12,10 +12,10 @@
             "type": "rect",
             "ratio": 1.597
         },
-        {
+	    {
             "key": "py_西饭短剧APP",
             "name": "✨西饭短剧✨",
-            "api": "./py/西饭短剧.py",
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/py/西饭短剧.py",
             "filterable": 1,
             "quickSearch": 1,
             "searchable": 1,
