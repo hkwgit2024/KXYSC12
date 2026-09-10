@@ -15,7 +15,7 @@
 	    {
             "key": "py_西饭短剧APP",
             "name": "✨西饭短剧✨",
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/py/%E8%A5%BF%E9%A5%AD%E7%9F%AD%E5%89%A7.py",
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/py/西饭短剧.py",
             "filterable": 1,
             "quickSearch": 1,
             "searchable": 1,
@@ -49,7 +49,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./json/河马短剧.json"
+            "ext": "https://ghfast.top/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/json/河马短剧.json"
         },
 		        {
             "key": "鸭鸭资源",
