@@ -50,7 +50,7 @@
 },
 {
 "key":"星芽短剧",
-"name":"✨星芽 • 短剧",
+"name":"✨星芽短剧✨康兄甄选✨",
 "type":3,
 "api":"csp_XingyaDJ",
 "genre":"shortdrama",
@@ -126,7 +126,7 @@
 },
 {
 "key":"smdj",
-"name":"✨星芽短剧.py",
+"name":"✨星芽短剧2✨康兄甄选✨",
 "type":3,
 "api":"https://sub.lytvs.top/pydl/xingyaduanju.py?tk=cj_3603252d",
 "ext":"",
@@ -146,7 +146,7 @@
 },
 {
 "key":"djjh",
-"name":"✨短剧聚合.py",
+"name":"✨短剧聚合✨康兄甄选✨",
 "type":3,
 "api":"https://sub.lytvs.top/pydl/duanjujuhe.py?tk=cj_3603252d",
 "ext":"",
@@ -176,7 +176,7 @@
 },
 {
 "key":"百度短剧",
-"name":"✨百度短剧",
+"name":"✨百度短剧✨康兄甄选✨",
 "type":3,
 "api":"https://lytvs.top/py/baiduduanju.js",
 "ext":"",
@@ -196,7 +196,7 @@
 },
 {
 "key":"在线短剧",
-"name":"✨在线短剧(关梯)",
+"name":"✨在线短剧✨康兄甄选✨",
 "type":3,
 "api":"https://sub.lytvs.top/pydl/zaixianduanju.py?tk=cj_3603252d",
 "ext":"",
