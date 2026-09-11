@@ -1,27 +1,27 @@
 {
     "urls": [
 	    {
-            "name": "狗血短剧",
-            "url": "./DJ7/kxdj.json"
+            "name": "✨康兄甄选✨狗血短剧",
+            "url": "./DJ8/kxdj8.json"
         },
         {
-            "name": "狗血短剧2",
-            "url": "./DJ4/duanju.json"
+            "name": "✨康兄甄选✨狗血短剧2",
+            "url": "./DJ9/kxdj9.json"
         },
         {
-            "name": "狗血短剧3",
+            "name": "✨康兄甄选✨狗血短剧3",
             "url": "./DJ6/api.json"
         },
 		{
-            "name": "狗血短剧4",
+            "name": "✨康兄甄选✨狗血短剧4",
             "url": "./DJ5/api.json"
         },
 				{
-            "name": "狗血短剧5",
+            "name": "✨康兄甄选✨狗血短剧5",
             "url": "./djsvipdx4.json"
         },
         {
-            "name": "狗血短剧6",
+            "name": "✨康兄甄选✨狗血短剧6",
             "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/MyHomeTV/tvbox/refs/heads/main/duanju/duanju.json"
         }
     ]
