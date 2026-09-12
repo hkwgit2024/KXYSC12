@@ -1,5 +1,13 @@
 {
   "urls": [
+	{
+      "name": "康兄搜集OK专线-1",
+      "url": "./AYTDX8/aytokdx8.json"
+    },
+	{
+      "name": "康兄搜集OK专线-2",
+      "url": "./AYTDX9/aytokdx9.json"
+    },
     {
       "name": "康兄搜集OK专线1",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc/aytokdx2.json"
