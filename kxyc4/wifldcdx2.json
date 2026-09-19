@@ -1,11 +1,15 @@
 {
   "urls": [
-    {
+	{
       "name": "网络FL-1",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc4/FLDX3/fldx3.json"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hkwgit2024/KXYSC2/refs/heads/dev/kxys/kxflzx.json"
     },
     {
       "name": "网络FL-2",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxyc4/FLDX3/fldx3.json"
+    },
+    {
+      "name": "网络FL-3",
       "url": "https://api.bitbucket.org/2.0/repositories/hkwpc2026/kxyc/src/main/kxyc4/SWJC.json"
     },
     {
