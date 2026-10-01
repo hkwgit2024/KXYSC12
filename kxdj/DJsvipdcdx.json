@@ -2,11 +2,11 @@
     "urls": [
 	    {
             "name": "✨康兄甄选✨狗血短剧",
-            "url": "https://gh.xmly.dev/https://raw.githubusercontent.com/hkwgit2024/KXYSC12/refs/heads/dev/kxdj/DJ9/kxdj9.json"
+            "url": "./DJ9/kxdj9.json"
         },
         {
             "name": "✨康兄甄选✨狗血短剧2",
-            "url": "./DJ9/kxdj8.json"
+            "url": "./DJ8/kxdj8.json"
         },
         {
             "name": "✨康兄甄选✨狗血短剧3",
