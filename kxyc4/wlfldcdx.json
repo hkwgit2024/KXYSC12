@@ -1,19 +1,67 @@
 {
   "urls": [
-    {
+	  	{
+      "name": "网络FL-1",
+      "url": "./FLDX3/fldx3.json"
+    },
+	  	{
+      "name": "网络FL-2",
+      "url": "./FLDX2/fldx2.json"
+    },
+	  	{
+      "name": "网络FL-3",
+      "url": "./FLDX/fldx.json"
+    },
+	{
       "name": "网络FL",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/lc529180405/caicai/0484ee532eefea09d097afa1652d255a50e02701/cai/json/%E7%94%9F%E7%89%A9%E6%95%99%E6%9D%90.json"
+      "url": "./flokdx1.json"
     },
 	{
       "name": "网络FL2",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/fun.json"
+      "url": "./flokdx2.json"
     },
 	{
       "name": "网络FL3",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/6.json"
+      "url": "./flsvipdx.json"
     },
 	{
       "name": "网络FL4",
+      "url": "./flsvipdx2.json"
+    },
+	{
+      "name": "网络FL5",
+      "url": "./flsvipdx3.json"
+    },
+	{
+      "name": "网络FL6",
+      "url": "./flsvipdx4.json"
+    },
+	{
+      "name": "网络FL7",
+      "url": "./flsvipdx5.json"
+    },
+	{
+      "name": "网络FL8",
+      "url": "./flsvipdx6.json"
+    },
+	{
+      "name": "网络FL9",
+      "url": "./SWJC.json"
+    },
+    {
+      "name": "网络FL9",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/lc529180405/caicai/0484ee532eefea09d097afa1652d255a50e02701/cai/json/%E7%94%9F%E7%89%A9%E6%95%99%E6%9D%90.json"
+    },
+	{
+      "name": "网络FL10",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/cluntop/tvbox/refs/heads/main/fun.json"
+    },
+	{
+      "name": "网络FL11",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/luoluodaduan/Rules/main/fan/6.json"
+    },
+	{
+      "name": "网络FL12",
       "url": "https://ghfast.top/https://raw.githubusercontent.com/lc529180405/caicai/0484ee532eefea09d097afa1652d255a50e02701/cai/ss.json"
     },
     {
