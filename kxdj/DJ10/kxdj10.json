@@ -195,7 +195,7 @@
             "key": "康兄影视",
             "name": "㊗️康兄㊗️秒播",
             "type": 0,
-            "api": "https://api.niuniuzy.me/api.php/provide/vod/",
+            "api": "https://api.niuniuzy.me/api.php/provide/vod/at/xml",
             "searchable": 1,
             "quickSearch": 1,
             "categories": [
