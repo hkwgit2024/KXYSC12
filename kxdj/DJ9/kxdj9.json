@@ -9,6 +9,16 @@
 "key":"红果短剧",
 "name":"✨红果短剧✨康兄甄选✨",
 "type":3,
+"api":"./py/红果短剧.py",
+"ext":"",
+"searchable":1,
+"quickSearch":1,
+"category":"短剧"
+},		
+{
+"key":"红果短剧",
+"name":"✨红果短剧2✨康兄甄选✨",
+"type":3,
 "api":"./py/[短]红果短剧.py",
 "ext":"",
 "searchable":1,
