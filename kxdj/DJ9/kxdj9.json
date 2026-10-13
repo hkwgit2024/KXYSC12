@@ -215,8 +215,14 @@
 "category":"短剧"
 },
 {
-"key":"红果短剧",
-"name":"✨红果短剧✨康兄甄选✨",
+"key": "hgdj",
+"name": "✨红果短剧✨康兄甄选✨",
+"type": 3,
+"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/红果短剧.py"
+},
+{
+"key":"红果短剧2",
+"name":"✨红果短剧2✨康兄甄选✨",
 "type":3,
 "api":"./py/红果短剧.py",
 "ext":"",
@@ -225,8 +231,8 @@
 "category":"短剧"
 },		
 {
-"key":"红果短剧2",
-"name":"✨红果短剧2✨康兄甄选✨",
+"key":"红果短剧3",
+"name":"✨红果短剧3✨康兄甄选✨",
 "type":3,
 "api":"./py/[短]红果短剧.py",
 "ext":"",
